@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SDDXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <RulesetFilename file="CA Res 2022.bin" />
+  <RulesetFilename file="CA Res 2019.bin" />
   <Proj>
     <Name>Centrella Plan 2143</Name>
     <SoftwareVersion>EnergyPro 9.1</SoftwareVersion>
@@ -18,7 +18,6 @@
     <AddAloneAddedArea>0</AddAloneAddedArea>
     <RunScope>Newly Constructed</RunScope>
     <AnalysisReport>Building Summary (csv)</AnalysisReport>
-    <StandardsVersion>Compliance 2023</StandardsVersion>
     <UseCommunitySolar>0</UseCommunitySolar>
     <InCmntySlrProjTerritory>0</InCmntySlrProjTerritory>
     <PVSizeOption>Use Specified Sizes</PVSizeOption>
