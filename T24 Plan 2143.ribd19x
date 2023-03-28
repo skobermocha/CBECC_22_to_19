@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SDDXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RulesetFilename file="CA Res 2022.bin" />
+  <Proj>
+    <Name>Centrella Plan 2143</Name>
+    <SoftwareVersion>EnergyPro 9.1</SoftwareVersion>
+    <SoftwareVersionDetail>EnergyPro 9.1.0.0</SoftwareVersionDetail>
+    <RptGenUIApp>EnergyPro</RptGenUIApp>
+    <RptGenUIVer>90</RptGenUIVer>
+    <CreateDate>1/8/2020</CreateDate>
+    <ModDate>3/28/2023</ModDate>
+    <RunTitle>Title 24 Analysis</RunTitle>
+    <EnableResearchMode>0</EnableResearchMode>
+    <AnalysisType>Proposed and Standard</AnalysisType>
+    <SimSpeedOption>Compliance</SimSpeedOption>
+    <IsAddAlone>0</IsAddAlone>
+    <AddAloneExistArea>0</AddAloneExistArea>
+    <AddAloneAddedArea>0</AddAloneAddedArea>
+    <RunScope>Newly Constructed</RunScope>
+    <AnalysisReport>Building Summary (csv)</AnalysisReport>
+    <StandardsVersion>Compliance 2023</StandardsVersion>
+    <UseCommunitySolar>0</UseCommunitySolar>
+    <InCmntySlrProjTerritory>0</InCmntySlrProjTerritory>
+    <PVSizeOption>Use Specified Sizes</PVSizeOption>
+    <SpecifyTargetDRtg>0</SpecifyTargetDRtg>
+    <TargetDesignRtgInp>0</TargetDesignRtgInp>
+    <PVSizeMultiplier>0</PVSizeMultiplier>
+    <PVWInputs>Detailed</PVWInputs>
+    <PVWDCSysSize>4.89</PVWDCSysSize>
+    <PVWModuleType>Premium</PVWModuleType>
+    <PVWCalFlexInstType>CFI2</PVWCalFlexInstType>
+    <PVWAzm>180</PVWAzm>
+    <PVWArrayTiltInput>deg</PVWArrayTiltInput>
+    <PVWArrayTiltDeg>22</PVWArrayTiltDeg>
+    <PVWArrayType>Fixed (open rack)</PVWArrayType>
+    <PVWPwrElec>Microinverters</PVWPwrElec>
+    <PVWInverterEff>97</PVWInverterEff>
+    <PVWSolarAccess>98</PVWSolarAccess>
+    <AllowExcessPVEDR>0</AllowExcessPVEDR>
+    <ReducedPVReq>0</ReducedPVReq>
+    <ReducedPVReqValue>0</ReducedPVReqValue>
+    <TakeCntrlElecDHWSlrPVCred>0</TakeCntrlElecDHWSlrPVCred>
+    <SFamCompactDistrib>not compact</SFamCompactDistrib>
+    <SFamUserSpecCmpctDist>0</SFamUserSpecCmpctDist>
+    <SimStandaloneBatt>0</SimStandaloneBatt>
+    <BatteryControl>Basic</BatteryControl>
+    <BattMaxCap>0</BattMaxCap>
+    <BattChgEff>0</BattChgEff>
+    <BattDschgEff>0</BattDschgEff>
+    <BattMaxChgPwr>0</BattMaxChgPwr>
+    <BattMaxDschgPwr>0</BattMaxDschgPwr>
+    <BattGridHarmCredit>0</BattGridHarmCredit>
+    <ClimateZone>CZ13  (Fresno)</ClimateZone>
+    <Address>_</Address>
+    <City>Fresno</City>
+    <ZipCode>93727</ZipCode>
+    <SFamADUType>No</SFamADUType>
+    <SFamADUNumBedrooms>0</SFamADUNumBedrooms>
+    <SFamADUArea>0</SFamADUArea>
+    <ProjInclKitchen>1</ProjInclKitchen>
+    <ZonalControl>0</ZonalControl>
+    <UsePreCooling>0</UsePreCooling>
+    <Description>Title 24 Analysis</Description>
+    <Status>New</Status>
+    <IsVerified>0</IsVerified>
+    <ACH50>5</ACH50>
+    <InsulConsQuality>Yes</InsulConsQuality>
+    <NumBedrooms>5</NumBedrooms>
+    <AllOrientations>1</AllOrientations>
+    <FrontOrientation>180</FrontOrientation>
+    <GasType>Natural Gas</GasType>
+    <HasGarage>1</HasGarage>
+    <IAQSupInletsAccessible>0</IAQSupInletsAccessible>
+    <IAQHasFID>0</IAQHasFID>
+    <Ltg_FracPort>0</Ltg_FracPort>
+    <Ltg_PwrAdjMult>0</Ltg_PwrAdjMult>
+    <ExtLtg_PwrAdjMult>0</ExtLtg_PwrAdjMult>
+    <Appl_HaveRefrig index="0">1</Appl_HaveRefrig>
+    <Appl_HaveDish index="0">1</Appl_HaveDish>
+    <Appl_HaveCook index="0">1</Appl_HaveCook>
+    <Appl_HaveWasher index="0">1</Appl_HaveWasher>
+    <Appl_HaveDryer index="0">1</Appl_HaveDryer>
+    <ApplCookFuel index="0">Gas</ApplCookFuel>
+    <ApplDryerFuel index="0">Electricity</ApplDryerFuel>
+    <Appl_RefrigUsage index="0">491</Appl_RefrigUsage>
+    <Appl_DishUsage index="0">270</Appl_DishUsage>
+    <ApplRefrigEffMethod index="0">- specify -</ApplRefrigEffMethod>
+    <ApplDishUsageMethod index="0">- specify -</ApplDishUsageMethod>
+    <UnitIAQOption index="0">Default Minimum IAQ Fan</UnitIAQOption>
+    <UnitIAQOption index="1">Default Minimum IAQ Fan</UnitIAQOption>
+    <ClVentVerified>0</ClVentVerified>
+    <UnitClVentOption>- none -</UnitClVentOption>
+    <Zone>
+      <Name>1st Floor Area</Name>
+      <Type>Conditioned</Type>
+      <Status>New</Status>
+      <HVACSysStatus>New</HVACSysStatus>
+      <HVACSystem>HVAC System1</HVACSystem>
+      <DHWSys1Status>New</DHWSys1Status>
+      <DHWSys1>DHW Sys 1</DHWSys1>
+      <FloorArea>934</FloorArea>
+      <CeilingHeight>9</CeilingHeight>
+      <FloorHeight>10.5</FloorHeight>
+      <WinHeadHeight>6.7</WinHeadHeight>
+      <Bottom>0</Bottom>
+      <NumStories>1</NumStories>
+      <ExtWall>
+        <Name>Front Wall</Name>
+        <Area>112</Area>
+        <Status>New</Status>
+        <Construction>R-15 Wall + R4</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Front</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Win>
+          <Name>SH</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>15</Area>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Door>
+          <Name>Door</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>20</Area>
+          <Ufactor>0.5</Ufactor>
+        </Door>
+      </ExtWall>
+      <ExtWall>
+        <Name>Left Wall</Name>
+        <Area>200</Area>
+        <Status>New</Status>
+        <Construction>R-15 Wall + R4</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Left</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+      </ExtWall>
+      <ExtWall>
+        <Name>Rear Wall</Name>
+        <Area>280</Area>
+        <Status>New</Status>
+        <Construction>R-15 Wall + R4</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Back</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Win>
+          <Name>SL</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>12</Area>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SLG Door</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>48</Area>
+          <NFRCUfactor>0.29</NFRCUfactor>
+          <NFRCSHGC>0.23</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>XOX</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>40</Area>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.23</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Right Wall</Name>
+        <Area>352</Area>
+        <Status>New</Status>
+        <Construction>R-15 Wall + R4</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Right</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Win>
+          <Name>SH</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>15</Area>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SH</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>15</Area>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+      </ExtWall>
+      <CeilingBelowAttic>
+        <Name>Roof - 1st Floor</Name>
+        <Area>45</Area>
+        <Status>New</Status>
+        <Construction>R-30 Roof Attic + R-13</Construction>
+        <IsVerified>0</IsVerified>
+        <AtticZone>Attic 1st Floor Area</AtticZone>
+      </CeilingBelowAttic>
+      <SlabFloor>
+        <Name>Slab</Name>
+        <Area>934</Area>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Surface>Default (80% carpeted/covered, 20% exposed)</Surface>
+        <Perimeter>118.3</Perimeter>
+        <HeatedSlab>0</HeatedSlab>
+        <EdgeInsulation>0</EdgeInsulation>
+        <EdgeInsulOption>- none -</EdgeInsulOption>
+        <exSurface>Default (80% carpeted/covered, 20% exposed)</exSurface>
+      </SlabFloor>
+      <IntWall>
+        <Name>Interior Surface 2x4</Name>
+        <Area>158</Area>
+        <Status>New</Status>
+        <Construction>R-13 Interior</Construction>
+        <IsVerified>0</IsVerified>
+        <Outside>__Garage__</Outside>
+        <IsPartySurface>0</IsPartySurface>
+      </IntWall>
+      <IntWall>
+        <Name>Interior Surface 2x4</Name>
+        <Area>141</Area>
+        <Status>New</Status>
+        <Construction>R-13 Interior</Construction>
+        <IsVerified>0</IsVerified>
+        <Outside>__Garage__</Outside>
+        <IsPartySurface>0</IsPartySurface>
+      </IntWall>
+    </Zone>
+    <Zone>
+      <Name>2nd Floor Area</Name>
+      <Type>Conditioned</Type>
+      <Status>New</Status>
+      <HVACSysStatus>New</HVACSysStatus>
+      <HVACSystem>HVAC System1</HVACSystem>
+      <DHWSys1Status>New</DHWSys1Status>
+      <DHWSys1>DHW Sys 1</DHWSys1>
+      <FloorArea>1209</FloorArea>
+      <CeilingHeight>8</CeilingHeight>
+      <FloorHeight>12</FloorHeight>
+      <WinHeadHeight>6.7</WinHeadHeight>
+      <Bottom>10.5</Bottom>
+      <NumStories>1</NumStories>
+      <ExtWall>
+        <Name>Front Wall</Name>
+        <Area>280</Area>
+        <Status>New</Status>
+        <Construction>R-15 Wall + R4</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Front</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Win>
+          <Name>SL</Name>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Height>4</Height>
+          <Width>4</Width>
+          <Multiplier>1</Multiplier>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <OverhangDepth>2</OverhangDepth>
+          <OverhangDistUp>1</OverhangDistUp>
+          <OverhangExL>2</OverhangExL>
+          <OverhangExR>2</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SL</Name>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Height>4</Height>
+          <Width>4</Width>
+          <Multiplier>1</Multiplier>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <OverhangDepth>1.5</OverhangDepth>
+          <OverhangDistUp>1</OverhangDistUp>
+          <OverhangExL>2</OverhangExL>
+          <OverhangExR>2</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SL</Name>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Height>4</Height>
+          <Width>4</Width>
+          <Multiplier>1</Multiplier>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1</OverhangDistUp>
+          <OverhangExL>2</OverhangExL>
+          <OverhangExR>2</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Left Wall</Name>
+        <Area>352</Area>
+        <Status>New</Status>
+        <Construction>R-15 Wall + R4</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Left</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Win>
+          <Name>SH</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>8</Area>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Rear Wall</Name>
+        <Area>280</Area>
+        <Status>New</Status>
+        <Construction>R-15 Wall + R4</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Back</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Win>
+          <Name>SH</Name>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Height>4</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <OverhangDepth>2</OverhangDepth>
+          <OverhangDistUp>1</OverhangDistUp>
+          <OverhangExL>2</OverhangExL>
+          <OverhangExR>2</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SH</Name>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Height>4</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <OverhangDepth>2</OverhangDepth>
+          <OverhangDistUp>1</OverhangDistUp>
+          <OverhangExL>2</OverhangExL>
+          <OverhangExR>2</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SL</Name>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Height>1</Height>
+          <Width>4</Width>
+          <Multiplier>1</Multiplier>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <OverhangDepth>2</OverhangDepth>
+          <OverhangDistUp>1</OverhangDistUp>
+          <OverhangExL>2</OverhangExL>
+          <OverhangExR>2</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SH</Name>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Height>3</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <OverhangDepth>2</OverhangDepth>
+          <OverhangDistUp>1</OverhangDistUp>
+          <OverhangExL>2</OverhangExL>
+          <OverhangExR>2</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Right Wall</Name>
+        <Area>352</Area>
+        <Status>New</Status>
+        <Construction>R-15 Wall + R4</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Right</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Win>
+          <Name>FX</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>12</Area>
+          <NFRCUfactor>0.28</NFRCUfactor>
+          <NFRCSHGC>0.24</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SL</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>16</Area>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+        <Win>
+          <Name>SH</Name>
+          <SpecMethod>Overall Window Area</SpecMethod>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>12</Area>
+          <NFRCUfactor>0.3</NFRCUfactor>
+          <NFRCSHGC>0.22</NFRCSHGC>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <UFactorSHGCSource>NFRC</UFactorSHGCSource>
+          <exUFactorSHGCSource>NFRC</exUFactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+        </Win>
+      </ExtWall>
+      <CeilingBelowAttic>
+        <Name>Roof 2nd Floor</Name>
+        <Area>1209</Area>
+        <Status>New</Status>
+        <Construction>R-38 Roof Attic + R-19</Construction>
+        <IsVerified>0</IsVerified>
+        <AtticZone>Attic 2nd Floor Area</AtticZone>
+      </CeilingBelowAttic>
+      <CeilingBelowAttic>
+        <Name>Roof  Under Furnace</Name>
+        <Area>50</Area>
+        <Status>New</Status>
+        <Construction>R-19 Roof Attic + R-19</Construction>
+        <IsVerified>0</IsVerified>
+        <AtticZone>Attic 2nd Floor Area</AtticZone>
+      </CeilingBelowAttic>
+      <IntWall>
+        <Name>Gable End Exterior</Name>
+        <Area>220</Area>
+        <Status>New</Status>
+        <Construction>R-15 + R-4 Gable End</Construction>
+        <IsVerified>0</IsVerified>
+        <Outside>Attic 2nd Floor Area</Outside>
+        <IsPartySurface>0</IsPartySurface>
+      </IntWall>
+      <InteriorFloor>
+        <Name>Floor Above Garage</Name>
+        <Area>410</Area>
+        <Status>New</Status>
+        <Construction>R-19 Floor No Crawlspace</Construction>
+        <IsVerified>0</IsVerified>
+        <FloorZ>10.5</FloorZ>
+        <Outside>__Garage__</Outside>
+        <IsPartySurface>0</IsPartySurface>
+      </InteriorFloor>
+      <InteriorFloor>
+        <Name>Floor Above Conditioned S</Name>
+        <Area>799</Area>
+        <Status>New</Status>
+        <Construction>R-0 Floor No Crawlspace</Construction>
+        <IsVerified>0</IsVerified>
+        <FloorZ>10.5</FloorZ>
+        <Outside>1st Floor Area</Outside>
+        <IsPartySurface>0</IsPartySurface>
+      </InteriorFloor>
+    </Zone>
+    <Garage>
+      <Name>__Garage__</Name>
+      <Area>423</Area>
+      <Volume>3807</Volume>
+      <Bottom>0</Bottom>
+      <ExtWall>
+        <Name>Front Wall</Name>
+        <Area>177</Area>
+        <Status>New</Status>
+        <Construction>R-0 Wall</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Front</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Door>
+          <Name>Garage Door</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>112</Area>
+          <Ufactor>1</Ufactor>
+        </Door>
+      </ExtWall>
+      <ExtWall>
+        <Name>Left Wall</Name>
+        <Area>185</Area>
+        <Status>New</Status>
+        <Construction>R-0 Wall</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Left</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+        <Door>
+          <Name>Door</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>17.8</Area>
+          <Ufactor>0.5</Ufactor>
+        </Door>
+      </ExtWall>
+      <ExtWall>
+        <Name>Right Wall</Name>
+        <Area>30</Area>
+        <Status>New</Status>
+        <Construction>R-0 Wall</Construction>
+        <IsVerified>0</IsVerified>
+        <Orientation>Right</Orientation>
+        <Tilt>90</Tilt>
+        <Exception>- none -</Exception>
+      </ExtWall>
+      <CeilingBelowAttic>
+        <Name>Roof</Name>
+        <Area>50</Area>
+        <Status>New</Status>
+        <Construction>R-0 Garage Attic</Construction>
+        <IsVerified>0</IsVerified>
+        <AtticZone>Attic __Garage__</AtticZone>
+      </CeilingBelowAttic>
+      <SlabFloor>
+        <Name>Slab</Name>
+        <Area>423</Area>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Surface>Exposed</Surface>
+        <Perimeter>43.5</Perimeter>
+        <HeatedSlab>0</HeatedSlab>
+        <EdgeInsulation>0</EdgeInsulation>
+        <EdgeInsulOption>- none -</EdgeInsulOption>
+        <exSurface>Default (80% carpeted/covered, 20% exposed)</exSurface>
+      </SlabFloor>
+    </Garage>
+    <Attic>
+      <Name>Attic __Garage__</Name>
+      <Status>New</Status>
+      <Construction>Attic Garage Roof Cons</Construction>
+      <IsVerified>0</IsVerified>
+      <Type>Ventilated</Type>
+      <RoofRise>4</RoofRise>
+      <RoofSolReflect>0.17</RoofSolReflect>
+      <RoofEmiss>0.88</RoofEmiss>
+    </Attic>
+    <Attic>
+      <Name>Attic 1st Floor Area</Name>
+      <Status>New</Status>
+      <Construction>Attic Roof1st Floor Area</Construction>
+      <IsVerified>0</IsVerified>
+      <Type>Ventilated</Type>
+      <RoofRise>4</RoofRise>
+      <RoofSolReflect>0.17</RoofSolReflect>
+      <RoofEmiss>0.88000000000000012</RoofEmiss>
+    </Attic>
+    <Attic>
+      <Name>Attic 2nd Floor Area</Name>
+      <Status>New</Status>
+      <Construction>Attic Roof2nd Floor Area</Construction>
+      <IsVerified>0</IsVerified>
+      <Type>Ventilated</Type>
+      <RoofRise>3.9999999999999996</RoofRise>
+      <RoofSolReflect>0.16999999999999998</RoofSolReflect>
+      <RoofEmiss>0.88</RoofEmiss>
+    </Attic>
+  </Proj>
+  <HVACSys>
+    <Name>HVAC System1</Name>
+    <Status>New</Status>
+    <Type>Heat Pump Heating and Cooling System</Type>
+    <CFIClVentOption>- none -</CFIClVentOption>
+    <NumHeatSystemTypes>1</NumHeatSystemTypes>
+    <NumCoolSystemTypes>1</NumCoolSystemTypes>
+    <NumHtPumpSystemTypes>1</NumHtPumpSystemTypes>
+    <HtPumpSystemCount>1</HtPumpSystemCount>
+    <HtPumpSystem>Heat Pump System 1</HtPumpSystem>
+    <HtPumpDucted>1</HtPumpDucted>
+    <DistribSystem>Air Distribution System 1</DistribSystem>
+    <Fan>HVAC Fan 1</Fan>
+  </HVACSys>
+  <HVACHtPump>
+    <Name>Heat Pump System 1</Name>
+    <Type>SplitHeatPump - Central split heat pump</Type>
+    <EffMetric>HSPF2/SEER2/EER2</EffMetric>
+    <HSPF2>7.8</HSPF2>
+    <Cap47>28000</Cap47>
+    <Cap17>17000</Cap17>
+    <SEER2>15.2</SEER2>
+    <EER2>12.5</EER2>
+    <CFMperTon>275</CFMperTon>
+    <ACCharge>Verified</ACCharge>
+    <IsMultiSpeed>0</IsMultiSpeed>
+    <IsZonal>1</IsZonal>
+    <IsDualFuel>0</IsDualFuel>
+    <HasHPLockout>0</HasHPLockout>
+    <UseEERinAnalysis>1</UseEERinAnalysis>
+    <VCHPCertAutoFan>0</VCHPCertAutoFan>
+  </HVACHtPump>
+  <HVACDist>
+    <Name>Air Distribution System 1</Name>
+    <Status>New</Status>
+    <IsVerified>0</IsVerified>
+    <Type>Ducts located in unconditioned attic</Type>
+    <DefaultSystem>0</DefaultSystem>
+    <HasBypassDuct>0</HasBypassDuct>
+    <DuctLeakage>- specify -</DuctLeakage>
+    <DuctLeakageVal>4.5</DuctLeakageVal>
+    <DuctInsRvalOpt>6.0</DuctInsRvalOpt>
+    <exDuctInsRvalOpt>8.0</exDuctInsRvalOpt>
+    <RetDuctInsRvalOpt>6.0</RetDuctInsRvalOpt>
+    <SupplyDuctAttic>Attic 2nd Floor Area</SupplyDuctAttic>
+    <ReturnDuctAttic>Attic 2nd Floor Area</ReturnDuctAttic>
+    <DuctDesignInsRvalue>6</DuctDesignInsRvalue>
+    <RetDuctDesignInsRvalue>6</RetDuctDesignInsRvalue>
+    <LowLkgAH>1</LowLkgAH>
+  </HVACDist>
+  <HVACFan>
+    <Name>HVAC Fan 1</Name>
+    <Type>Single Speed PSC Furnace Fan</Type>
+    <WperCFMCool>0.45</WperCFMCool>
+  </HVACFan>
+  <DHWSys>
+    <Name>DHW Sys 1</Name>
+    <DHWHeater>DHW Heater 1</DHWHeater>
+    <HeaterMult>1</HeaterMult>
+    <CentralRecircType>Non-Central</CentralRecircType>
+    <SystemType>Standard</SystemType>
+    <CDServesMBathFix>0</CDServesMBathFix>
+    <CDServesKitFix>0</CDServesKitFix>
+    <CDServesThirdFix>0</CDServesThirdFix>
+    <TotShowersServed>0</TotShowersServed>
+    <DWHRSysShowers>0</DWHRSysShowers>
+    <DWHRSysTakeCold>0</DWHRSysTakeCold>
+    <DWHRSysFeedHeater>0</DWHRSysFeedHeater>
+    <NewSmConsInstElecExcept>0</NewSmConsInstElecExcept>
+  </DHWSys>
+  <DHWHeater>
+    <Name>DHW Heater 1</Name>
+    <HeaterElementType>Heat Pump</HeaterElementType>
+    <TankType>Small Storage</TankType>
+    <HPWHCategory>Residential (NEEA rated) Product</HPWHCategory>
+    <HPWHBrand>Rheem</HPWHBrand>
+    <HPWHModel>PRO H65 T2 RH310BM  (65 gal, JA13)</HPWHModel>
+    <ASHPTsrcOutside>0</ASHPTsrcOutside>
+    <TankOutside>0</TankOutside>
+    <TankZone>__Garage__</TankZone>
+    <InputRating>0</InputRating>
+    <EnergyFactor>2.9</EnergyFactor>
+    <TankVolume>65</TankVolume>
+    <ExtInsulRVal>0</ExtInsulRVal>
+    <StandbyLossFrac>0</StandbyLossFrac>
+    <RecovEff>78</RecovEff>
+    <FirstHourRating>80</FirstHourRating>
+    <RatedFlow>8</RatedFlow>
+    <HasElecMiniTank>0</HasElecMiniTank>
+    <ElecMiniTankPower>0</ElecMiniTankPower>
+  </DHWHeater>
+  <Cons>
+    <Name>R-0 Wall</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- specify R-value -</SheathInsulLayer>
+    <SheathInsulLayerRVal>4</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <WallExtFinishLayer>Synthetic Stucco</WallExtFinishLayer>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>R-0 Garage Attic</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>Attic Garage Roof Cons</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTileAirGap)</RoofingLayer>
+    <AbvDeckInsulLayer>- specify R-value -</AbvDeckInsulLayer>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RoofingType>Steep Slope Roof tile, metal tile, or wood shakes</RoofingType>
+    <CavInsulOverFrame>0</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>Attic Roof1st Floor Area</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTileAirGap)</RoofingLayer>
+    <AbvDeckInsulLayer>- specify R-value -</AbvDeckInsulLayer>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 13</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RoofingType>Steep Slope Roof tile, metal tile, or wood shakes</RoofingType>
+    <CavInsulOverFrame>0</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>R-15 Wall + R4</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 15</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- specify R-value -</SheathInsulLayer>
+    <SheathInsulLayerRVal>4</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <WallExtFinishLayer>Synthetic Stucco</WallExtFinishLayer>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>R-13 Interior</Name>
+    <CanAssignTo>Interior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 13</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>R-30 Roof Attic + R-13</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 30</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>Attic Roof2nd Floor Area</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTileAirGap)</RoofingLayer>
+    <AbvDeckInsulLayer>- specify R-value -</AbvDeckInsulLayer>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RoofingType>Steep Slope Roof tile, metal tile, or wood shakes</RoofingType>
+    <CavInsulOverFrame>0</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>R-38 Roof Attic + R-19</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 38</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>R-19 Roof Attic + R-19</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>R-19 Floor No Crawlspace</Name>
+    <CanAssignTo>Interior Floors</CanAssignTo>
+    <Type>Wood Framed Floor</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x12 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>R-0 Floor No Crawlspace</Name>
+    <CanAssignTo>Interior Floors</CanAssignTo>
+    <Type>Wood Framed Floor</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x12 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayerRVal>0</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+  <Cons>
+    <Name>R-15 + R-4 Gable End</Name>
+    <CanAssignTo>Interior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
+    <FurringInsul2LayerRVal>0</FurringInsul2LayerRVal>
+    <CavityLayer>R 15</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- specify R-value -</SheathInsulLayer>
+    <SheathInsulLayerRVal>4</SheathInsulLayerRVal>
+    <SheathInsul2LayerRVal>0</SheathInsul2LayerRVal>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <NonStdSprayFoam>0</NonStdSprayFoam>
+  </Cons>
+</SDDXML>
