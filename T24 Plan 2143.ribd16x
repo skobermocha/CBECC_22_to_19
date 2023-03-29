@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SDDXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <RulesetFilename file="CA Res 2019.bin"/>
+  <RulesetFilename file="CA Res 2016.bin"/>
   <Proj>
     <Name>Centrella Plan 2143</Name>
     <BEMVersion>11</BEMVersion>
     <SoftwareVersion>CBECC-Res 2019.2.1</SoftwareVersion>
-    <SoftwareVersionDetail>CBECC-Res 2019.2.1 (1279)</SoftwareVersionDetail>
     <CreateDate>1</CreateDate>
     <ModDate>1680034562</ModDate>
     <RunTitle>Title 24 Analysis</RunTitle>
@@ -13,16 +12,11 @@
     <AnalysisType>Proposed and Standard</AnalysisType>
     <CALGreen>0</CALGreen>
     <TDVType>TDV</TDVType>
-    <StandardsVersion>Compliance 2020</StandardsVersion>
     <AnalysisReport>Building Summary (csv)</AnalysisReport>
     <ComplianceReportPDF>0</ComplianceReportPDF>
     <ComplianceReportXML>0</ComplianceReportXML>
-    <UseCommunitySolar>0</UseCommunitySolar>
-    <CommunitySolarProject>- select CS project -</CommunitySolarProject>
-    <InCmntySlrProjTerritory>0</InCmntySlrProjTerritory>
     <PVCompCredit>0</PVCompCredit>
     <PVWInputs>Detailed</PVWInputs>
-    <PVSizeOption>Use Specified Sizes</PVSizeOption>
     <PVWDCSysSize index="0">4.89</PVWDCSysSize>
     <PVWDCSysSize index="1">0</PVWDCSysSize>
     <PVWDCSysSize index="2">0</PVWDCSysSize>
@@ -33,11 +27,11 @@
     <PVWModuleType index="2">Standard</PVWModuleType>
     <PVWModuleType index="3">Standard</PVWModuleType>
     <PVWModuleType index="4">Standard</PVWModuleType>
-    <PVWCalFlexInstType index="0">CFI2</PVWCalFlexInstType>
-    <PVWCalFlexInstType index="1">CFI1</PVWCalFlexInstType>
-    <PVWCalFlexInstType index="2">CFI1</PVWCalFlexInstType>
-    <PVWCalFlexInstType index="3">CFI1</PVWCalFlexInstType>
-    <PVWCalFlexInstType index="4">CFI1</PVWCalFlexInstType>
+    <PVWCalFlexInstall index="0">1</PVWCalFlexInstall>
+    <PVWCalFlexInstall index="1">1</PVWCalFlexInstall>
+    <PVWCalFlexInstall index="2">1</PVWCalFlexInstall>
+    <PVWCalFlexInstall index="3">1</PVWCalFlexInstall>
+    <PVWCalFlexInstall index="4">1</PVWCalFlexInstall>
     <PVWAzm index="0">170</PVWAzm>
     <PVWArrayTiltInput index="0">deg</PVWArrayTiltInput>
     <PVWArrayTiltInput index="1">deg</PVWArrayTiltInput>
@@ -51,23 +45,12 @@
     <PVWArrayType index="2">Fixed (open rack)</PVWArrayType>
     <PVWArrayType index="3">Fixed (open rack)</PVWArrayType>
     <PVWArrayType index="4">Fixed (open rack)</PVWArrayType>
-    <PVWPwrElec index="0">Microinverters</PVWPwrElec>
-    <PVWPwrElec index="1">- none -</PVWPwrElec>
-    <PVWPwrElec index="2">- none -</PVWPwrElec>
-    <PVWPwrElec index="3">- none -</PVWPwrElec>
-    <PVWPwrElec index="4">- none -</PVWPwrElec>
-    <PVWSolarAccess index="0">98</PVWSolarAccess>
     <PVWInverterEff index="0">97</PVWInverterEff>
     <AllowExcessPVEDR>0</AllowExcessPVEDR>
-    <ReducedPVReq>0</ReducedPVReq>
-    <ReducedPVReqExcept>- select applicable required PV exception -</ReducedPVReqExcept>
-    <ReducedPVReqValue>0</ReducedPVReqValue>
-    <SimStandaloneBatt>0</SimStandaloneBatt>
     <BattMaxCap>0</BattMaxCap>
     <BatteryControl>Basic</BatteryControl>
     <BattGridHarmCredit>0</BattGridHarmCredit>
     <TDVSummerPkFirstHr>19</TDVSummerPkFirstHr>
-    <BattDRNumRankedDays>20</BattDRNumRankedDays>
     <BattMaxChgPwr>0</BattMaxChgPwr>
     <BattMaxDschgPwr>0</BattMaxDschgPwr>
     <SimSpeedOption>Compliance</SimSpeedOption>
@@ -75,9 +58,6 @@
     <DRtgLtgReduction>0</DRtgLtgReduction>
     <SpecifyTargetDRtg>0</SpecifyTargetDRtg>
     <TargetDesignRtgInp>0</TargetDesignRtgInp>
-    <SFamCompactDistrib>not compact</SFamCompactDistrib>
-    <SFamCDSpecFixDists>0</SFamCDSpecFixDists>
-    <SFamUserSpecCmpctDist>0</SFamUserSpecCmpctDist>
     <CAHPProgram>- none -</CAHPProgram>
     <IsCAHPElecUtil>1</IsCAHPElecUtil>
     <IsCAHPNGasUtil>1</IsCAHPNGasUtil>
@@ -90,18 +70,15 @@
     <RunScope>Newly Constructed</RunScope>
     <City>Fresno</City>
     <IsMultiFamily>0</IsMultiFamily>
-    <SFamADUType>no</SFamADUType>
     <CentralMFamLaundry>0</CentralMFamLaundry>
     <DfltMFamLaundryZn>2nd Floor Area</DfltMFamLaundryZn>
     <ZonalControl>0</ZonalControl>
     <Description>Title 24 Analysis</Description>
-    <UseDefaultACH50>0</UseDefaultACH50>
     <ACH50>5</ACH50>
     <Status>New</Status>
     <IsVerified>0</IsVerified>
     <IsAddAlone>0</IsAddAlone>
-    <ProjInclKitchen>1</ProjInclKitchen>
-    <InsulConsQuality>Yes</InsulConsQuality>
+    <InsulConsQuality>Improved</InsulConsQuality>
     <NumBedrooms>5</NumBedrooms>
     <NumAddBedrooms>0</NumAddBedrooms>
     <AllOrientations>1</AllOrientations>
@@ -109,12 +86,6 @@
     <GasType>Natural Gas</GasType>
     <HasGarage>1</HasGarage>
     <UsePreCooling>0</UsePreCooling>
-    <TakeCntrlElecDHWSlrPVCred>0</TakeCntrlElecDHWSlrPVCred>
-    <SFamADUNumBedrooms>0</SFamADUNumBedrooms>
-    <SFamADUArea>0</SFamADUArea>
-    <SFamMaxVertDist>18.5</SFamMaxVertDist>
-    <IAQSupInletsAccessible>0</IAQSupInletsAccessible>
-    <IAQHasFID>0</IAQHasFID>
     <UnitIAQOption index="0">Default Minimum IAQ Fan</UnitIAQOption>
     <UnitIAQOption index="1">Default Minimum IAQ Fan</UnitIAQOption>
     <UnitIAQFanCnt1 index="0">1</UnitIAQFanCnt1>
@@ -159,7 +130,6 @@
     <CSERpt_ZnDataDump>0</CSERpt_ZnDataDump>
     <CSERpt_HVACDescrip>0</CSERpt_HVACDescrip>
     <CSERpt_ZnEnergy>0</CSERpt_ZnEnergy>
-    <CSERpt_HtPumpHtg>0</CSERpt_HtPumpHtg>
     <CSERpt_Mtr_All>0</CSERpt_Mtr_All>
     <CSERpt_Mtr_Elec>0</CSERpt_Mtr_Elec>
     <CSERpt_Mtr_NGas>0</CSERpt_Mtr_NGas>
@@ -1569,8 +1539,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>- no insulation (vertical) -</CavityLayer>
     <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
     <SheathInsulLayer>- specify R-value -</SheathInsulLayer>
@@ -1607,8 +1576,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>- no insulation -</CavityLayer>
     <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1626,7 +1594,7 @@
     <Name>Attic Garage Roof Cons</Name>
     <CanAssignTo>Attic Roofs</CanAssignTo>
     <Type>Wood Framed Ceiling</Type>
-    <RoofingLayer>10 PSF (RoofTileAirGap)</RoofingLayer>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
     <AbvDeckInsulLayer>- specify R-value -</AbvDeckInsulLayer>
     <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
     <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
@@ -1645,8 +1613,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>- no insulation -</CavityLayer>
     <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1664,7 +1631,7 @@
     <Name>Attic Roof1st Floor Area</Name>
     <CanAssignTo>Attic Roofs</CanAssignTo>
     <Type>Wood Framed Ceiling</Type>
-    <RoofingLayer>10 PSF (RoofTileAirGap)</RoofingLayer>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
     <AbvDeckInsulLayer>- specify R-value -</AbvDeckInsulLayer>
     <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
     <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
@@ -1683,8 +1650,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 13</CavityLayer>
     <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1721,8 +1687,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 15</CavityLayer>
     <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
     <SheathInsulLayer>- specify R-value -</SheathInsulLayer>
@@ -1759,8 +1724,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 13</CavityLayer>
     <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1797,8 +1761,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 30</CavityLayer>
     <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1816,7 +1779,7 @@
     <Name>Attic Roof2nd Floor Area</Name>
     <CanAssignTo>Attic Roofs</CanAssignTo>
     <Type>Wood Framed Ceiling</Type>
-    <RoofingLayer>10 PSF (RoofTileAirGap)</RoofingLayer>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
     <AbvDeckInsulLayer>- specify R-value -</AbvDeckInsulLayer>
     <AbvDeckInsulLayerRVal>0</AbvDeckInsulLayerRVal>
     <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
@@ -1835,8 +1798,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 19</CavityLayer>
     <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1873,8 +1835,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 38</CavityLayer>
     <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1911,8 +1872,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 19</CavityLayer>
     <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1949,8 +1909,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 19</CavityLayer>
     <FrameLayer>2x12 @ 16 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -1987,8 +1946,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>- no insulation -</CavityLayer>
     <FrameLayer>2x12 @ 16 in. O.C.</FrameLayer>
     <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
@@ -2025,8 +1983,7 @@
     <FurringInsulLayerRVal>0</FurringInsulLayerRVal>
     <Furring2Layer>- none -</Furring2Layer>
     <FurringLayer>- none -</FurringLayer>
-    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
-    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    
     <CavityLayer>R 15</CavityLayer>
     <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
     <SheathInsulLayer>- specify R-value -</SheathInsulLayer>
@@ -2221,15 +2178,11 @@
   <HVACHtPump>
     <Name>Heat Pump System 1</Name>
     <Type>SplitHeatPump - Central split heat pump</Type>
-    <EffMetric>HSPF2/SEER2/EER2</EffMetric>
     <HSPF>8.2</HSPF>
-    <HSPF2>7.8</HSPF2>
     <Cap47>28000</Cap47>
     <Cap17>17000</Cap17>
     <SEER>14</SEER>
-    <SEER2>15.2</SEER2>
     <EER>11.7</EER>
-    <EER2>12.5</EER2>
     <CFMperTon>275</CFMperTon>
     <ACCharge>Verified</ACCharge>
     <RefrigerantType>R410A</RefrigerantType>
@@ -2237,8 +2190,6 @@
     <IsMultiSpeed>0</IsMultiSpeed>
     <IsZonal>1</IsZonal>
     <UseEERinAnalysis>1</UseEERinAnalysis>
-    <VCHPDucts>Unducted</VCHPDucts>
-    <VCHPCertAutoFan>0</VCHPCertAutoFan>
   </HVACHtPump>
   <HVACDist>
     <Name>Air Distribution System 1</Name>
@@ -2259,7 +2210,6 @@
     <DuctDesign>0</DuctDesign>
     <LowLkgAH>1</LowLkgAH>
     <IsLessThanFortyFt>0</IsLessThanFortyFt>
-    <IsLessThan25Ft>0</IsLessThan25Ft>
   </HVACDist>
   <HVACFan>
     <Name>HVAC Fan 1</Name>
@@ -2270,43 +2220,19 @@
   <DHWSys>
     <Name>DHW Sys 1</Name>
     <SystemType>Standard</SystemType>
-    <NewSmConsInstElecExcept>0</NewSmConsInstElecExcept>
-    <CentralRecircType>Non-Central</CentralRecircType>
-    <CHPWHSysDescrip>- select system description -</CHPWHSysDescrip>
-    <CHPWHIntegPkgType>Residential (NEEA rated) Product</CHPWHIntegPkgType>
-    <CHPWHCompType>- select CHPWH type -</CHPWHCompType>
-    <CHPWHNEEABrand>n/a</CHPWHNEEABrand>
-    <CHPWHNEEAModel>n/a</CHPWHNEEAModel>
-    <CHPWHComModel>- select Model -</CHPWHComModel>
-    <CHPWHTankLoc>- select tank location -</CHPWHTankLoc>
-    <CHPWHSrcAirLoc>- select source air location -</CHPWHSrcAirLoc>
-    <CHPWHLoopTankType>- none -</CHPWHLoopTankType>
-    <CHPWHLoopTankCompType>- select CHPWH type -</CHPWHLoopTankCompType>
-    <CHPWHLoopTankNEEABrand>n/a</CHPWHLoopTankNEEABrand>
-    <CHPWHLoopTankNEEAModel>n/a</CHPWHLoopTankNEEAModel>
-    <CHPWHLoopTankComModel>- select Model -</CHPWHLoopTankComModel>
-    <CDServesMBathFix>0</CDServesMBathFix>
-    <CDServesKitFix>0</CDServesKitFix>
-    <CDServesThirdFix>0</CDServesThirdFix>
     <DHWHeater index="0">DHW Heater 1</DHWHeater>
     <HeaterMult index="0">1</HeaterMult>
     <UseDefaultLoops>1</UseDefaultLoops>
     <LoopPipeInsulThk index="0">1.5</LoopPipeInsulThk>
     <RecircPipeLoc index="0">Conditioned</RecircPipeLoc>
-    <TotShowersServed>0</TotShowersServed>
-    <TotBathsServed>1</TotBathsServed>
-    <DWHRSysShowers index="0">0</DWHRSysShowers>
-    <DWHRSysTakeCold index="0">0</DWHRSysTakeCold>
-    <DWHRSysFeedHeater index="0">0</DWHRSysFeedHeater>
   </DHWSys>
   <DHWHeater>
     <Name>DHW Heater 1</Name>
     <HeaterElementType>Heat Pump</HeaterElementType>
     <TankType>Small Storage</TankType>
-    <HPWHCategory>Residential (NEEA rated) Product</HPWHCategory>
+    <HPWH_NEEARated>1</HPWH_NEEARated>
     <HPWHBrand>Rheem</HPWHBrand>
-    <HPWHModel>PRO H65 T2 RH310BM  (65 gal, JA13)</HPWHModel>
-    <HPWHComModel>n/a</HPWHComModel>
+    <HPWHModel></HPWHModel>
     <TankOutside>0</TankOutside>
     <TankZone>__Garage__</TankZone>
     <ASHPTSrcOutside>0</ASHPTSrcOutside>
