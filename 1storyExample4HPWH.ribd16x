@@ -1,0 +1,3016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SDDXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RulesetFilename file="CA Res 2019.bin"/>
+  <Proj>
+    <Name>1 Story Example all Elec, PV+Battery</Name>
+    <BEMVersion>11</BEMVersion>
+    <SoftwareVersion>CBECC-Res 2019.2.1</SoftwareVersion>
+    <SoftwareVersionDetail>CBECC-Res 2019.2.1 (1279)</SoftwareVersionDetail>
+    <CreateDate>1680109528</CreateDate>
+    <ModDate>1680109528</ModDate>
+    <RunDate>1472838107</RunDate>
+    <ProjFileName>1storyExample4HPWH.ribd19</ProjFileName>
+    <RunTitle>1 Story Example Rev 3</RunTitle>
+    <AnalysisType>Proposed and Standard</AnalysisType>
+    <CALGreen>0</CALGreen>
+    <TDVType>TDV</TDVType>
+    <StandardsVersion>Compliance 2020</StandardsVersion>
+    <AnalysisReport>Building Summary (csv)</AnalysisReport>
+    <ComplianceReportPDF>1</ComplianceReportPDF>
+    <ComplianceReportXML>1</ComplianceReportXML>
+    <CommunitySolarProject>- select CS project -</CommunitySolarProject>
+    <InCmntySlrProjTerritory>0</InCmntySlrProjTerritory>
+    <PVCompCredit>0</PVCompCredit>
+    <PVWInputs>Simplified</PVWInputs>
+    <PVSizeOption>Standard Design PV</PVSizeOption>
+    <PVWDCSysSize index="0">2</PVWDCSysSize>
+    <PVWDCSysSize index="1">0</PVWDCSysSize>
+    <PVWDCSysSize index="2">0</PVWDCSysSize>
+    <PVWDCSysSize index="3">0</PVWDCSysSize>
+    <PVWDCSysSize index="4">0</PVWDCSysSize>
+    <PVWModuleType index="0">Standard</PVWModuleType>
+    <PVWModuleType index="1">Standard</PVWModuleType>
+    <PVWModuleType index="2">Standard</PVWModuleType>
+    <PVWModuleType index="3">Standard</PVWModuleType>
+    <PVWModuleType index="4">Standard</PVWModuleType>
+    <PVWCalFlexInstType index="0">CFI1</PVWCalFlexInstType>
+    <PVWCalFlexInstType index="1">CFI1</PVWCalFlexInstType>
+    <PVWCalFlexInstType index="2">CFI1</PVWCalFlexInstType>
+    <PVWCalFlexInstType index="3">CFI1</PVWCalFlexInstType>
+    <PVWCalFlexInstType index="4">CFI1</PVWCalFlexInstType>
+    <PVWGeomSpecMethod index="0">azimuth and tilt</PVWGeomSpecMethod>
+    <PVWGeomSpecMethod index="1">azimuth and tilt</PVWGeomSpecMethod>
+    <PVWGeomSpecMethod index="2">azimuth and tilt</PVWGeomSpecMethod>
+    <PVWGeomSpecMethod index="3">azimuth and tilt</PVWGeomSpecMethod>
+    <PVWGeomSpecMethod index="4">azimuth and tilt</PVWGeomSpecMethod>
+    <PVWLocSpecMethod index="0">- not specified -</PVWLocSpecMethod>
+    <PVWLocSpecMethod index="1">- not specified -</PVWLocSpecMethod>
+    <PVWLocSpecMethod index="2">- not specified -</PVWLocSpecMethod>
+    <PVWLocSpecMethod index="3">- not specified -</PVWLocSpecMethod>
+    <PVWLocSpecMethod index="4">- not specified -</PVWLocSpecMethod>
+    <PVWRelLocSpecMeth index="0">- specify relative position -</PVWRelLocSpecMeth>
+    <PVWRelLocSpecMeth index="1">- specify relative position -</PVWRelLocSpecMeth>
+    <PVWRelLocSpecMeth index="2">- specify relative position -</PVWRelLocSpecMeth>
+    <PVWRelLocSpecMeth index="3">- specify relative position -</PVWRelLocSpecMeth>
+    <PVWRelLocSpecMeth index="4">- specify relative position -</PVWRelLocSpecMeth>
+    <PVWAzm index="0">170</PVWAzm>
+    <PVWArrayTiltInput index="0">deg</PVWArrayTiltInput>
+    <PVWArrayTiltInput index="1">deg</PVWArrayTiltInput>
+    <PVWArrayTiltInput index="2">deg</PVWArrayTiltInput>
+    <PVWArrayTiltInput index="3">deg</PVWArrayTiltInput>
+    <PVWArrayTiltInput index="4">deg</PVWArrayTiltInput>
+    <PVWArrayTiltPitch index="0">5</PVWArrayTiltPitch>
+    <PVWArrayTiltDeg index="0">22.6199</PVWArrayTiltDeg>
+    <PVWArrayType index="0">Fixed (open rack)</PVWArrayType>
+    <PVWArrayType index="1">Fixed (open rack)</PVWArrayType>
+    <PVWArrayType index="2">Fixed (open rack)</PVWArrayType>
+    <PVWArrayType index="3">Fixed (open rack)</PVWArrayType>
+    <PVWArrayType index="4">Fixed (open rack)</PVWArrayType>
+    <PVWPwrElec index="0">- none -</PVWPwrElec>
+    <PVWPwrElec index="1">- none -</PVWPwrElec>
+    <PVWPwrElec index="2">- none -</PVWPwrElec>
+    <PVWPwrElec index="3">- none -</PVWPwrElec>
+    <PVWPwrElec index="4">- none -</PVWPwrElec>
+    <PVWSolarAccess index="0">98</PVWSolarAccess>
+    <PVWInverterEff index="0">96</PVWInverterEff>
+    <AllowExcessPVEDR>0</AllowExcessPVEDR>
+    <ReducedPVReq>0</ReducedPVReq>
+    <ReducedPVReqExcept>- select applicable required PV exception -</ReducedPVReqExcept>
+    <SimStandaloneBatt>0</SimStandaloneBatt>
+    <BattMaxCap>5</BattMaxCap>
+    <BatteryControl>Basic</BatteryControl>
+    <BattGridHarmCredit>0</BattGridHarmCredit>
+    <TDVSummerPkFirstHr>19</TDVSummerPkFirstHr>
+    <BattDRNumRankedDays>20</BattDRNumRankedDays>
+    <BattChgEff>0.95</BattChgEff>
+    <BattDschgEff>0.95</BattDschgEff>
+    <BattMaxChgPwr>1.78571</BattMaxChgPwr>
+    <BattMaxDschgPwr>1.78571</BattMaxDschgPwr>
+    <SimSpeedOption>Compliance</SimSpeedOption>
+    <DRtgLtgCredit>0</DRtgLtgCredit>
+    <DRtgLtgReduction>0</DRtgLtgReduction>
+    <SpecifyTargetDRtg>0</SpecifyTargetDRtg>
+    <SFamCompactDistrib>not compact</SFamCompactDistrib>
+    <SFamCDSpecFixDists>0</SFamCDSpecFixDists>
+    <CAHPProgram>- none -</CAHPProgram>
+    <IsCAHPElecUtil>1</IsCAHPElecUtil>
+    <IsCAHPNGasUtil>1</IsCAHPNGasUtil>
+    <IsCAHPDOEChalHome>0</IsCAHPDOEChalHome>
+    <IsCAHPFutureCode>0</IsCAHPFutureCode>
+    <CAHPSolarOption>- select -</CAHPSolarOption>
+    <ClimateZone>CZ12  (Sacramento)</ClimateZone>
+    <Address>1516 Ninth St</Address>
+    <ZipCode>95814</ZipCode>
+    <RunScope>Newly Constructed</RunScope>
+    <City>Sacramento, CA</City>
+    <IsMultiFamily>0</IsMultiFamily>
+    <SFamDwellingType>Single Family Detached</SFamDwellingType>
+    <SFamADUType>no</SFamADUType>
+    <CentralMFamLaundry>0</CentralMFamLaundry>
+    <DfltMFamLaundryZn>Conditioned</DfltMFamLaundryZn>
+    <ZonalControl>0</ZonalControl>
+    <Description>HP HVAC and HPWH</Description>
+    <UseDefaultACH50>0</UseDefaultACH50>
+    <ACH50>5</ACH50>
+    <Status>New</Status>
+    <IsVerified>0</IsVerified>
+    <IsAddAlone>0</IsAddAlone>
+    <AdditionCFAFrac>1</AdditionCFAFrac>
+    <AlterIncl2Categs>0</AlterIncl2Categs>
+    <ProjInclKitchen>1</ProjInclKitchen>
+    <InsulConsQuality>Yes</InsulConsQuality>
+    <NumBedrooms>3</NumBedrooms>
+    <NumAddBedrooms>0</NumAddBedrooms>
+    <AllOrientations>0</AllOrientations>
+    <FrontOrientation>0</FrontOrientation>
+    <GasType>Natural Gas</GasType>
+    <HasGarage>1</HasGarage>
+    <SFamMaxVertDist>9</SFamMaxVertDist>
+    <IAQSupInletsAccessible>0</IAQSupInletsAccessible>
+    <IAQHasFID>0</IAQHasFID>
+    <UnitIAQOption index="0">Default Minimum IAQ Fan</UnitIAQOption>
+    <UnitIAQOption index="1">Default Minimum IAQ Fan</UnitIAQOption>
+    <UnitIAQFanCnt1 index="0">1</UnitIAQFanCnt1>
+    <UnitIAQFanCnt1 index="1">0</UnitIAQFanCnt1>
+    <UnitIAQFanCnt2 index="0">1</UnitIAQFanCnt2>
+    <UnitIAQFanCnt2 index="1">0</UnitIAQFanCnt2>
+    <UnitIAQFanCnt3 index="0">1</UnitIAQFanCnt3>
+    <UnitIAQFanCnt3 index="1">0</UnitIAQFanCnt3>
+    <UnitIAQFanCnt4 index="0">1</UnitIAQFanCnt4>
+    <UnitIAQFanCnt4 index="1">0</UnitIAQFanCnt4>
+    <UnitIAQZone1 index="0">Conditioned</UnitIAQZone1>
+    <UnitIAQZone1 index="1">Conditioned</UnitIAQZone1>
+    <UnitIAQZone2 index="0">Conditioned</UnitIAQZone2>
+    <UnitIAQZone2 index="1">Conditioned</UnitIAQZone2>
+    <UnitIAQZone3 index="0">Conditioned</UnitIAQZone3>
+    <UnitIAQZone3 index="1">Conditioned</UnitIAQZone3>
+    <UnitIAQZone4 index="0">Conditioned</UnitIAQZone4>
+    <UnitIAQZone4 index="1">Conditioned</UnitIAQZone4>
+    <UnitClVentOption>Default Prescriptive Whole House Fan</UnitClVentOption>
+    <ClVentVerified>1</ClVentVerified>
+    <UnitClVentZone index="0">Conditioned</UnitClVentZone>
+    <UnitClVentZone index="1">Conditioned</UnitClVentZone>
+    <UnitClVentZone index="2">Conditioned</UnitClVentZone>
+    <UnitClVentZone index="3">Conditioned</UnitClVentZone>
+    <UnitClVentZone index="4">Conditioned</UnitClVentZone>
+    <UnitClVentZone index="5">Conditioned</UnitClVentZone>
+    <ApplRefrigZone index="0">Conditioned</ApplRefrigZone>
+    <ApplWasherZone index="0">Conditioned</ApplWasherZone>
+    <ApplDryerZone index="0">Conditioned</ApplDryerZone>
+    <ApplCookZone index="0">Conditioned</ApplCookZone>
+    <ApplDishZone index="0">Conditioned</ApplDishZone>
+    <Appl_HaveRefrig index="0">1</Appl_HaveRefrig>
+    <Appl_HaveDish index="0">1</Appl_HaveDish>
+    <Appl_HaveCook index="0">1</Appl_HaveCook>
+    <Appl_HaveWasher index="0">1</Appl_HaveWasher>
+    <Appl_HaveDryer index="0">1</Appl_HaveDryer>
+    <ApplCookFuel index="0">Gas</ApplCookFuel>
+    <ApplDryerFuel index="0">Gas</ApplDryerFuel>
+    <Appl_RefrigUsage index="0">565</Appl_RefrigUsage>
+    <ApplRefrigEffMethod index="0">from # bedrooms/unit</ApplRefrigEffMethod>
+    <ApplDishUsageMethod index="0">from # bedrooms/unit</ApplDishUsageMethod>
+    <ResultsCurrentMsg>(not current)</ResultsCurrentMsg>
+    <BypassMessageBoxes>1</BypassMessageBoxes>
+    <CSERpt_ZnDataDump>0</CSERpt_ZnDataDump>
+    <CSERpt_HVACDescrip>0</CSERpt_HVACDescrip>
+    <CSERpt_ZnEnergy>0</CSERpt_ZnEnergy>
+    <CSERpt_HtPumpHtg>0</CSERpt_HtPumpHtg>
+    <CSERpt_Mtr_All>0</CSERpt_Mtr_All>
+    <CSERpt_Mtr_Elec>0</CSERpt_Mtr_Elec>
+    <CSERpt_Mtr_NGas>0</CSERpt_Mtr_NGas>
+    <CSERpt_Mtr_Othr>0</CSERpt_Mtr_Othr>
+    <CSERpt_ZnEnergy_DD>0</CSERpt_ZnEnergy_DD>
+    <CSERpt_Mtr_All_DD>0</CSERpt_Mtr_All_DD>
+    <CSERpt_Mtr_Elec_DD>0</CSERpt_Mtr_Elec_DD>
+    <CSERpt_Mtr_NGas_DD>0</CSERpt_Mtr_NGas_DD>
+    <CSERpt_Mtr_Othr_DD>0</CSERpt_Mtr_Othr_DD>
+    <CSERpt_ZnEnergy_CD>0</CSERpt_ZnEnergy_CD>
+    <CSERpt_Mtr_All_CD>0</CSERpt_Mtr_All_CD>
+    <CSERpt_Mtr_Elec_CD>0</CSERpt_Mtr_Elec_CD>
+    <CSERpt_Mtr_NGas_CD>0</CSERpt_Mtr_NGas_CD>
+    <CSERpt_Mtr_Othr_CD>0</CSERpt_Mtr_Othr_CD>
+    <CSERpt_ZnEnergy_HD>0</CSERpt_ZnEnergy_HD>
+    <CSERpt_Mtr_All_HD>0</CSERpt_Mtr_All_HD>
+    <CSERpt_Mtr_Elec_HD>0</CSERpt_Mtr_Elec_HD>
+    <CSERpt_Mtr_NGas_HD>0</CSERpt_Mtr_NGas_HD>
+    <CSERpt_Mtr_Othr_HD>0</CSERpt_Mtr_Othr_HD>
+    <Garage>
+      <Name>Garage</Name>
+      <Area>440</Area>
+      <Volume>3960</Volume>
+      <Bottom>0.67</Bottom>
+      <CeilingBelowAttic>
+        <Name>Gar Ceiling</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Area>440</Area>
+        <Construction>R0 ClgBlwAttic Cons</Construction>
+        <AtticZone>Gar Attic </AtticZone>
+      </CeilingBelowAttic>
+      <ExtWall>
+        <Name>Gwall Front</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Orientation>Front</Orientation>
+        <OrientationValue>0</OrientationValue>
+        <Area>180</Area>
+        <Construction>Garage Wall R-0</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Door>
+          <Name>GDoor</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>108</Area>
+          <Ufactor>1</Ufactor>
+          <exUfactor>1</exUfactor>
+        </Door>
+      </ExtWall>
+      <ExtWall>
+        <Name>Gwall Left</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Orientation>Left</Orientation>
+        <OrientationValue>90</OrientationValue>
+        <Area>198</Area>
+        <Construction>Garage Wall R-0</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+      </ExtWall>
+      <ExtWall>
+        <Name>Gwall Right</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Orientation>Right</Orientation>
+        <OrientationValue>270</OrientationValue>
+        <Area>108</Area>
+        <Construction>Garage Wall R-0</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+      </ExtWall>
+      <SlabFloor>
+        <Name>Gslab</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Area>440</Area>
+        <FloorZ>0</FloorZ>
+        <Surface>Exposed</Surface>
+        <Perimeter>44</Perimeter>
+        <HeatedSlab>0</HeatedSlab>
+        <EdgeInsulation>0</EdgeInsulation>
+        <EdgeInsulOption>R-5, 8 inches</EdgeInsulOption>
+        <exSurface>Default (80% carpeted/covered, 20% exposed)</exSurface>
+        <exEdgeInsulOption>R-5, 8 inches</exEdgeInsulOption>
+      </SlabFloor>
+    </Garage>
+    <Zone>
+      <Name>Conditioned</Name>
+      <Type>Conditioned</Type>
+      <Status>New</Status>
+      <HVACSysStatus>New</HVACSysStatus>
+      <HVACSysVerified>0</HVACSysVerified>
+      <HVACSystem>Heat Pump</HVACSystem>
+      <DHWSys1Status>New</DHWSys1Status>
+      <DHWSys1Verified>0</DHWSys1Verified>
+      <DHWSys1>DHW System</DHWSys1>
+      <DHWSys2Status>New</DHWSys2Status>
+      <DHWSys2Verified>0</DHWSys2Verified>
+      <FloorArea>2100</FloorArea>
+      <CeilingHeight>9</CeilingHeight>
+      <FloorHeight>10</FloorHeight>
+      <WinHeadHeight>7.67</WinHeadHeight>
+      <Bottom>0.7</Bottom>
+      <NumStories>1</NumStories>
+      <CeilingBelowAttic>
+        <Name>Ceiling (below attic) 1</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Area>2100</Area>
+        <Construction>R38 Ceiling below attic</Construction>
+        <AtticZone>Attic </AtticZone>
+      </CeilingBelowAttic>
+      <ExtWall>
+        <Name>Front</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Orientation>Front</Orientation>
+        <OrientationValue>0</OrientationValue>
+        <Area>270</Area>
+        <Construction>R21 R5 Stucco Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>F-6060</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>36</Area>
+          <Height>6</Height>
+          <Width>6</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>50</exArea>
+          <exHeight>5</exHeight>
+          <exWidth>10</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>3</OverhangExL>
+          <OverhangExR>10</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>F-4050 x3</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>20</Area>
+          <Height>5</Height>
+          <Width>4</Width>
+          <Multiplier>3</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>50</exArea>
+          <exHeight>5</exHeight>
+          <exWidth>10</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>6</OverhangExL>
+          <OverhangExR>6</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Door>
+          <Name>Front Dr</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>20</Area>
+          <Ufactor>0.2</Ufactor>
+          <exUfactor>0.5</exUfactor>
+        </Door>
+        <Win>
+          <Name>F-1660 x2</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>9</Area>
+          <Height>6</Height>
+          <Width>1.5</Width>
+          <Multiplier>2</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>50</exArea>
+          <exHeight>5</exHeight>
+          <exWidth>10</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>4</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>3</OverhangExL>
+          <OverhangExR>3</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>F-3636</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>Door 30 / 23</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>12.25</Area>
+          <Height>3.5</Height>
+          <Width>3.5</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>12.25</exArea>
+          <exHeight>3.5</exHeight>
+          <exWidth>3.5</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>10</OverhangExL>
+          <OverhangExR>10</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>1</exOverhangDepth>
+          <exOverhangDistUp>1.33</exOverhangDistUp>
+          <exOverhangExL>10</exOverhangExL>
+          <exOverhangExR>10</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Left</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Orientation>Left</Orientation>
+        <OrientationValue>90</OrientationValue>
+        <Area>324</Area>
+        <Construction>R21 R5 Stucco Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>L-5040 x2</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>20</Area>
+          <Height>4</Height>
+          <Width>5</Width>
+          <Multiplier>2</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>28.02</exArea>
+          <exHeight>4.67</exHeight>
+          <exWidth>6</exWidth>
+          <exMultiplier>2</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>0</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>6</OverhangExL>
+          <OverhangExR>8</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>L-4040 x2</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>16</Area>
+          <Height>4</Height>
+          <Width>4</Width>
+          <Multiplier>2</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>50</exArea>
+          <exHeight>5</exHeight>
+          <exWidth>10</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>0</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>10</OverhangExL>
+          <OverhangExR>10</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Back</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Orientation>Back</Orientation>
+        <OrientationValue>180</OrientationValue>
+        <Area>450</Area>
+        <Construction>R21 R5 Stucco Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>B1 SGD</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>Door 30 / 23</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>40.02</Area>
+          <Height>6.67</Height>
+          <Width>6</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>61.36</exArea>
+          <exHeight>7.67</exHeight>
+          <exWidth>8</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>6</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>4</OverhangExL>
+          <OverhangExR>4</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>B-6010</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>Door 30 / 23</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>6</Area>
+          <Height>1</Height>
+          <Width>6</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>6</exArea>
+          <exHeight>1</exHeight>
+          <exWidth>6</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>4</OverhangExL>
+          <OverhangExR>4</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>1</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>4</exOverhangExL>
+          <exOverhangExR>4</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>B-6040 x3</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>24</Area>
+          <Height>4</Height>
+          <Width>6</Width>
+          <Multiplier>3</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>28.2</exArea>
+          <exHeight>4.7</exHeight>
+          <exWidth>6</exWidth>
+          <exMultiplier>3</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>23</OverhangExL>
+          <OverhangExR>23</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>B-6050</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>30</Area>
+          <Height>5</Height>
+          <Width>6</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>30</exArea>
+          <exHeight>5</exHeight>
+          <exWidth>6</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>10</OverhangExL>
+          <OverhangExR>10</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>B-3020</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>6</Area>
+          <Height>2</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>6</exArea>
+          <exHeight>2</exHeight>
+          <exWidth>3</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>10</OverhangExL>
+          <OverhangExR>10</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Right</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Orientation>Right</Orientation>
+        <OrientationValue>270</OrientationValue>
+        <Area>414</Area>
+        <Construction>R21 R5 Stucco Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>R-3030 x2</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>9</Area>
+          <Height>3</Height>
+          <Width>3</Width>
+          <Multiplier>2</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>28.02</exArea>
+          <exHeight>4.67</exHeight>
+          <exWidth>6</exWidth>
+          <exMultiplier>2</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>0</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>8</OverhangExL>
+          <OverhangExR>8</OverhangExR>
+          <OverhangFlap>0.4</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>R-4050</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <WinType>30 / 23 Window</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Area>20</Area>
+          <Height>5</Height>
+          <Width>4</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exArea>50</exArea>
+          <exHeight>5</exHeight>
+          <exWidth>10</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>0</ModelFinsOverhang>
+          <OverhangDepth>1</OverhangDepth>
+          <OverhangDistUp>1.33</OverhangDistUp>
+          <OverhangExL>28</OverhangExL>
+          <OverhangExR>3</OverhangExR>
+          <OverhangFlap>0.4</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <IntWall>
+        <Name>GarToHouse Front</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Area>180</Area>
+        <Construction>Gar House R21</Construction>
+        <IsPartySurface>0</IsPartySurface>
+        <OtherSideModeled>0</OtherSideModeled>
+        <Outside>Garage</Outside>
+        <Door>
+          <Name>Fire-rated door</Name>
+          <Status>New</Status>
+          <IsVerified>0</IsVerified>
+          <Area>20</Area>
+          <Ufactor>0.5</Ufactor>
+          <exUfactor>0.5</exUfactor>
+        </Door>
+      </IntWall>
+      <IntWall>
+        <Name>GarToHouse Left</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Area>90</Area>
+        <Construction>Gar House R21</Construction>
+        <IsPartySurface>0</IsPartySurface>
+        <OtherSideModeled>0</OtherSideModeled>
+        <Outside>Garage</Outside>
+      </IntWall>
+      <SlabFloor>
+        <Name>Slab On Grade</Name>
+        <Status>New</Status>
+        <IsVerified>0</IsVerified>
+        <Area>2100</Area>
+        <FloorZ>0</FloorZ>
+        <Surface>Default (80% carpeted/covered, 20% exposed)</Surface>
+        <Perimeter>162</Perimeter>
+        <HeatedSlab>0</HeatedSlab>
+        <EdgeInsulation>0</EdgeInsulation>
+        <EdgeInsulOption>R-5, 8 inches</EdgeInsulOption>
+        <exSurface>Default (80% carpeted/covered, 20% exposed)</exSurface>
+        <exEdgeInsulOption>R-5, 8 inches</exEdgeInsulOption>
+      </SlabFloor>
+    </Zone>
+    <EUseSummary>
+      <Name>EUSummary</Name>
+      <Title1 index="1">Proposed</Title1>
+      <Title1 index="2">Proposed</Title1>
+      <Title1 index="3">Proposed</Title1>
+      <Title1 index="4">Standard</Title1>
+      <Title1 index="5">Standard</Title1>
+      <Title1 index="6">Standard</Title1>
+      <Title1 index="7">Compliance</Title1>
+      <Title1 index="9">Proposed</Title1>
+      <Title1 index="10">Standard</Title1>
+      <Title1 index="11">Reference</Title1>
+      <Title1 index="12">Reference</Title1>
+      <Title1 index="13">Reference</Title1>
+      <Title1 index="14">Design Rating</Title1>
+      <Title1 index="15">Reference</Title1>
+      <Title1 index="16">Proposed</Title1>
+      <Title1 index="17">Proposed</Title1>
+      <Title1 index="18">Proposed</Title1>
+      <Title1 index="22">Prop Design</Title1>
+      <Title1 index="23">Prop Design</Title1>
+      <Title1 index="24">Prop Design</Title1>
+      <Title1 index="26">Std Design</Title1>
+      <Title1 index="27">Std Design</Title1>
+      <Title1 index="28">Std Design</Title1>
+      <Title1 index="29">CO2</Title1>
+      <Title2 index="1">Design</Title2>
+      <Title2 index="2">Design</Title2>
+      <Title2 index="3">Design</Title2>
+      <Title2 index="4">Design</Title2>
+      <Title2 index="5">Design</Title2>
+      <Title2 index="6">Design</Title2>
+      <Title2 index="7">Margin</Title2>
+      <Title2 index="9">Design</Title2>
+      <Title2 index="10">Design</Title2>
+      <Title2 index="11">Design</Title2>
+      <Title2 index="12">Design</Title2>
+      <Title2 index="13">Design</Title2>
+      <Title2 index="14">Margin</Title2>
+      <Title2 index="15">Design</Title2>
+      <Title2 index="16">Design</Title2>
+      <Title2 index="17">Design</Title2>
+      <Title2 index="18">Design</Title2>
+      <Title2 index="22">Electric CO2</Title2>
+      <Title2 index="23">Fuel CO2</Title2>
+      <Title2 index="24">Total CO2</Title2>
+      <Title2 index="26">Electric CO2</Title2>
+      <Title2 index="27">Fuel CO2</Title2>
+      <Title2 index="28">Total CO2</Title2>
+      <Title2 index="29">Emissions</Title2>
+      <Title3 index="0">End Use</Title3>
+      <Title3 index="1">Site (kWh)</Title3>
+      <Title3 index="2">Site (therms)</Title3>
+      <Title3 index="3">(kTDV/ft²-yr)</Title3>
+      <Title3 index="4">Site (kWh)</Title3>
+      <Title3 index="5">Site (therms)</Title3>
+      <Title3 index="6">(kTDV/ft²-yr)</Title3>
+      <Title3 index="7">(kTDV/ft²-yr)</Title3>
+      <Title3 index="9">(kW)</Title3>
+      <Title3 index="10">(kW)</Title3>
+      <Title3 index="11">Site (kWh)</Title3>
+      <Title3 index="12">Site (therms)</Title3>
+      <Title3 index="13">(kTDV/ft²-yr)</Title3>
+      <Title3 index="14">(kTDV/ft²-yr)</Title3>
+      <Title3 index="15">(kW)</Title3>
+      <Title3 index="16">Site (kWh)</Title3>
+      <Title3 index="17">Site (therms)</Title3>
+      <Title3 index="18">(kTDV/ft²-yr)</Title3>
+      <Title3 index="22">Emis. (kg)</Title3>
+      <Title3 index="23">Emis. (kg)</Title3>
+      <Title3 index="24">Emis. (kg)</Title3>
+      <Title3 index="26">Emis. (kg)</Title3>
+      <Title3 index="27">Emis. (kg)</Title3>
+      <Title3 index="28">Emis. (kg)</Title3>
+      <Title3 index="29">Margin (kg)</Title3>
+      <Enduse1 index="0">Space Heating</Enduse1>
+      <Enduse1 index="1">2,124</Enduse1>
+      <Enduse1 index="3">25.52</Enduse1>
+      <Enduse1 index="4">2,099</Enduse1>
+      <Enduse1 index="6">25.24</Enduse1>
+      <Enduse1 index="7">-0.28</Enduse1>
+      <Enduse1 index="9">0.00</Enduse1>
+      <Enduse1 index="10">0.00</Enduse1>
+      <Enduse1 index="11">4,090</Enduse1>
+      <Enduse1 index="13">49.13</Enduse1>
+      <Enduse1 index="14">23.61</Enduse1>
+      <Enduse1 index="15">0.00</Enduse1>
+      <Enduse1 index="16">2,124</Enduse1>
+      <Enduse1 index="18">25.52</Enduse1>
+      <Enduse1 index="22">448</Enduse1>
+      <Enduse1 index="24">448</Enduse1>
+      <Enduse1 index="26">443</Enduse1>
+      <Enduse1 index="28">443</Enduse1>
+      <Enduse1 index="29">-5</Enduse1>
+      <Enduse2 index="0">Space Cooling</Enduse2>
+      <Enduse2 index="1">147</Enduse2>
+      <Enduse2 index="3">10.47</Enduse2>
+      <Enduse2 index="4">207</Enduse2>
+      <Enduse2 index="6">16.39</Enduse2>
+      <Enduse2 index="7">5.92</Enduse2>
+      <Enduse2 index="9">0.27</Enduse2>
+      <Enduse2 index="10">0.64</Enduse2>
+      <Enduse2 index="11">1,226</Enduse2>
+      <Enduse2 index="13">58.68</Enduse2>
+      <Enduse2 index="14">48.21</Enduse2>
+      <Enduse2 index="15">2.59</Enduse2>
+      <Enduse2 index="16">147</Enduse2>
+      <Enduse2 index="18">10.47</Enduse2>
+      <Enduse2 index="22">32</Enduse2>
+      <Enduse2 index="24">32</Enduse2>
+      <Enduse2 index="26">48</Enduse2>
+      <Enduse2 index="28">48</Enduse2>
+      <Enduse2 index="29">16</Enduse2>
+      <Enduse3 index="0">IAQ Ventilation</Enduse3>
+      <Enduse3 index="1">277</Enduse3>
+      <Enduse3 index="3">3.66</Enduse3>
+      <Enduse3 index="4">277</Enduse3>
+      <Enduse3 index="6">3.66</Enduse3>
+      <Enduse3 index="7">0.00</Enduse3>
+      <Enduse3 index="9">0.03</Enduse3>
+      <Enduse3 index="10">0.03</Enduse3>
+      <Enduse3 index="11">277</Enduse3>
+      <Enduse3 index="13">3.66</Enduse3>
+      <Enduse3 index="14">0.00</Enduse3>
+      <Enduse3 index="15">0.03</Enduse3>
+      <Enduse3 index="16">277</Enduse3>
+      <Enduse3 index="18">3.66</Enduse3>
+      <Enduse3 index="22">55</Enduse3>
+      <Enduse3 index="24">55</Enduse3>
+      <Enduse3 index="26">55</Enduse3>
+      <Enduse3 index="28">55</Enduse3>
+      <Enduse3 index="29">0</Enduse3>
+      <Enduse4 index="0">Other HVAC</Enduse4>
+      <Enduse4 index="3">0.00</Enduse4>
+      <Enduse4 index="6">0.00</Enduse4>
+      <Enduse4 index="7">0.00</Enduse4>
+      <Enduse4 index="9">0.00</Enduse4>
+      <Enduse4 index="10">0.00</Enduse4>
+      <Enduse4 index="13">0.00</Enduse4>
+      <Enduse4 index="14">0.00</Enduse4>
+      <Enduse4 index="15">0.00</Enduse4>
+      <Enduse4 index="18">0.00</Enduse4>
+      <Enduse4 index="24">0</Enduse4>
+      <Enduse4 index="28">0</Enduse4>
+      <Enduse5 index="0">Water Heating</Enduse5>
+      <Enduse5 index="1">1,594</Enduse5>
+      <Enduse5 index="3">20.71</Enduse5>
+      <Enduse5 index="4">1,196</Enduse5>
+      <Enduse5 index="6">15.42</Enduse5>
+      <Enduse5 index="7">-5.29</Enduse5>
+      <Enduse5 index="9">0.09</Enduse5>
+      <Enduse5 index="10">0.08</Enduse5>
+      <Enduse5 index="11">2,735</Enduse5>
+      <Enduse5 index="13">35.96</Enduse5>
+      <Enduse5 index="14">15.25</Enduse5>
+      <Enduse5 index="15">0.30</Enduse5>
+      <Enduse5 index="16">1,594</Enduse5>
+      <Enduse5 index="18">20.71</Enduse5>
+      <Enduse5 index="22">308</Enduse5>
+      <Enduse5 index="24">308</Enduse5>
+      <Enduse5 index="26">232</Enduse5>
+      <Enduse5 index="28">232</Enduse5>
+      <Enduse5 index="29">-76</Enduse5>
+      <Enduse6 index="0">Inside Lighting</Enduse6>
+      <Enduse6 index="1">506</Enduse6>
+      <Enduse6 index="3">7.37</Enduse6>
+      <Enduse6 index="4">506</Enduse6>
+      <Enduse6 index="6">7.37</Enduse6>
+      <Enduse6 index="7">0.00</Enduse6>
+      <Enduse6 index="9">0.13</Enduse6>
+      <Enduse6 index="10">0.13</Enduse6>
+      <Enduse6 index="11">2,135</Enduse6>
+      <Enduse6 index="13">31.93</Enduse6>
+      <Enduse6 index="14">24.56</Enduse6>
+      <Enduse6 index="15">0.62</Enduse6>
+      <Enduse6 index="16">506</Enduse6>
+      <Enduse6 index="18">7.37</Enduse6>
+      <Enduse6 index="22">110</Enduse6>
+      <Enduse6 index="24">110</Enduse6>
+      <Enduse6 index="26">110</Enduse6>
+      <Enduse6 index="28">110</Enduse6>
+      <Enduse6 index="29">0</Enduse6>
+      <Enduse7 index="0">Appl. &amp; Cooking</Enduse7>
+      <Enduse7 index="1">941</Enduse7>
+      <Enduse7 index="2">43.2</Enduse7>
+      <Enduse7 index="3">17.40</Enduse7>
+      <Enduse7 index="4">941</Enduse7>
+      <Enduse7 index="5">43.2</Enduse7>
+      <Enduse7 index="6">17.40</Enduse7>
+      <Enduse7 index="7">0.00</Enduse7>
+      <Enduse7 index="9">0.17</Enduse7>
+      <Enduse7 index="10">0.17</Enduse7>
+      <Enduse7 index="11">930</Enduse7>
+      <Enduse7 index="12">65.4</Enduse7>
+      <Enduse7 index="13">23.21</Enduse7>
+      <Enduse7 index="14">5.81</Enduse7>
+      <Enduse7 index="15">0.12</Enduse7>
+      <Enduse7 index="16">941</Enduse7>
+      <Enduse7 index="17">43.2</Enduse7>
+      <Enduse7 index="18">17.40</Enduse7>
+      <Enduse7 index="22">188</Enduse7>
+      <Enduse7 index="23">229</Enduse7>
+      <Enduse7 index="24">417</Enduse7>
+      <Enduse7 index="26">188</Enduse7>
+      <Enduse7 index="27">229</Enduse7>
+      <Enduse7 index="28">417</Enduse7>
+      <Enduse7 index="29">0</Enduse7>
+      <Enduse8 index="0">Plug Loads</Enduse8>
+      <Enduse8 index="1">2,026</Enduse8>
+      <Enduse8 index="3">27.51</Enduse8>
+      <Enduse8 index="4">2,026</Enduse8>
+      <Enduse8 index="6">27.51</Enduse8>
+      <Enduse8 index="7">0.00</Enduse8>
+      <Enduse8 index="9">0.30</Enduse8>
+      <Enduse8 index="10">0.30</Enduse8>
+      <Enduse8 index="11">2,638</Enduse8>
+      <Enduse8 index="13">36.39</Enduse8>
+      <Enduse8 index="14">8.88</Enduse8>
+      <Enduse8 index="15">0.43</Enduse8>
+      <Enduse8 index="16">2,026</Enduse8>
+      <Enduse8 index="18">27.51</Enduse8>
+      <Enduse8 index="22">414</Enduse8>
+      <Enduse8 index="24">414</Enduse8>
+      <Enduse8 index="26">414</Enduse8>
+      <Enduse8 index="28">414</Enduse8>
+      <Enduse8 index="29">0</Enduse8>
+      <Enduse9 index="0">Exterior</Enduse9>
+      <Enduse9 index="1">120</Enduse9>
+      <Enduse9 index="3">1.64</Enduse9>
+      <Enduse9 index="4">120</Enduse9>
+      <Enduse9 index="6">1.64</Enduse9>
+      <Enduse9 index="7">0.00</Enduse9>
+      <Enduse9 index="9">0.02</Enduse9>
+      <Enduse9 index="10">0.02</Enduse9>
+      <Enduse9 index="11">298</Enduse9>
+      <Enduse9 index="13">4.13</Enduse9>
+      <Enduse9 index="14">2.49</Enduse9>
+      <Enduse9 index="15">0.06</Enduse9>
+      <Enduse9 index="16">120</Enduse9>
+      <Enduse9 index="18">1.64</Enduse9>
+      <Enduse9 index="22">26</Enduse9>
+      <Enduse9 index="24">26</Enduse9>
+      <Enduse9 index="26">26</Enduse9>
+      <Enduse9 index="28">26</Enduse9>
+      <Enduse9 index="29">0</Enduse9>
+      <Enduse10 index="0">TOTAL</Enduse10>
+      <Enduse10 index="1">3,566</Enduse10>
+      <Enduse10 index="2">43.2</Enduse10>
+      <Enduse10 index="3">53.90</Enduse10>
+      <Enduse10 index="4">3,077</Enduse10>
+      <Enduse10 index="5">43.2</Enduse10>
+      <Enduse10 index="6">65.68</Enduse10>
+      <Enduse10 index="7">11.78</Enduse10>
+      <Enduse10 index="9">0.20</Enduse10>
+      <Enduse10 index="10">1.30</Enduse10>
+      <Enduse10 index="11">14,327</Enduse10>
+      <Enduse10 index="12">65.4</Enduse10>
+      <Enduse10 index="13">243.09</Enduse10>
+      <Enduse10 index="14">189.19</Enduse10>
+      <Enduse10 index="15">4.15</Enduse10>
+      <Enduse10 index="16">3,566</Enduse10>
+      <Enduse10 index="17">43.2</Enduse10>
+      <Enduse10 index="18">53.90</Enduse10>
+      <Enduse10 index="22">821</Enduse10>
+      <Enduse10 index="23">229</Enduse10>
+      <Enduse10 index="24">1,050</Enduse10>
+      <Enduse10 index="26">858</Enduse10>
+      <Enduse10 index="27">229</Enduse10>
+      <Enduse10 index="28">1,087</Enduse10>
+      <Enduse10 index="29">37</Enduse10>
+      <Enduse11 index="0">Compliance Total</Enduse11>
+      <Enduse11 index="1">4,142</Enduse11>
+      <Enduse11 index="3">60.36</Enduse11>
+      <Enduse11 index="4">3,780</Enduse11>
+      <Enduse11 index="6">60.71</Enduse11>
+      <Enduse11 index="7">0.35</Enduse11>
+      <Enduse11 index="9">0.39</Enduse11>
+      <Enduse11 index="10">0.75</Enduse11>
+      <Enduse11 index="11">8,327</Enduse11>
+      <Enduse11 index="13">147.43</Enduse11>
+      <Enduse11 index="14">87.07</Enduse11>
+      <Enduse11 index="15">2.92</Enduse11>
+      <Enduse11 index="16">4,142</Enduse11>
+      <Enduse11 index="17">43.2</Enduse11>
+      <Enduse11 index="18">60.36</Enduse11>
+      <Enduse11 index="22">843</Enduse11>
+      <Enduse11 index="24">843</Enduse11>
+      <Enduse11 index="26">778</Enduse11>
+      <Enduse11 index="28">778</Enduse11>
+      <Enduse11 index="29">-65</Enduse11>
+      <Enduse13 index="0">Photovoltaics</Enduse13>
+      <Enduse13 index="1">-4,295</Enduse13>
+      <Enduse13 index="3">-50.90</Enduse13>
+      <Enduse13 index="4">-4,295</Enduse13>
+      <Enduse13 index="6">-48.95</Enduse13>
+      <Enduse13 index="7">1.95</Enduse13>
+      <Enduse13 index="9">-0.08</Enduse13>
+      <Enduse13 index="13"> </Enduse13>
+      <Enduse13 index="14">50.90</Enduse13>
+      <Enduse13 index="16">-4,295</Enduse13>
+      <Enduse13 index="18">-50.90</Enduse13>
+      <Enduse13 index="22">-658</Enduse13>
+      <Enduse13 index="24">-658</Enduse13>
+      <Enduse13 index="26">-658</Enduse13>
+      <Enduse13 index="28">-658</Enduse13>
+      <Enduse13 index="29">0</Enduse13>
+      <Enduse14 index="0">Battery</Enduse14>
+      <Enduse14 index="1">126</Enduse14>
+      <Enduse14 index="3">-9.48</Enduse14>
+      <Enduse14 index="6"> </Enduse14>
+      <Enduse14 index="7">9.48</Enduse14>
+      <Enduse14 index="9">-0.75</Enduse14>
+      <Enduse14 index="10">0.00</Enduse14>
+      <Enduse14 index="13"> </Enduse14>
+      <Enduse14 index="14">9.48</Enduse14>
+      <Enduse14 index="15">0.00</Enduse14>
+      <Enduse14 index="16">126</Enduse14>
+      <Enduse14 index="18">-9.48</Enduse14>
+      <Enduse14 index="22">-102</Enduse14>
+      <Enduse14 index="24">-102</Enduse14>
+      <Enduse14 index="28">0</Enduse14>
+      <Enduse14 index="29">102</Enduse14>
+      <Enduse98 index="0">Flexibility</Enduse98>
+      <Enduse98 index="14">0.00</Enduse98>
+      <Enduse99 index="0">Self Util/Flexibility Credit</Enduse99>
+      <Enduse99 index="3">0.00</Enduse99>
+      <Enduse99 index="7">0.00</Enduse99>
+      <Enduse99 index="14">0.00</Enduse99>
+      <Enduse99 index="18">0.00</Enduse99>
+      <Enduse99 index="24">0</Enduse99>
+      <Enduse99 index="28">0</Enduse99>
+      <Enduse99 index="29">0</Enduse99>
+      <PassFail>PASS</PassFail>
+      <ComplyMessage>COMPLIES</ComplyMessage>
+      <SummaryCol1 index="3">Standard Design</SummaryCol1>
+      <SummaryCol1 index="4">Proposed Design</SummaryCol1>
+      <SummaryCol2 index="0">Compliance</SummaryCol2>
+      <SummaryCol2 index="1">Energy Use</SummaryCol2>
+      <SummaryCol2 index="2">(kTDV/ft²-yr)</SummaryCol2>
+      <SummaryCol2 index="3">60.71</SummaryCol2>
+      <SummaryCol2 index="4">60.36</SummaryCol2>
+      <SummaryColNPVMarg index="1">Efficiency¹</SummaryColNPVMarg>
+      <SummaryColNPVMarg index="2">(EDR)</SummaryColNPVMarg>
+      <SummaryColNPVMarg index="4">0.2</SummaryColNPVMarg>
+      <SummaryColFinMarg index="1">Total²</SummaryColFinMarg>
+      <SummaryColFinMarg index="2">(EDR)</SummaryColFinMarg>
+      <SummaryColFinMarg index="4">4.8</SummaryColFinMarg>
+      <SummaryColNoPVDR index="1">Efficiency¹</SummaryColNoPVDR>
+      <SummaryColNoPVDR index="2">(EDR)</SummaryColNoPVDR>
+      <SummaryColNoPVDR index="3">47.2</SummaryColNoPVDR>
+      <SummaryColNoPVDR index="4">47.0</SummaryColNoPVDR>
+      <SummaryColPVOnlyDR index="1">Flexibility</SummaryColPVOnlyDR>
+      <SummaryColPVOnlyDR index="2">(EDR)</SummaryColPVOnlyDR>
+      <SummaryColPVOnlyDR index="3">20.2</SummaryColPVOnlyDR>
+      <SummaryColPVOnlyDR index="4">24.8</SummaryColPVOnlyDR>
+      <SummaryColFinDR index="1">Total²</SummaryColFinDR>
+      <SummaryColFinDR index="2">(EDR)</SummaryColFinDR>
+      <SummaryColFinDR index="3">27.0</SummaryColFinDR>
+      <SummaryColFinDR index="4">22.2</SummaryColFinDR>
+      <MarginkW index="0">1.11</MarginkW>
+      <MarginkW index="1">3.96</MarginkW>
+      <MarginkWh>-489.2</MarginkWh>
+      <MarginTherms>0</MarginTherms>
+      <PctSavingskW>84.9</PctSavingskW>
+      <PctSavingskWh>-15.9</PctSavingskWh>
+      <PctSavingsTherms>0</PctSavingsTherms>
+      <PctSavingsTDV>17.9</PctSavingsTDV>
+      <PctSavingsCmpTDV>0.6</PctSavingsCmpTDV>
+      <PctSavkWLbl>84.9</PctSavkWLbl>
+      <PctSavkWhLbl>-15.9</PctSavkWhLbl>
+      <PctSavThermsLbl>-</PctSavThermsLbl>
+      <PctSavTDVLbl>17.9</PctSavTDVLbl>
+      <PctSavCmpTDVLbl>0.6</PctSavCmpTDVLbl>
+      <PropElecDemand index="0">0.19716</PropElecDemand>
+      <PropElecDemand index="1">0.19716</PropElecDemand>
+      <StdElecDemand>1.30225</StdElecDemand>
+      <DRtgElecDemand>4.15309</DRtgElecDemand>
+      <StdMixedFuelkWh>4296.55</StdMixedFuelkWh>
+      <StdMixedFuelPV>-1524.32</StdMixedFuelPV>
+      <PropDesignPVInp index="0">2</PropDesignPVInp>
+      <PropDesignPVInp index="5">2</PropDesignPVInp>
+      <PropDesignPVSize index="0">2.81868</PropDesignPVSize>
+      <StdDesignPVSize>2.81868</StdDesignPVSize>
+      <StdMixedFuelPVTDV>-48.34</StdMixedFuelPVTDV>
+      <StdMixedFuelPVMlt>2.81868</StdMixedFuelPVMlt>
+      <PrelimPropkWh>7843.1</PrelimPropkWh>
+      <PrelimPropCompTDV>60.3555</PrelimPropCompTDV>
+      <PrelimPropPV>-3048.63</PrelimPropPV>
+      <PrelimPropPVTDV>-37.38</PrelimPropPVTDV>
+      <UnscaledPropPVRatio>0.546402</UnscaledPropPVRatio>
+      <PropPV_Total>4296.55</PropPV_Total>
+      <PropPV_Export>1027.46</PropPV_Export>
+      <PropPV_PctExport>23.9137</PropPV_PctExport>
+      <StdPV_Total>4296.55</StdPV_Total>
+      <StdPV_Export>2334.89</StdPV_Export>
+      <StdPV_PctExport>54.3434</StdPV_PctExport>
+      <ResultsNotes index="0">PV System resized to 2.82 kWdc (a factor of 1.409) to achieve 'Standard Design PV' PV scaling</ResultsNotes>
+      <ResultsNotes index="3">PV System resized to 2.82 kWdc (a factor of 1.409) to achieve 'Standard Design PV' PV scaling</ResultsNotes>
+      <ResultsNotes index="4">Standard Design PV Capacity: 2.82 kWdc</ResultsNotes>
+      <HaveResultsNotesPV index="0">1</HaveResultsNotesPV>
+      <HaveResultsNotesPV index="3">1</HaveResultsNotesPV>
+      <HaveResultsNotesPV index="4">1</HaveResultsNotesPV>
+      <DesignRating>22.2</DesignRating>
+      <DesignRatingNoPV>47</DesignRatingNoPV>
+      <ShowDesignRtgNoPV>1</ShowDesignRtgNoPV>
+      <DesignRatingPVOnly>24.8</DesignRatingPVOnly>
+      <DesignRatingStd>27</DesignRatingStd>
+      <DesignRatingStdNoPV>47.2</DesignRatingStdNoPV>
+      <DesignRatingStdPVOnly>20.2</DesignRatingStdPVOnly>
+      <MarginEfficEDR>0.2</MarginEfficEDR>
+      <MarginFinalEDR>4.8</MarginFinalEDR>
+      <CO2FuelUnitLabel>kg</CO2FuelUnitLabel>
+      <CO2TotalUnitLabel>kg</CO2TotalUnitLabel>
+      <GHCEnergyEffCap>0</GHCEnergyEffCap>
+      <GHCEnergyEffBattFrac>0</GHCEnergyEffBattFrac>
+      <GHCEnergyEffTDV>0</GHCEnergyEffTDV>
+      <GHCEnergyEffElec>0</GHCEnergyEffElec>
+      <GHCEnergyEffCO2>0</GHCEnergyEffCO2>
+      <MeetsTier1>0</MeetsTier1>
+      <MeetsTier2>0</MeetsTier2>
+      <MeetsZNETier>0</MeetsZNETier>
+      <PropElecCarbon index="0">0.821083</PropElecCarbon>
+      <PropFuelCarbon index="0">0.229076</PropFuelCarbon>
+      <PropFinalCarbon index="0">1.05</PropFinalCarbon>
+      <PropExclExpCarbon index="0">1.22</PropExclExpCarbon>
+      <PropExclExpCO2Str index="0">1.22</PropExclExpCO2Str>
+      <PropExportCarbon index="0">0.17</PropExportCarbon>
+      <PropExportCO2Str index="0">0.17</PropExportCO2Str>
+      <PropSelfConsCarbon index="0">0.59</PropSelfConsCarbon>
+      <PropSelfConsCO2Str index="0">0.59</PropSelfConsCO2Str>
+      <PropNoSolFlxCarbon index="0">1.81</PropNoSolFlxCarbon>
+      <StdFinalCarbon>1.09</StdFinalCarbon>
+      <StdExclExpCarbon>1.44</StdExclExpCarbon>
+      <StdExportCarbon>0.34</StdExportCarbon>
+      <StdSelfConsCarbon>0.31</StdSelfConsCarbon>
+      <StdNoSolFlxCarbon>1.75</StdNoSolFlxCarbon>
+      <DRtgFinalCarbon>3.3594</DRtgFinalCarbon>
+      <DRtgExclExpCarbon>3.3594</DRtgExclExpCarbon>
+      <DRtgExportCarbon>0</DRtgExportCarbon>
+      <DRtgSelfConsCarbon>0</DRtgSelfConsCarbon>
+      <DRtgNoSolFlxCarbon>3.3594</DRtgNoSolFlxCarbon>
+      <HideCompSummary>0</HideCompSummary>
+      <HideEDRs>0</HideEDRs>
+      <HideC02Emissions>0</HideC02Emissions>
+    </EUseSummary>
+    <Attic>
+      <Name>Gar Attic </Name>
+      <Type>Ventilated</Type>
+      <Status>New</Status>
+      <IsVerified>0</IsVerified>
+      <RoofRise>5</RoofRise>
+      <Construction>Tile Roof</Construction>
+      <RoofSolReflect>0.2</RoofSolReflect>
+      <RoofEmiss>0.85</RoofEmiss>
+    </Attic>
+    <Attic>
+      <Name>Attic </Name>
+      <Type>Ventilated</Type>
+      <Status>New</Status>
+      <IsVerified>0</IsVerified>
+      <RoofRise>5</RoofRise>
+      <Construction>Tile R-19 below deck</Construction>
+      <RoofSolReflect>0.2</RoofSolReflect>
+      <RoofEmiss>0.85</RoofEmiss>
+    </Attic>
+  </Proj>
+  <SchDay>
+    <Name>CARes2013 InsLighting Hrly</Name>
+    <Type>Fraction</Type>
+    <Hr index="0">0.023</Hr>
+    <Hr index="1">0.019</Hr>
+    <Hr index="2">0.015</Hr>
+    <Hr index="3">0.017</Hr>
+    <Hr index="4">0.021</Hr>
+    <Hr index="5">0.031</Hr>
+    <Hr index="6">0.042</Hr>
+    <Hr index="7">0.041</Hr>
+    <Hr index="8">0.034</Hr>
+    <Hr index="9">0.029</Hr>
+    <Hr index="10">0.027</Hr>
+    <Hr index="11">0.025</Hr>
+    <Hr index="12">0.021</Hr>
+    <Hr index="13">0.021</Hr>
+    <Hr index="14">0.021</Hr>
+    <Hr index="15">0.026</Hr>
+    <Hr index="16">0.031</Hr>
+    <Hr index="17">0.044</Hr>
+    <Hr index="18">0.084</Hr>
+    <Hr index="19">0.118</Hr>
+    <Hr index="20">0.113</Hr>
+    <Hr index="21">0.096</Hr>
+    <Hr index="22">0.063</Hr>
+    <Hr index="23">0.038</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Occupancy Hrly</Name>
+    <Type>Fraction</Type>
+    <Hr index="0">0.035</Hr>
+    <Hr index="1">0.035</Hr>
+    <Hr index="2">0.035</Hr>
+    <Hr index="3">0.035</Hr>
+    <Hr index="4">0.035</Hr>
+    <Hr index="5">0.059</Hr>
+    <Hr index="6">0.082</Hr>
+    <Hr index="7">0.055</Hr>
+    <Hr index="8">0.027</Hr>
+    <Hr index="9">0.014</Hr>
+    <Hr index="10">0.014</Hr>
+    <Hr index="11">0.014</Hr>
+    <Hr index="12">0.014</Hr>
+    <Hr index="13">0.014</Hr>
+    <Hr index="14">0.019</Hr>
+    <Hr index="15">0.027</Hr>
+    <Hr index="16">0.041</Hr>
+    <Hr index="17">0.055</Hr>
+    <Hr index="18">0.068</Hr>
+    <Hr index="19">0.082</Hr>
+    <Hr index="20">0.082</Hr>
+    <Hr index="21">0.07</Hr>
+    <Hr index="22">0.053</Hr>
+    <Hr index="23">0.035</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Equipment Hrly</Name>
+    <Type>Fraction</Type>
+    <Hr index="0">0.037</Hr>
+    <Hr index="1">0.035</Hr>
+    <Hr index="2">0.034</Hr>
+    <Hr index="3">0.034</Hr>
+    <Hr index="4">0.032</Hr>
+    <Hr index="5">0.036</Hr>
+    <Hr index="6">0.042</Hr>
+    <Hr index="7">0.044</Hr>
+    <Hr index="8">0.037</Hr>
+    <Hr index="9">0.032</Hr>
+    <Hr index="10">0.033</Hr>
+    <Hr index="11">0.033</Hr>
+    <Hr index="12">0.032</Hr>
+    <Hr index="13">0.033</Hr>
+    <Hr index="14">0.035</Hr>
+    <Hr index="15">0.037</Hr>
+    <Hr index="16">0.044</Hr>
+    <Hr index="17">0.053</Hr>
+    <Hr index="18">0.058</Hr>
+    <Hr index="19">0.06</Hr>
+    <Hr index="20">0.062</Hr>
+    <Hr index="21">0.06</Hr>
+    <Hr index="22">0.052</Hr>
+    <Hr index="23">0.045</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 ExtLighting Hrly</Name>
+    <Type>Fraction</Type>
+    <Hr index="0">0</Hr>
+    <Hr index="1">0</Hr>
+    <Hr index="2">0</Hr>
+    <Hr index="3">0</Hr>
+    <Hr index="4">0</Hr>
+    <Hr index="5">0</Hr>
+    <Hr index="6">0</Hr>
+    <Hr index="7">0</Hr>
+    <Hr index="8">0</Hr>
+    <Hr index="9">0</Hr>
+    <Hr index="10">0</Hr>
+    <Hr index="11">0</Hr>
+    <Hr index="12">0</Hr>
+    <Hr index="13">0</Hr>
+    <Hr index="14">0</Hr>
+    <Hr index="15">0</Hr>
+    <Hr index="16">0</Hr>
+    <Hr index="17">0</Hr>
+    <Hr index="18">0</Hr>
+    <Hr index="19">0</Hr>
+    <Hr index="20">0.25</Hr>
+    <Hr index="21">0.25</Hr>
+    <Hr index="22">0.25</Hr>
+    <Hr index="23">0.25</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 SZ Heat Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">65</Hr>
+    <Hr index="1">65</Hr>
+    <Hr index="2">65</Hr>
+    <Hr index="3">65</Hr>
+    <Hr index="4">65</Hr>
+    <Hr index="5">65</Hr>
+    <Hr index="6">66.5</Hr>
+    <Hr index="7">68</Hr>
+    <Hr index="8">68</Hr>
+    <Hr index="9">68</Hr>
+    <Hr index="10">68</Hr>
+    <Hr index="11">68</Hr>
+    <Hr index="12">68</Hr>
+    <Hr index="13">68</Hr>
+    <Hr index="14">68</Hr>
+    <Hr index="15">68</Hr>
+    <Hr index="16">68</Hr>
+    <Hr index="17">68</Hr>
+    <Hr index="18">68</Hr>
+    <Hr index="19">68</Hr>
+    <Hr index="20">68</Hr>
+    <Hr index="21">68</Hr>
+    <Hr index="22">68</Hr>
+    <Hr index="23">65</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Liv Heat Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">65</Hr>
+    <Hr index="1">65</Hr>
+    <Hr index="2">65</Hr>
+    <Hr index="3">65</Hr>
+    <Hr index="4">65</Hr>
+    <Hr index="5">65</Hr>
+    <Hr index="6">66.5</Hr>
+    <Hr index="7">68</Hr>
+    <Hr index="8">68</Hr>
+    <Hr index="9">68</Hr>
+    <Hr index="10">68</Hr>
+    <Hr index="11">68</Hr>
+    <Hr index="12">68</Hr>
+    <Hr index="13">68</Hr>
+    <Hr index="14">68</Hr>
+    <Hr index="15">68</Hr>
+    <Hr index="16">68</Hr>
+    <Hr index="17">68</Hr>
+    <Hr index="18">68</Hr>
+    <Hr index="19">68</Hr>
+    <Hr index="20">68</Hr>
+    <Hr index="21">68</Hr>
+    <Hr index="22">68</Hr>
+    <Hr index="23">65</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Slp Heat Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">65</Hr>
+    <Hr index="1">65</Hr>
+    <Hr index="2">65</Hr>
+    <Hr index="3">65</Hr>
+    <Hr index="4">65</Hr>
+    <Hr index="5">65</Hr>
+    <Hr index="6">66.5</Hr>
+    <Hr index="7">68</Hr>
+    <Hr index="8">68</Hr>
+    <Hr index="9">65</Hr>
+    <Hr index="10">65</Hr>
+    <Hr index="11">65</Hr>
+    <Hr index="12">65</Hr>
+    <Hr index="13">65</Hr>
+    <Hr index="14">65</Hr>
+    <Hr index="15">65</Hr>
+    <Hr index="16">68</Hr>
+    <Hr index="17">68</Hr>
+    <Hr index="18">68</Hr>
+    <Hr index="19">68</Hr>
+    <Hr index="20">68</Hr>
+    <Hr index="21">68</Hr>
+    <Hr index="22">68</Hr>
+    <Hr index="23">65</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 SZ Cool Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">78</Hr>
+    <Hr index="1">78</Hr>
+    <Hr index="2">78</Hr>
+    <Hr index="3">78</Hr>
+    <Hr index="4">78</Hr>
+    <Hr index="5">78</Hr>
+    <Hr index="6">78</Hr>
+    <Hr index="7">83</Hr>
+    <Hr index="8">83</Hr>
+    <Hr index="9">83</Hr>
+    <Hr index="10">83</Hr>
+    <Hr index="11">83</Hr>
+    <Hr index="12">83</Hr>
+    <Hr index="13">82</Hr>
+    <Hr index="14">81</Hr>
+    <Hr index="15">80</Hr>
+    <Hr index="16">79</Hr>
+    <Hr index="17">78</Hr>
+    <Hr index="18">78</Hr>
+    <Hr index="19">78</Hr>
+    <Hr index="20">78</Hr>
+    <Hr index="21">78</Hr>
+    <Hr index="22">78</Hr>
+    <Hr index="23">78</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Liv Cool Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">78</Hr>
+    <Hr index="1">78</Hr>
+    <Hr index="2">78</Hr>
+    <Hr index="3">78</Hr>
+    <Hr index="4">78</Hr>
+    <Hr index="5">78</Hr>
+    <Hr index="6">78</Hr>
+    <Hr index="7">83</Hr>
+    <Hr index="8">83</Hr>
+    <Hr index="9">83</Hr>
+    <Hr index="10">83</Hr>
+    <Hr index="11">83</Hr>
+    <Hr index="12">83</Hr>
+    <Hr index="13">82</Hr>
+    <Hr index="14">81</Hr>
+    <Hr index="15">80</Hr>
+    <Hr index="16">79</Hr>
+    <Hr index="17">78</Hr>
+    <Hr index="18">78</Hr>
+    <Hr index="19">78</Hr>
+    <Hr index="20">78</Hr>
+    <Hr index="21">78</Hr>
+    <Hr index="22">78</Hr>
+    <Hr index="23">78</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Slp Cool Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">78</Hr>
+    <Hr index="1">78</Hr>
+    <Hr index="2">78</Hr>
+    <Hr index="3">78</Hr>
+    <Hr index="4">78</Hr>
+    <Hr index="5">78</Hr>
+    <Hr index="6">78</Hr>
+    <Hr index="7">83</Hr>
+    <Hr index="8">83</Hr>
+    <Hr index="9">83</Hr>
+    <Hr index="10">83</Hr>
+    <Hr index="11">83</Hr>
+    <Hr index="12">83</Hr>
+    <Hr index="13">82</Hr>
+    <Hr index="14">81</Hr>
+    <Hr index="15">80</Hr>
+    <Hr index="16">79</Hr>
+    <Hr index="17">78</Hr>
+    <Hr index="18">78</Hr>
+    <Hr index="19">78</Hr>
+    <Hr index="20">78</Hr>
+    <Hr index="21">78</Hr>
+    <Hr index="22">78</Hr>
+    <Hr index="23">78</Hr>
+  </SchDay>
+  <Cons>
+    <Name>Interior R0 Floor</Name>
+    <CanAssignTo>Interior Floors</CanAssignTo>
+    <Type>Wood Framed Floor</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>Interior R0 Wall</Name>
+    <CanAssignTo>Interior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>- no insulation (vertical) -</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>Ext R19 Floor</Name>
+    <CanAssignTo>Exterior Floors</CanAssignTo>
+    <Type>Wood Framed Floor</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 19 in 5-1/2 in. cavity (R-18)</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <FlrExtConditions>Exterior</FlrExtConditions>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>Garage Wall R-0</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>- no insulation (vertical) -</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>3 Coat Stucco</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R0 ClgBlwAttic Cons</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 Bottom Chord of Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>Gar House R21</Name>
+    <CanAssignTo>Interior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 21</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>Asphalt R19 below deck</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>- select inside finish -</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+    <CavInsulOverFrame>1</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>Asphalt RB Roof</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>- select inside finish -</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>1</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+    <CavInsulOverFrame>1</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>Tile R-19 below deck</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTileAirGap)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>- select inside finish -</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>Steep Slope Roof tile, metal tile, or wood shakes</RoofingType>
+    <CavInsulOverFrame>1</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>Tile Roof</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTileAirGap)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>- select inside finish -</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>Steep Slope Roof tile, metal tile, or wood shakes</RoofingType>
+    <CavInsulOverFrame>0</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>R38 Ceiling below attic</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 38</CavityLayer>
+    <FrameLayer>2x4 Bottom Chord of Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R30 Ceiling below attic</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 30</CavityLayer>
+    <FrameLayer>2x4 Bottom Chord of Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R30 Cathedral Ceiling</Name>
+    <CanAssignTo>Cathedral Ceilings</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 30</CavityLayer>
+    <FrameLayer>2x10 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R38 Cathedral Ceiling</Name>
+    <CanAssignTo>Cathedral Ceilings</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 38</CavityLayer>
+    <FrameLayer>2x12 @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R15 Wall</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 15</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>3 Coat Stucco</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R21 R5 Stucco Wall</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 21</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>R5 Sheathing</SheathInsulLayer>
+    <WallExtFinishLayer>Synthetic Stucco</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R19 R4 Stucco Wall</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 19 in 5-1/2 in. cavity (R-18)</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>R4 Sheathing</SheathInsulLayer>
+    <WallExtFinishLayer>Synthetic Stucco</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R19 2x6 FlrOvrCrawl</Name>
+    <CanAssignTo>Floors Over Crawlspace</CanAssignTo>
+    <Type>Wood Framed Floor</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>Cathedral R0</Name>
+    <CanAssignTo>Cathedral Ceilings</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>Light Roof (Asphalt Shingle)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <StructPanel2Layer>1.25 in. Laminated Bamboo Panel</StructPanel2Layer>
+    <StructPanelLayer>1.25 in. Laminated Bamboo Panel</StructPanelLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Mat>
+    <Name>Gypsum Board</Name>
+    <Thickness>0.5</Thickness>
+    <Density>40</Density>
+    <SpecHeat>0.27</SpecHeat>
+    <Conductivity>0.09167</Conductivity>
+    <RValPerInch>0.9091</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>3 Coat Stucco-user</Name>
+    <Thickness>0.875</Thickness>
+    <Density>116</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.4167</Conductivity>
+    <RValPerInch>0.2</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>SoftWood</Name>
+    <Density>35</Density>
+    <SpecHeat>0.39</SpecHeat>
+    <Conductivity>0.08167</Conductivity>
+    <RValPerInch>1.0204</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Wood layer</Name>
+    <Thickness>0.5</Thickness>
+    <Density>41</Density>
+    <SpecHeat>0.45</SpecHeat>
+    <Conductivity>0.06127</Conductivity>
+    <RValPerInch>1.36</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Light Roof</Name>
+    <Thickness>0.2</Thickness>
+    <Density>120</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>1</Conductivity>
+    <RValPerInch>0.0833</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Carpet</Name>
+    <Thickness>0.5</Thickness>
+    <Density>12.3</Density>
+    <SpecHeat>0.34</SpecHeat>
+    <Conductivity>0.02</Conductivity>
+    <RValPerInch>4.1667</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>R4 Sheathing</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.02083</Conductivity>
+    <RValPerInch>4</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>VertWallCavity</Name>
+    <Thickness>3.5</Thickness>
+    <Density>0.075</Density>
+    <SpecHeat>0.24</SpecHeat>
+    <Conductivity>0.314</Conductivity>
+    <ConductivityCT>0.00397</ConductivityCT>
+    <RValPerInch>1.1333</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>R4 Synth Stucco</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.02083</Conductivity>
+    <ConductivityCT>0.00418</ConductivityCT>
+    <RValPerInch>4</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>R1 Sheathing</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.08333</Conductivity>
+    <ConductivityCT>0.00418</ConductivityCT>
+    <RValPerInch>1</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>R4 Sheathing (Copy)</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.02083</Conductivity>
+    <ConductivityCT>0.00418</ConductivityCT>
+    <RValPerInch>4</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>TileGap</Name>
+    <Thickness>0.75</Thickness>
+    <Density>0.075</Density>
+    <SpecHeat>0.24</SpecHeat>
+    <Conductivity>0.07353</Conductivity>
+    <RValPerInch>1.1333</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>10 PSF Roof</Name>
+    <Thickness>1</Thickness>
+    <Density>120</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>1</Conductivity>
+    <RValPerInch>0.0833</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>SoftWood-2</Name>
+    <Density>35</Density>
+    <SpecHeat>0.39</SpecHeat>
+    <Conductivity>0.08167</Conductivity>
+    <ConductivityCT>0.0012</ConductivityCT>
+    <RValPerInch>1.0204</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Steel</Name>
+    <Density>489</Density>
+    <SpecHeat>0.12</SpecHeat>
+    <Conductivity>26.2</Conductivity>
+    <RValPerInch>0.00318</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>SIPSskin</Name>
+    <Thickness>0.4375</Thickness>
+    <Density>41</Density>
+    <SpecHeat>0.45</SpecHeat>
+    <Conductivity>0.06127</Conductivity>
+    <ConductivityCT>0.0012</ConductivityCT>
+    <RValPerInch>1.36</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Ceiling Insul</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Other Insul</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Wood layer-2</Name>
+    <Thickness>0.5</Thickness>
+    <Density>41</Density>
+    <SpecHeat>0.45</SpecHeat>
+    <Conductivity>0.06127</Conductivity>
+    <ConductivityCT>0.0012</ConductivityCT>
+    <RValPerInch>1.36</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Gypsum Board-2</Name>
+    <Thickness>0.5</Thickness>
+    <Density>40</Density>
+    <SpecHeat>0.27</SpecHeat>
+    <Conductivity>0.09167</Conductivity>
+    <ConductivityCT>0.0001217</ConductivityCT>
+    <RValPerInch>0.9091</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>R4 Synth Stucco-2</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.02083</Conductivity>
+    <ConductivityCT>0.00175</ConductivityCT>
+    <RValPerInch>4</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Ins-R19-D1.5-SH0.2-C0.02412</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0241228</Conductivity>
+    <ConductivityQII>0.0344612</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R15-D1.5-SH0.2-C0.01944</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0194444</Conductivity>
+    <ConductivityQII>0.0277778</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R9.1-D1.5-SH0.2-C0.03205</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0320513</Conductivity>
+    <ConductivityQII>0.0387027</ConductivityQII>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R9.1-D1.5-SH0.2-C0.03205 25</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0320513</Conductivity>
+    <ConductivityQII>0.0374475</ConductivityQII>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R30-D1.5-SH0.2-C0.02569</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0256944</Conductivity>
+    <ConductivityQII>0.0367064</ConductivityQII>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R38-D1.5-SH0.2-C0.02467</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0246711</Conductivity>
+    <ConductivityQII>0.0352444</ConductivityQII>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R13-D1.5-SH0.2-C0.02244</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0224376</Conductivity>
+    <ConductivityQII>0.0320538</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R19-D1.5-SH0.2-C0.01535</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0153509</Conductivity>
+    <ConductivityQII>0.0219298</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Shthg-R1-D1.5-SH0.35-C0.08333</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.08333</Conductivity>
+    <ConductivityQII>0.08333</ConductivityQII>
+    <ConductivityCT>0.00175</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>3 Coat Stucco</Name>
+    <Thickness>0.875</Thickness>
+    <Density>116</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.4167</Conductivity>
+    <RValPerInch>0.2686</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Insul-R5-D1.5-SH0.35-C0.01667</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.016666</Conductivity>
+    <ConductivityQII>0.016666</ConductivityQII>
+    <ConductivityCT>0.00175</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Synthetic Stucco</Name>
+    <Thickness>0.375</Thickness>
+    <Density>58</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.2</Conductivity>
+    <RValPerInch>0.5333</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Insul-R4-D1.5-SH0.35-C0.02083</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.0208325</Conductivity>
+    <ConductivityQII>0.0208325</ConductivityQII>
+    <ConductivityCT>0.00175</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R18-D1.5-SH0.2-C0.02546</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.025463</Conductivity>
+    <ConductivityQII>0.0363757</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R18-D1.5-SH0.2-C0.02546 36</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.025463</Conductivity>
+    <ConductivityQII>0.025463</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R15-D1.5-SH0.2-C0.01944 37</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0194444</Conductivity>
+    <ConductivityQII>0.0194444</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R13-D1.5-SH0.2-C0.02244 38</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0224376</Conductivity>
+    <ConductivityQII>0.0224376</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R9.1-D1.5-SH0.2-C0.03205 39</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0320513</Conductivity>
+    <ConductivityQII>0.0320513</ConductivityQII>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R30-D1.5-SH0.2-C0.02569 40</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0256944</Conductivity>
+    <ConductivityQII>0.0256944</ConductivityQII>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R38-D1.5-SH0.2-C0.02467 41</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0246711</Conductivity>
+    <ConductivityQII>0.0246711</ConductivityQII>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R19-D1.5-SH0.2-C0.02412 42</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0241228</Conductivity>
+    <ConductivityQII>0.0241228</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R21-D1.5-SH0.2-C0.02183</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0218254</Conductivity>
+    <ConductivityQII>0.0218254</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R21-D1.5-SH0.2-C0.01389</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0138889</Conductivity>
+    <ConductivityQII>0.0138889</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <WindowType>
+    <Name>Door 30 / 23</Name>
+    <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+    <NFRCUfactor>0.3</NFRCUfactor>
+    <NFRCSHGC>0.23</NFRCSHGC>
+    <ExteriorShade>Insect Screen (default)</ExteriorShade>
+    <ModelFinsOverhang>1</ModelFinsOverhang>
+    <OverhangDepth>0</OverhangDepth>
+    <OverhangDistUp>0</OverhangDistUp>
+    <OverhangExL>0</OverhangExL>
+    <OverhangExR>0</OverhangExR>
+    <OverhangFlap>0</OverhangFlap>
+    <LeftFinDepth>0</LeftFinDepth>
+    <LeftFinTopUp>0</LeftFinTopUp>
+    <LeftFinDistL>0</LeftFinDistL>
+    <LeftFinBotUp>0</LeftFinBotUp>
+    <RightFinDepth>0</RightFinDepth>
+    <RightFinTopUp>0</RightFinTopUp>
+    <RightFinDistR>0</RightFinDistR>
+    <RightFinBotUp>0</RightFinBotUp>
+  </WindowType>
+  <WindowType>
+    <Name>30 / 23 Window</Name>
+    <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+    <NFRCUfactor>0.3</NFRCUfactor>
+    <NFRCSHGC>0.23</NFRCSHGC>
+    <ExteriorShade>Insect Screen (default)</ExteriorShade>
+    <ModelFinsOverhang>1</ModelFinsOverhang>
+    <OverhangDepth>0</OverhangDepth>
+    <OverhangDistUp>0</OverhangDistUp>
+    <OverhangExL>0</OverhangExL>
+    <OverhangExR>0</OverhangExR>
+    <OverhangFlap>0</OverhangFlap>
+    <LeftFinDepth>0</LeftFinDepth>
+    <LeftFinTopUp>0</LeftFinTopUp>
+    <LeftFinDistL>0</LeftFinDistL>
+    <LeftFinBotUp>0</LeftFinBotUp>
+    <RightFinDepth>0</RightFinDepth>
+    <RightFinTopUp>0</RightFinTopUp>
+    <RightFinDistR>0</RightFinDistR>
+    <RightFinBotUp>0</RightFinBotUp>
+  </WindowType>
+  <WindowType>
+    <Name>Glass Block</Name>
+    <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+    <NFRCUfactor>0.57</NFRCUfactor>
+    <NFRCSHGC>0.67</NFRCSHGC>
+    <ExteriorShade>Insect Screen (default)</ExteriorShade>
+    <ModelFinsOverhang>1</ModelFinsOverhang>
+    <OverhangDepth>0</OverhangDepth>
+    <OverhangDistUp>0</OverhangDistUp>
+    <OverhangExL>0</OverhangExL>
+    <OverhangExR>0</OverhangExR>
+    <OverhangFlap>0</OverhangFlap>
+    <LeftFinDepth>0</LeftFinDepth>
+    <LeftFinTopUp>0</LeftFinTopUp>
+    <LeftFinDistL>0</LeftFinDistL>
+    <LeftFinBotUp>0</LeftFinBotUp>
+    <RightFinDepth>0</RightFinDepth>
+    <RightFinTopUp>0</RightFinTopUp>
+    <RightFinDistR>0</RightFinDistR>
+    <RightFinBotUp>0</RightFinBotUp>
+  </WindowType>
+  <WindowType>
+    <Name>Mild CZ 30 / 35</Name>
+    <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+    <NFRCUfactor>0.3</NFRCUfactor>
+    <NFRCSHGC>0.35</NFRCSHGC>
+    <ExteriorShade>Insect Screen (default)</ExteriorShade>
+    <ModelFinsOverhang>1</ModelFinsOverhang>
+    <OverhangDepth>0</OverhangDepth>
+    <OverhangDistUp>0</OverhangDistUp>
+    <OverhangExL>0</OverhangExL>
+    <OverhangExR>0</OverhangExR>
+    <OverhangFlap>0</OverhangFlap>
+    <LeftFinDepth>0</LeftFinDepth>
+    <LeftFinTopUp>0</LeftFinTopUp>
+    <LeftFinDistL>0</LeftFinDistL>
+    <LeftFinBotUp>0</LeftFinBotUp>
+    <RightFinDepth>0</RightFinDepth>
+    <RightFinTopUp>0</RightFinTopUp>
+    <RightFinDistR>0</RightFinDistR>
+    <RightFinBotUp>0</RightFinBotUp>
+  </WindowType>
+  <HVACSys>
+    <Name>HVAC System 1</Name>
+    <Type>Other Heating and Cooling System</Type>
+    <Status>New</Status>
+    <CFIClVentOption>- none -</CFIClVentOption>
+    <CFIClVentFlow>0</CFIClVentFlow>
+    <CFIClVentPwr>0</CFIClVentPwr>
+    <CFIClVentAttic>Attic </CFIClVentAttic>
+    <NumHeatSystemTypes>1</NumHeatSystemTypes>
+    <HeatSystemCount index="0">1</HeatSystemCount>
+    <HeatSystemCount index="1">0</HeatSystemCount>
+    <HeatSystemCount index="2">0</HeatSystemCount>
+    <HeatSystemCount index="3">0</HeatSystemCount>
+    <HeatSystemCount index="4">0</HeatSystemCount>
+    <HeatSystemCount index="5">0</HeatSystemCount>
+    <HeatSystemCount index="6">0</HeatSystemCount>
+    <HeatSystemCount index="7">0</HeatSystemCount>
+    <HeatSystemCount index="8">0</HeatSystemCount>
+    <HeatSystemCount index="9">0</HeatSystemCount>
+    <HeatSystem index="0">Furn 80</HeatSystem>
+    <AutoSizeHeatInp>1</AutoSizeHeatInp>
+    <HeatDucted>1</HeatDucted>
+    <NumCoolSystemTypes>1</NumCoolSystemTypes>
+    <CoolSystemCount index="0">1</CoolSystemCount>
+    <CoolSystemCount index="1">0</CoolSystemCount>
+    <CoolSystemCount index="2">0</CoolSystemCount>
+    <CoolSystemCount index="3">0</CoolSystemCount>
+    <CoolSystemCount index="4">0</CoolSystemCount>
+    <CoolSystemCount index="5">0</CoolSystemCount>
+    <CoolSystemCount index="6">0</CoolSystemCount>
+    <CoolSystemCount index="7">0</CoolSystemCount>
+    <CoolSystemCount index="8">0</CoolSystemCount>
+    <CoolSystemCount index="9">0</CoolSystemCount>
+    <CoolSystem index="0">Split 14 11.7</CoolSystem>
+    <AutoSizeCoolInp>1</AutoSizeCoolInp>
+    <CoolDucted>1</CoolDucted>
+    <NumHtPumpSystemTypes>0</NumHtPumpSystemTypes>
+    <HtPumpDucted>0</HtPumpDucted>
+    <ServesAsDHWHtr>0</ServesAsDHWHtr>
+    <DHWTankVolume>50</DHWTankVolume>
+    <DHWIntInsulRVal>0</DHWIntInsulRVal>
+    <DHWExtInsulRVal>0</DHWExtInsulRVal>
+    <DHWAmbientCond>Unconditioned</DHWAmbientCond>
+    <DistribSystem>Attic Default</DistribSystem>
+    <Fan>HVAC Fan 1</Fan>
+  </HVACSys>
+  <HVACSys>
+    <Name>Heat Pump</Name>
+    <Type>Heat Pump Heating and Cooling System</Type>
+    <Status>New</Status>
+    <CFIClVentOption>- none -</CFIClVentOption>
+    <CFIClVentFlow>0</CFIClVentFlow>
+    <CFIClVentPwr>0</CFIClVentPwr>
+    <CFIClVentAttic>Attic </CFIClVentAttic>
+    <NumHeatSystemTypes>0</NumHeatSystemTypes>
+    <AutoSizeHeatInp>0</AutoSizeHeatInp>
+    <HeatDucted>1</HeatDucted>
+    <NumCoolSystemTypes>0</NumCoolSystemTypes>
+    <AutoSizeCoolInp>1</AutoSizeCoolInp>
+    <CoolDucted>1</CoolDucted>
+    <NumHtPumpSystemTypes>1</NumHtPumpSystemTypes>
+    <HtPumpSystemCount index="0">1</HtPumpSystemCount>
+    <HtPumpSystemCount index="1">0</HtPumpSystemCount>
+    <HtPumpSystemCount index="2">0</HtPumpSystemCount>
+    <HtPumpSystemCount index="3">0</HtPumpSystemCount>
+    <HtPumpSystemCount index="4">0</HtPumpSystemCount>
+    <HtPumpSystemCount index="5">0</HtPumpSystemCount>
+    <HtPumpSystemCount index="6">0</HtPumpSystemCount>
+    <HtPumpSystemCount index="7">0</HtPumpSystemCount>
+    <HtPumpSystemCount index="8">0</HtPumpSystemCount>
+    <HtPumpSystemCount index="9">0</HtPumpSystemCount>
+    <HtPumpSystem index="0">Heat Pump System 1</HtPumpSystem>
+    <HtPumpDucted>1</HtPumpDucted>
+    <ServesAsDHWHtr>0</ServesAsDHWHtr>
+    <DHWTankVolume>50</DHWTankVolume>
+    <DHWIntInsulRVal>0</DHWIntInsulRVal>
+    <DHWExtInsulRVal>0</DHWExtInsulRVal>
+    <DHWAmbientCond>Unconditioned</DHWAmbientCond>
+    <DistribSystem>Attic Default</DistribSystem>
+    <Fan>HP Fan</Fan>
+  </HVACSys>
+  <HVACHeat>
+    <Name>Furn 80</Name>
+    <Type>CntrlFurnace - Fuel-fired central furnace</Type>
+    <AFUE>80</AFUE>
+  </HVACHeat>
+  <HVACCool>
+    <Name>Split 14 11.7</Name>
+    <Type>SplitAirCond - Split air conditioning system</Type>
+    <EffMetric>SEER/EER</EffMetric>
+    <SEER>14</SEER>
+    <SEER2>14.3</SEER2>
+    <EER>11.7</EER>
+    <CFMperTon>350</CFMperTon>
+    <ACCharge>Verified</ACCharge>
+    <RefrigerantType>R410A</RefrigerantType>
+    <UseEERinAnalysis>1</UseEERinAnalysis>
+    <IsMultiSpeed>0</IsMultiSpeed>
+    <IsZonal>0</IsZonal>
+  </HVACCool>
+  <HVACHtPump>
+    <Name>Heat Pump System 1</Name>
+    <Type>SplitHeatPump - Central split heat pump</Type>
+    <EffMetric>HSPF/SEER/EER</EffMetric>
+    <HSPF>8.2</HSPF>
+    <HSPF2>7.5</HSPF2>
+    <Cap47>36000</Cap47>
+    <Cap17>24000</Cap17>
+    <SEER>14</SEER>
+    <SEER2>14.3</SEER2>
+    <EER>11.7</EER>
+    <CFMperTon>350</CFMperTon>
+    <ACCharge>Verified</ACCharge>
+    <RefrigerantType>R410A</RefrigerantType>
+    <ClSizingFactor>1.1</ClSizingFactor>
+    <IsMultiSpeed>0</IsMultiSpeed>
+    <IsZonal>0</IsZonal>
+    <UseEERinAnalysis>0</UseEERinAnalysis>
+    <VCHPDucts>Unducted</VCHPDucts>
+  </HVACHtPump>
+  <HVACDist>
+    <Name>Attic Default</Name>
+    <Type>Ducts located in attic (Ventilated and Unventilated)</Type>
+    <Status>New</Status>
+    <IsVerified>0</IsVerified>
+    <DefaultSystem>1</DefaultSystem>
+    <DuctLeakage>Sealed and tested</DuctLeakage>
+    <DuctLeakageVal>5</DuctLeakageVal>
+    <HasBypassDuct>0</HasBypassDuct>
+    <DuctInsRvalOpt>8.0</DuctInsRvalOpt>
+    <exDuctInsRvalOpt>2.1</exDuctInsRvalOpt>
+    <SupplyDuctLoc>Attic </SupplyDuctLoc>
+    <ReturnDuctLoc>Attic </ReturnDuctLoc>
+    <SupplyDuctAttic>Attic </SupplyDuctAttic>
+    <ReturnDuctAttic>Attic </ReturnDuctAttic>
+    <RetDuctInsRvalOpt>4.2</RetDuctInsRvalOpt>
+    <DuctDesign>0</DuctDesign>
+    <LowLkgAH>0</LowLkgAH>
+    <IsLessThanFortyFt>0</IsLessThanFortyFt>
+    <IsLessThan25Ft>0</IsLessThan25Ft>
+  </HVACDist>
+  <HVACFan>
+    <Name>HVAC Fan 1</Name>
+    <Type>Single Speed PSC Furnace Fan</Type>
+    <DefaultSystem>0</DefaultSystem>
+    <WperCFMCool>0.45</WperCFMCool>
+  </HVACFan>
+  <HVACFan>
+    <Name>HP Fan</Name>
+    <Type>Single Speed PSC Furnace Fan</Type>
+    <DefaultSystem>0</DefaultSystem>
+    <WperCFMCool>0.58</WperCFMCool>
+  </HVACFan>
+  <DHWSys>
+    <Name>DHW System</Name>
+    <SystemType>Standard</SystemType>
+    <NewSmConsInstElecExcept>0</NewSmConsInstElecExcept>
+    <CentralRecircType>Non-Central</CentralRecircType>
+    <CHPWHSysDescrip>- select system description -</CHPWHSysDescrip>
+    <CHPWHIntegPkgType>Residential (NEEA rated) Product</CHPWHIntegPkgType>
+    <CHPWHCompType>- select CHPWH type -</CHPWHCompType>
+    <CHPWHNEEABrand>n/a</CHPWHNEEABrand>
+    <CHPWHNEEAModel>n/a</CHPWHNEEAModel>
+    <CHPWHComModel>- select Model -</CHPWHComModel>
+    <CHPWHTankLoc>- select tank location -</CHPWHTankLoc>
+    <CHPWHSrcAirLoc>- select source air location -</CHPWHSrcAirLoc>
+    <CHPWHLoopTankType>- none -</CHPWHLoopTankType>
+    <CHPWHLoopTankCompType>- select CHPWH type -</CHPWHLoopTankCompType>
+    <CHPWHLoopTankNEEABrand>n/a</CHPWHLoopTankNEEABrand>
+    <CHPWHLoopTankNEEAModel>n/a</CHPWHLoopTankNEEAModel>
+    <CHPWHLoopTankComModel>- select Model -</CHPWHLoopTankComModel>
+    <CompactDistrib>not compact</CompactDistrib>
+    <CDServesMBathFix>1</CDServesMBathFix>
+    <CDServesKitFix>1</CDServesKitFix>
+    <CDServesThirdFix>1</CDServesThirdFix>
+    <DHWHeater index="0">HPWH</DHWHeater>
+    <HeaterMult index="0">1</HeaterMult>
+    <UseDefaultLoops>1</UseDefaultLoops>
+    <LoopPipeInsulThk index="0">1.5</LoopPipeInsulThk>
+    <RecircPipeLoc index="0">Conditioned</RecircPipeLoc>
+    <TotShowersServed>1</TotShowersServed>
+    <TotBathsServed>1</TotBathsServed>
+    <DWHRSysConfig index="0">- specify -</DWHRSysConfig>
+    <DWHRSysConfig index="1">- specify -</DWHRSysConfig>
+    <DWHRSysConfig index="2">- specify -</DWHRSysConfig>
+    <DWHRSysConfig index="3">- specify -</DWHRSysConfig>
+    <DWHRSysConfig index="4">- specify -</DWHRSysConfig>
+    <DWHRSysConfig index="5">- specify -</DWHRSysConfig>
+    <SolFracType>- none -</SolFracType>
+  </DHWSys>
+  <DHWHeater>
+    <Name>Small Instantaneous</Name>
+    <HeaterElementType>Gas</HeaterElementType>
+    <TankType>Consumer Instantaneous (UEF)</TankType>
+    <HPWHCategory>UEF Rated</HPWHCategory>
+    <HPWHBrand>n/a</HPWHBrand>
+    <HPWHModel>n/a</HPWHModel>
+    <HPWHComModel>n/a</HPWHComModel>
+    <ASHPType>- select HPWH type -</ASHPType>
+    <EnergyFactor>0.81</EnergyFactor>
+    <TankVolume>0</TankVolume>
+    <IntInsulRVal>0</IntInsulRVal>
+    <ExtInsulRVal>0</ExtInsulRVal>
+    <AmbientCond>Unconditioned</AmbientCond>
+    <RecovEff>83.3662</RecovEff>
+    <RatedFlow>4.7</RatedFlow>
+    <AnnFuelUse>205</AnnFuelUse>
+    <AnnElecUse>52</AnnElecUse>
+    <StandbyElec>4</StandbyElec>
+    <HasElecMiniTank>0</HasElecMiniTank>
+    <ElecMiniTankPower>0</ElecMiniTankPower>
+  </DHWHeater>
+  <DHWHeater>
+    <Name>HPWH</Name>
+    <HeaterElementType>Heat Pump</HeaterElementType>
+    <TankType>Small Storage</TankType>
+    <HPWHCategory>Non-UEF Rated</HPWHCategory>
+    <HPWHBrand>n/a</HPWHBrand>
+    <HPWHModel>n/a</HPWHModel>
+    <HPWHComModel>n/a</HPWHComModel>
+    <TankOutside>0</TankOutside>
+    <TankZone>Garage</TankZone>
+    <ASHPTSrcOutside>1</ASHPTSrcOutside>
+    <EnergyFactor>3.24</EnergyFactor>
+    <TankVolume>50</TankVolume>
+    <IntInsulRVal>0</IntInsulRVal>
+    <ExtInsulRVal>0</ExtInsulRVal>
+    <AmbientCond>Unconditioned</AmbientCond>
+    <HasElecMiniTank>0</HasElecMiniTank>
+    <ElecMiniTankPower>0</ElecMiniTankPower>
+  </DHWHeater>
+</SDDXML>
