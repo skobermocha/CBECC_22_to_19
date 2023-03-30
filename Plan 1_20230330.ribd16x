@@ -1,0 +1,3153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SDDXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RulesetFilename file="CA Res 2016.bin"/>
+  <Proj>
+    <Name>Plan 1</Name>
+    <SoftwareVersion>CBECC-Res 2016.3.1 (1019)</SoftwareVersion>
+    <BEMVersion>7</BEMVersion>
+    <CreateDate>1680204566</CreateDate>
+    <ModDate>1680206468</ModDate>
+    <ProjFileName>Plan 1_20230330.ribd16x</ProjFileName>
+    <AnalysisType>Proposed and Standard</AnalysisType>
+    <CALGreen>0</CALGreen>
+    <TDVType>TDV</TDVType>
+    <StandardsVersion>Compliance 2017</StandardsVersion>
+    <AnalysisReport>Building Summary (csv)</AnalysisReport>
+    <ComplianceReportPDF>1</ComplianceReportPDF>
+    <ComplianceReportXML>1</ComplianceReportXML>
+    <PVCompCredit>0</PVCompCredit>
+    <PVWInputs>Detailed</PVWInputs>
+    <PVWDCSysSize index="0">3.15</PVWDCSysSize>
+    <PVWDCSysSize index="1">0</PVWDCSysSize>
+    <PVWDCSysSize index="2">0</PVWDCSysSize>
+    <PVWDCSysSize index="3">0</PVWDCSysSize>
+    <PVWDCSysSize index="4">0</PVWDCSysSize>
+    <PVWModuleType index="0">Standard</PVWModuleType>
+    <PVWModuleType index="1">Standard</PVWModuleType>
+    <PVWModuleType index="2">Standard</PVWModuleType>
+    <PVWModuleType index="3">Standard</PVWModuleType>
+    <PVWModuleType index="4">Standard</PVWModuleType>
+    <PVWCalFlexInstall index="0">0</PVWCalFlexInstall>
+    <PVWCalFlexInstall index="1">0</PVWCalFlexInstall>
+    <PVWCalFlexInstall index="2">0</PVWCalFlexInstall>
+    <PVWCalFlexInstall index="3">0</PVWCalFlexInstall>
+    <PVWCalFlexInstall index="4">0</PVWCalFlexInstall>
+    <PVWAzm index="0">170</PVWAzm>
+    <PVWArrayTiltInput index="0">deg</PVWArrayTiltInput>
+    <PVWArrayTiltInput index="1">deg</PVWArrayTiltInput>
+    <PVWArrayTiltInput index="2">deg</PVWArrayTiltInput>
+    <PVWArrayTiltInput index="3">deg</PVWArrayTiltInput>
+    <PVWArrayTiltInput index="4">deg</PVWArrayTiltInput>
+    <PVWArrayTiltPitch index="0">5</PVWArrayTiltPitch>
+    <PVWArrayTiltDeg index="0">22.6199</PVWArrayTiltDeg>
+    <PVWArrayType index="0">Fixed (open rack)</PVWArrayType>
+    <PVWArrayType index="1">Fixed (open rack)</PVWArrayType>
+    <PVWArrayType index="2">Fixed (open rack)</PVWArrayType>
+    <PVWArrayType index="3">Fixed (open rack)</PVWArrayType>
+    <PVWArrayType index="4">Fixed (open rack)</PVWArrayType>
+    <PVWInverterEff index="0">96</PVWInverterEff>
+    <AllowExcessPVEDR>0</AllowExcessPVEDR>
+    <BattMaxCap>0</BattMaxCap>
+    <BatteryControl>Basic</BatteryControl>
+    <BattGridHarmCredit>0</BattGridHarmCredit>
+    <TDVSummerPkFirstHr>19</TDVSummerPkFirstHr>
+    <SimSpeedOption>Compliance</SimSpeedOption>
+    <DesignRatingCalcs>0</DesignRatingCalcs>
+    <DRtgLtgCredit>0</DRtgLtgCredit>
+    <DRtgLtgReduction>0</DRtgLtgReduction>
+    <SpecifyTargetDRtg>0</SpecifyTargetDRtg>
+    <CAHPProgram>- none -</CAHPProgram>
+    <IsCAHPElecUtil>1</IsCAHPElecUtil>
+    <IsCAHPNGasUtil>1</IsCAHPNGasUtil>
+    <IsCAHPDOEChalHome>0</IsCAHPDOEChalHome>
+    <IsCAHPFutureCode>0</IsCAHPFutureCode>
+    <CAHPSolarOption>- select -</CAHPSolarOption>
+    <ClimateZone>CZ11  (Red Bluff)</ClimateZone>
+    <Address>Curve</Address>
+    <ZipCode>95648</ZipCode>
+    <RunScope>Newly Constructed</RunScope>
+    <City>Lincoln, CA</City>
+    <IsMultiFamily>0</IsMultiFamily>
+    <CentralMFamLaundry>0</CentralMFamLaundry>
+    <DfltMFamLaundryZn>Living Area</DfltMFamLaundryZn>
+    <ZonalControl>0</ZonalControl>
+    <ACH50>5</ACH50>
+    <Status>New</Status>
+    <IsVerified>0</IsVerified>
+    <IsAddAlone>0</IsAddAlone>
+    <AlterIncl2Categs>0</AlterIncl2Categs>
+    <InsulConsQuality>Improved</InsulConsQuality>
+    <NumBedrooms>2</NumBedrooms>
+    <NumAddBedrooms>0</NumAddBedrooms>
+    <AllOrientations>1</AllOrientations>
+    <FrontOrientation>0</FrontOrientation>
+    <NatGasAvailable>1</NatGasAvailable>
+    <GasType>Natural Gas</GasType>
+    <HasGarage>1</HasGarage>
+    <UnitIAQOption index="0">Specify Individual IAQ Fans</UnitIAQOption>
+    <UnitIAQOption index="1">Default Minimum IAQ Fan</UnitIAQOption>
+    <UnitIAQFan1 index="0">HRV</UnitIAQFan1>
+    <UnitIAQFanCnt1 index="0">1</UnitIAQFanCnt1>
+    <UnitIAQFanCnt1 index="1">0</UnitIAQFanCnt1>
+    <UnitIAQFanCnt2 index="0">1</UnitIAQFanCnt2>
+    <UnitIAQFanCnt2 index="1">0</UnitIAQFanCnt2>
+    <UnitIAQFanCnt3 index="0">1</UnitIAQFanCnt3>
+    <UnitIAQFanCnt3 index="1">0</UnitIAQFanCnt3>
+    <UnitIAQFanCnt4 index="0">1</UnitIAQFanCnt4>
+    <UnitIAQFanCnt4 index="1">0</UnitIAQFanCnt4>
+    <UnitIAQZone1 index="0">Living Area</UnitIAQZone1>
+    <UnitIAQZone1 index="1">Living Area</UnitIAQZone1>
+    <UnitIAQZone2 index="0">Living Area</UnitIAQZone2>
+    <UnitIAQZone2 index="1">Living Area</UnitIAQZone2>
+    <UnitIAQZone3 index="0">Living Area</UnitIAQZone3>
+    <UnitIAQZone3 index="1">Living Area</UnitIAQZone3>
+    <UnitIAQZone4 index="0">Living Area</UnitIAQZone4>
+    <UnitIAQZone4 index="1">Living Area</UnitIAQZone4>
+    <UnitClVentOption>- none -</UnitClVentOption>
+    <ClVentVerified>0</ClVentVerified>
+    <UnitClVentZone index="0">Living Area</UnitClVentZone>
+    <UnitClVentZone index="1">Living Area</UnitClVentZone>
+    <UnitClVentZone index="2">Living Area</UnitClVentZone>
+    <UnitClVentZone index="3">Living Area</UnitClVentZone>
+    <UnitClVentZone index="4">Living Area</UnitClVentZone>
+    <UnitClVentZone index="5">Living Area</UnitClVentZone>
+    <ApplRefrigZone index="0">Living Area</ApplRefrigZone>
+    <ApplWasherZone index="0">Living Area</ApplWasherZone>
+    <ApplDryerZone index="0">Living Area</ApplDryerZone>
+    <ApplCookZone index="0">Living Area</ApplCookZone>
+    <ApplDishZone index="0">Living Area</ApplDishZone>
+    <Appl_HaveRefrig index="0">1</Appl_HaveRefrig>
+    <Appl_HaveDish index="0">1</Appl_HaveDish>
+    <Appl_HaveCook index="0">1</Appl_HaveCook>
+    <Appl_HaveWasher index="0">1</Appl_HaveWasher>
+    <Appl_HaveDryer index="0">1</Appl_HaveDryer>
+    <ApplCookFuel index="0">Gas</ApplCookFuel>
+    <ApplDryerFuel index="0">Gas</ApplDryerFuel>
+    <ApplRefrigEffMethod index="0">from # bedrooms/unit</ApplRefrigEffMethod>
+    <ApplDishUsageMethod index="0">from # bedrooms/unit</ApplDishUsageMethod>
+    <ResultsCurrentMsg>(not current)</ResultsCurrentMsg>
+    <CSERpt_ZnDataDump>0</CSERpt_ZnDataDump>
+    <CSERpt_HVACDescrip>0</CSERpt_HVACDescrip>
+    <CSERpt_ZnEnergy>0</CSERpt_ZnEnergy>
+    <CSERpt_Mtr_All>0</CSERpt_Mtr_All>
+    <CSERpt_Mtr_Elec>0</CSERpt_Mtr_Elec>
+    <CSERpt_Mtr_NGas>0</CSERpt_Mtr_NGas>
+    <CSERpt_Mtr_Othr>0</CSERpt_Mtr_Othr>
+    <CSERpt_ZnEnergy_DD>0</CSERpt_ZnEnergy_DD>
+    <CSERpt_Mtr_All_DD>0</CSERpt_Mtr_All_DD>
+    <CSERpt_Mtr_Elec_DD>0</CSERpt_Mtr_Elec_DD>
+    <CSERpt_Mtr_NGas_DD>0</CSERpt_Mtr_NGas_DD>
+    <CSERpt_Mtr_Othr_DD>0</CSERpt_Mtr_Othr_DD>
+    <CSERpt_ZnEnergy_CD>0</CSERpt_ZnEnergy_CD>
+    <CSERpt_Mtr_All_CD>0</CSERpt_Mtr_All_CD>
+    <CSERpt_Mtr_Elec_CD>0</CSERpt_Mtr_Elec_CD>
+    <CSERpt_Mtr_NGas_CD>0</CSERpt_Mtr_NGas_CD>
+    <CSERpt_Mtr_Othr_CD>0</CSERpt_Mtr_Othr_CD>
+    <CSERpt_ZnEnergy_HD>0</CSERpt_ZnEnergy_HD>
+    <CSERpt_Mtr_All_HD>0</CSERpt_Mtr_All_HD>
+    <CSERpt_Mtr_Elec_HD>0</CSERpt_Mtr_Elec_HD>
+    <CSERpt_Mtr_NGas_HD>0</CSERpt_Mtr_NGas_HD>
+    <CSERpt_Mtr_Othr_HD>0</CSERpt_Mtr_Othr_HD>
+    <Zone>
+      <Name>Living Area</Name>
+      <Type>Conditioned</Type>
+      <Status>New</Status>
+      <HVACSysStatus>New</HVACSysStatus>
+      <HVACSysVerified>0</HVACSysVerified>
+      <HVACSystem>HVAC System 1</HVACSystem>
+      <DHWSys1Status>New</DHWSys1Status>
+      <DHWSys1Verified>0</DHWSys1Verified>
+      <DHWSys1>DHW System 1</DHWSys1>
+      <DHWSys2Status>New</DHWSys2Status>
+      <DHWSys2Verified>0</DHWSys2Verified>
+      <FloorArea>1227</FloorArea>
+      <CeilingHeight>9.1</CeilingHeight>
+      <FloorHeight>10.1</FloorHeight>
+      <WinHeadHeight>6.67</WinHeadHeight>
+      <Bottom>0.7</Bottom>
+      <NumStories>2</NumStories>
+      <SlabFloor>
+        <Name>Slab On Grade 1</Name>
+        <Status>New</Status>
+        <Area>470</Area>
+        <FloorZ>0.7</FloorZ>
+        <Surface>Default (80% carpeted/covered, 20% exposed)</Surface>
+        <Perimeter>69</Perimeter>
+        <HeatedSlab>0</HeatedSlab>
+        <EdgeInsulation>0</EdgeInsulation>
+        <EdgeInsulOption>R-5, 8 inches</EdgeInsulOption>
+        <exSurface>Default (80% carpeted/covered, 20% exposed)</exSurface>
+        <exEdgeInsulOption>R-5, 8 inches</exEdgeInsulOption>
+      </SlabFloor>
+      <ExtWall>
+        <Name>Front Wall</Name>
+        <Status>New</Status>
+        <Orientation>Front</Orientation>
+        <OrientationValue>0</OrientationValue>
+        <Area>232</Area>
+        <Construction>R-19 + R-4 Ext. Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>2040 SH</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>4</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>4</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>6080 SGD</Name>
+          <Status>New</Status>
+          <WinType>SGD</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>8</Height>
+          <Width>6</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>8</exHeight>
+          <exWidth>6</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>7</OverhangDepth>
+          <OverhangDistUp>2</OverhangDistUp>
+          <OverhangExL>4</OverhangExL>
+          <OverhangExR>3.3</OverhangExR>
+          <OverhangFlap>0.5</OverhangFlap>
+          <exOverhangDepth>7</exOverhangDepth>
+          <exOverhangDistUp>2</exOverhangDistUp>
+          <exOverhangExL>4</exOverhangExL>
+          <exOverhangExR>3.3</exOverhangExR>
+          <exOverhangFlap>0.5</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>6.5</RightFinDepth>
+          <RightFinTopUp>3.3</RightFinTopUp>
+          <RightFinDistR>2</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>6.5</exRightFinDepth>
+          <exRightFinTopUp>3.3</exRightFinTopUp>
+          <exRightFinDistR>2</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Left Wall</Name>
+        <Status>New</Status>
+        <Orientation>Left</Orientation>
+        <OrientationValue>90</OrientationValue>
+        <Area>550</Area>
+        <Construction>R-19 + R-4 Ext. Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>3060 SH</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>6</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>6</exHeight>
+          <exWidth>3</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>2050 SH</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>2050 SH-2</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>4010 XO</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>1</Height>
+          <Width>4</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>1</exHeight>
+          <exWidth>4</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>2030 SH</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>3</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>3</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>3040 SH</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>4</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>4</exHeight>
+          <exWidth>3</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>3050 SH</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>3</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>3050 SH-2</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>3</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Back Wall</Name>
+        <Status>New</Status>
+        <Orientation>Back</Orientation>
+        <OrientationValue>180</OrientationValue>
+        <Area>182</Area>
+        <Construction>R-19 + R-4 Ext. Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>2050 SH-3</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>2050 SH-4</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>4010 XO-2</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>1</Height>
+          <Width>4</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>1</exHeight>
+          <exWidth>4</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Right Wall</Name>
+        <Status>New</Status>
+        <Orientation>Right</Orientation>
+        <OrientationValue>270</OrientationValue>
+        <Area>609</Area>
+        <Construction>R-19 + R-4 Ext. Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>2650 SH</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>2.5</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>2.5</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>2030 SH-2</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>3</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>3</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>2050 SH-3-2</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>2050 FX</Name>
+          <Status>New</Status>
+          <WinType>FX</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>2050 FX-2</Name>
+          <Status>New</Status>
+          <WinType>FX</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>5</Height>
+          <Width>2</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>5</exHeight>
+          <exWidth>2</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <IntWall>
+        <Name>Interior Gar. Wall</Name>
+        <Status>New</Status>
+        <Area>182</Area>
+        <Construction>R-19 Int. Gar Wall</Construction>
+        <IsPartySurface>0</IsPartySurface>
+        <OtherSideModeled>0</OtherSideModeled>
+        <Outside>Garage</Outside>
+        <Door>
+          <Name>Gar. Int. Dr.</Name>
+          <Status>New</Status>
+          <Area>24</Area>
+          <Ufactor>1</Ufactor>
+          <exUfactor>1</exUfactor>
+        </Door>
+      </IntWall>
+      <CeilingBelowAttic>
+        <Name>Ceiling Living</Name>
+        <Status>New</Status>
+        <Area>756</Area>
+        <Construction>R-38 Ceiling Below Attic</Construction>
+        <AtticZone>Attic Living Area</AtticZone>
+      </CeilingBelowAttic>
+      <ExtWall>
+        <Name>Front Wall Siding</Name>
+        <Status>New</Status>
+        <Orientation>Front</Orientation>
+        <OrientationValue>0</OrientationValue>
+        <Area>127</Area>
+        <Construction>R-19 Siding Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>3060 SH-2</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>6</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>6</exHeight>
+          <exWidth>3</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+        <Win>
+          <Name>3060 SH-3</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>6</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>6</exHeight>
+          <exWidth>3</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <ExtWall>
+        <Name>Left Wall Siding</Name>
+        <Status>New</Status>
+        <Orientation>Left</Orientation>
+        <OrientationValue>90</OrientationValue>
+        <Area>61</Area>
+        <Construction>R-19 Siding Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Win>
+          <Name>3060 SH-4</Name>
+          <Status>New</Status>
+          <WinType>Oper.</WinType>
+          <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+          <Height>6</Height>
+          <Width>3</Width>
+          <Multiplier>1</Multiplier>
+          <UfactorSHGCSource>NFRC</UfactorSHGCSource>
+          <ExteriorShade>Insect Screen (default)</ExteriorShade>
+          <exHeight>6</exHeight>
+          <exWidth>3</exWidth>
+          <exMultiplier>1</exMultiplier>
+          <exUfactorSHGCSource>NFRC</exUfactorSHGCSource>
+          <exExteriorShade>Insect Screen (default)</exExteriorShade>
+          <ModelFinsOverhang>1</ModelFinsOverhang>
+          <OverhangDepth>0</OverhangDepth>
+          <OverhangDistUp>0</OverhangDistUp>
+          <OverhangExL>0</OverhangExL>
+          <OverhangExR>0</OverhangExR>
+          <OverhangFlap>0</OverhangFlap>
+          <exOverhangDepth>0</exOverhangDepth>
+          <exOverhangDistUp>0</exOverhangDistUp>
+          <exOverhangExL>0</exOverhangExL>
+          <exOverhangExR>0</exOverhangExR>
+          <exOverhangFlap>0</exOverhangFlap>
+          <LeftFinDepth>0</LeftFinDepth>
+          <LeftFinTopUp>0</LeftFinTopUp>
+          <LeftFinDistL>0</LeftFinDistL>
+          <LeftFinBotUp>0</LeftFinBotUp>
+          <exLeftFinDepth>0</exLeftFinDepth>
+          <exLeftFinTopUp>0</exLeftFinTopUp>
+          <exLeftFinDistL>0</exLeftFinDistL>
+          <exLeftFinBotUp>0</exLeftFinBotUp>
+          <RightFinDepth>0</RightFinDepth>
+          <RightFinTopUp>0</RightFinTopUp>
+          <RightFinDistR>0</RightFinDistR>
+          <RightFinBotUp>0</RightFinBotUp>
+          <exRightFinDepth>0</exRightFinDepth>
+          <exRightFinTopUp>0</exRightFinTopUp>
+          <exRightFinDistR>0</exRightFinDistR>
+          <exRightFinBotUp>0</exRightFinBotUp>
+        </Win>
+      </ExtWall>
+      <CeilingBelowAttic>
+        <Name>Ceiling Balcony</Name>
+        <Status>New</Status>
+        <Area>83</Area>
+        <Construction>R-30 Balcony</Construction>
+        <AtticZone>Attic Living Area</AtticZone>
+      </CeilingBelowAttic>
+      <InteriorFloor>
+        <Name>Floor Over Gar.</Name>
+        <Status>New</Status>
+        <Area>421</Area>
+        <FloorZ>10.1</FloorZ>
+        <Construction>R-30 Floor Over Gar.</Construction>
+        <IsPartySurface>0</IsPartySurface>
+        <OtherSideModeled>0</OtherSideModeled>
+        <Outside>Garage</Outside>
+      </InteriorFloor>
+    </Zone>
+    <Garage>
+      <Name>Garage</Name>
+      <Area>422</Area>
+      <Volume>4000</Volume>
+      <Bottom>0.7</Bottom>
+      <SlabFloor>
+        <Name>Slab On Grade Gar.</Name>
+        <Status>New</Status>
+        <Area>422</Area>
+        <FloorZ>0.7</FloorZ>
+        <Surface>Exposed</Surface>
+        <Perimeter>62</Perimeter>
+        <HeatedSlab>0</HeatedSlab>
+        <EdgeInsulation>0</EdgeInsulation>
+        <EdgeInsulOption>R-5, 8 inches</EdgeInsulOption>
+        <exSurface>Default (80% carpeted/covered, 20% exposed)</exSurface>
+        <exEdgeInsulOption>R-5, 8 inches</exEdgeInsulOption>
+      </SlabFloor>
+      <ExtWall>
+        <Name>Left Gar. Wall</Name>
+        <Status>New</Status>
+        <Orientation>Left</Orientation>
+        <OrientationValue>90</OrientationValue>
+        <Area>192</Area>
+        <Construction>R-0 Gar. Ext. Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+      </ExtWall>
+      <ExtWall>
+        <Name>Back Gar. Wall</Name>
+        <Status>New</Status>
+        <Orientation>Back</Orientation>
+        <OrientationValue>180</OrientationValue>
+        <Area>182</Area>
+        <Construction>R-0 Gar. Ext. Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+        <Door>
+          <Name>16080 Gar. Dr.</Name>
+          <Status>New</Status>
+          <Area>128</Area>
+          <Ufactor>1</Ufactor>
+          <exUfactor>1</exUfactor>
+        </Door>
+      </ExtWall>
+      <ExtWall>
+        <Name>Right Gar. Wall</Name>
+        <Status>New</Status>
+        <Orientation>Right</Orientation>
+        <OrientationValue>270</OrientationValue>
+        <Area>192</Area>
+        <Construction>R-0 Gar. Ext. Wall</Construction>
+        <Exception>- none -</Exception>
+        <Tilt>90</Tilt>
+      </ExtWall>
+    </Garage>
+    <Attic>
+      <Name>Attic Living Area</Name>
+      <Type>Ventilated</Type>
+      <Status>New</Status>
+      <RoofRise>3</RoofRise>
+      <Construction>R-19 Shingle Roof</Construction>
+      <RoofSolReflect>0.1</RoofSolReflect>
+      <RoofEmiss>0.85</RoofEmiss>
+    </Attic>
+    <EUseSummary>
+      <Name>Worst Case (S)</Name>
+      <Title1 index="1">Proposed</Title1>
+      <Title1 index="2">Proposed</Title1>
+      <Title1 index="3">Proposed</Title1>
+      <Title1 index="4">Standard</Title1>
+      <Title1 index="5">Standard</Title1>
+      <Title1 index="6">Standard</Title1>
+      <Title1 index="7">Compliance</Title1>
+      <Title1 index="9">Proposed</Title1>
+      <Title1 index="10">Standard</Title1>
+      <Title2 index="1">Design</Title2>
+      <Title2 index="2">Design</Title2>
+      <Title2 index="3">Design</Title2>
+      <Title2 index="4">Design</Title2>
+      <Title2 index="5">Design</Title2>
+      <Title2 index="6">Design</Title2>
+      <Title2 index="7">Margin</Title2>
+      <Title2 index="9">Design</Title2>
+      <Title2 index="10">Design</Title2>
+      <Title3 index="0">End Use</Title3>
+      <Title3 index="1">Site (kWh)</Title3>
+      <Title3 index="2">Site (therms)</Title3>
+      <Title3 index="3">(kTDV/ft²-yr)</Title3>
+      <Title3 index="4">Site (kWh)</Title3>
+      <Title3 index="5">Site (therms)</Title3>
+      <Title3 index="6">(kTDV/ft²-yr)</Title3>
+      <Title3 index="7">(kTDV/ft²-yr)</Title3>
+      <Title3 index="9">(kW)</Title3>
+      <Title3 index="10">(kW)</Title3>
+      <Enduse1 index="0">Space Heating</Enduse1>
+      <Enduse1 index="1">1,187</Enduse1>
+      <Enduse1 index="3">18.08</Enduse1>
+      <Enduse1 index="4">1,830</Enduse1>
+      <Enduse1 index="6">27.88</Enduse1>
+      <Enduse1 index="7">9.80</Enduse1>
+      <Enduse1 index="9">0.00</Enduse1>
+      <Enduse1 index="10">0.00</Enduse1>
+      <Enduse2 index="0">Space Cooling</Enduse2>
+      <Enduse2 index="1">1,030</Enduse2>
+      <Enduse2 index="3">44.13</Enduse2>
+      <Enduse2 index="4">1,249</Enduse2>
+      <Enduse2 index="6">53.87</Enduse2>
+      <Enduse2 index="7">9.74</Enduse2>
+      <Enduse2 index="9">1.16</Enduse2>
+      <Enduse2 index="10">1.42</Enduse2>
+      <Enduse3 index="0">IAQ Ventilation</Enduse3>
+      <Enduse3 index="1">357</Enduse3>
+      <Enduse3 index="3">6.38</Enduse3>
+      <Enduse3 index="4">357</Enduse3>
+      <Enduse3 index="6">6.38</Enduse3>
+      <Enduse3 index="7">0.00</Enduse3>
+      <Enduse3 index="9">0.04</Enduse3>
+      <Enduse3 index="10">0.04</Enduse3>
+      <Enduse4 index="0">Other HVAC</Enduse4>
+      <Enduse4 index="3">0.00</Enduse4>
+      <Enduse4 index="6">0.00</Enduse4>
+      <Enduse4 index="7">0.00</Enduse4>
+      <Enduse4 index="9">0.00</Enduse4>
+      <Enduse4 index="10">0.00</Enduse4>
+      <Enduse5 index="0">Water Heating</Enduse5>
+      <Enduse5 index="1">758</Enduse5>
+      <Enduse5 index="3">12.15</Enduse5>
+      <Enduse5 index="5">85.5</Enduse5>
+      <Enduse5 index="6">11.76</Enduse5>
+      <Enduse5 index="7">-0.39</Enduse5>
+      <Enduse5 index="9">0.01</Enduse5>
+      <Enduse5 index="10">0.00</Enduse5>
+      <Enduse6 index="0">Inside Lighting</Enduse6>
+      <Enduse6 index="1">345</Enduse6>
+      <Enduse6 index="3">6.45</Enduse6>
+      <Enduse6 index="4">345</Enduse6>
+      <Enduse6 index="6">6.45</Enduse6>
+      <Enduse6 index="7">0.00</Enduse6>
+      <Enduse6 index="9">0.05</Enduse6>
+      <Enduse6 index="10">0.05</Enduse6>
+      <Enduse7 index="0">Appl. &amp; Cooking</Enduse7>
+      <Enduse7 index="1">836</Enduse7>
+      <Enduse7 index="2">37.7</Enduse7>
+      <Enduse7 index="3">20.45</Enduse7>
+      <Enduse7 index="4">841</Enduse7>
+      <Enduse7 index="5">37.7</Enduse7>
+      <Enduse7 index="6">20.54</Enduse7>
+      <Enduse7 index="7">0.09</Enduse7>
+      <Enduse7 index="9">0.11</Enduse7>
+      <Enduse7 index="10">0.12</Enduse7>
+      <Enduse8 index="0">Plug Loads</Enduse8>
+      <Enduse8 index="1">1,680</Enduse8>
+      <Enduse8 index="3">30.58</Enduse8>
+      <Enduse8 index="4">1,680</Enduse8>
+      <Enduse8 index="6">30.58</Enduse8>
+      <Enduse8 index="7">0.00</Enduse8>
+      <Enduse8 index="9">0.21</Enduse8>
+      <Enduse8 index="10">0.21</Enduse8>
+      <Enduse9 index="0">Exterior</Enduse9>
+      <Enduse9 index="1">73</Enduse9>
+      <Enduse9 index="3">1.27</Enduse9>
+      <Enduse9 index="4">73</Enduse9>
+      <Enduse9 index="6">1.27</Enduse9>
+      <Enduse9 index="7">0.00</Enduse9>
+      <Enduse9 index="9">0.01</Enduse9>
+      <Enduse9 index="10">0.01</Enduse9>
+      <Enduse10 index="0">TOTAL</Enduse10>
+      <Enduse10 index="1">6,267</Enduse10>
+      <Enduse10 index="2">37.7</Enduse10>
+      <Enduse10 index="3">139.49</Enduse10>
+      <Enduse10 index="4">6,377</Enduse10>
+      <Enduse10 index="5">123.2</Enduse10>
+      <Enduse10 index="6">158.73</Enduse10>
+      <Enduse10 index="7">19.24</Enduse10>
+      <Enduse10 index="9">1.60</Enduse10>
+      <Enduse10 index="10">1.84</Enduse10>
+      <Enduse11 index="0">Compliance Total</Enduse11>
+      <Enduse11 index="1">3,332</Enduse11>
+      <Enduse11 index="3">80.74</Enduse11>
+      <Enduse11 index="4">3,437</Enduse11>
+      <Enduse11 index="5">85.5</Enduse11>
+      <Enduse11 index="6">99.89</Enduse11>
+      <Enduse11 index="7">19.15</Enduse11>
+      <Enduse11 index="9">1.21</Enduse11>
+      <Enduse11 index="10">1.46</Enduse11>
+      <Enduse13 index="0">Photovoltaics</Enduse13>
+      <Enduse13 index="3">0.00</Enduse13>
+      <Enduse13 index="6"> </Enduse13>
+      <Enduse13 index="7">0.00</Enduse13>
+      <Enduse13 index="9">0.00</Enduse13>
+      <Enduse14 index="0">Battery</Enduse14>
+      <Enduse14 index="3">0.00</Enduse14>
+      <Enduse14 index="6"> </Enduse14>
+      <Enduse14 index="7">0.00</Enduse14>
+      <Enduse14 index="9">0.00</Enduse14>
+      <Enduse14 index="10">0.00</Enduse14>
+      <Enduse99 index="0">Self Utilization Credit</Enduse99>
+      <PassFail>PASS</PassFail>
+      <ComplyMessage>COMPLIES</ComplyMessage>
+      <SummaryCol1 index="3">Standard Design</SummaryCol1>
+      <SummaryCol1 index="4">Proposed Designs:</SummaryCol1>
+      <SummaryCol1 index="5">North Facing</SummaryCol1>
+      <SummaryCol1 index="6">East Facing</SummaryCol1>
+      <SummaryCol1 index="7">South Facing</SummaryCol1>
+      <SummaryCol1 index="8">West Facing</SummaryCol1>
+      <SummaryCol2 index="0">Compliance</SummaryCol2>
+      <SummaryCol2 index="1">Total</SummaryCol2>
+      <SummaryCol2 index="2">(kTDV/ft²-yr)</SummaryCol2>
+      <SummaryCol2 index="3">99.89</SummaryCol2>
+      <SummaryCol2 index="5">78.65</SummaryCol2>
+      <SummaryCol2 index="6">73.57</SummaryCol2>
+      <SummaryCol2 index="7">80.74</SummaryCol2>
+      <SummaryCol2 index="8">76.80</SummaryCol2>
+      <SummaryCol3 index="0">Compliance</SummaryCol3>
+      <SummaryCol3 index="1">Margin</SummaryCol3>
+      <SummaryCol3 index="2">(kTDV/ft²-yr)</SummaryCol3>
+      <SummaryCol3 index="5">21.24</SummaryCol3>
+      <SummaryCol3 index="6">26.32</SummaryCol3>
+      <SummaryCol3 index="7">19.15</SummaryCol3>
+      <SummaryCol3 index="8">23.09</SummaryCol3>
+      <MarginkW index="0">0.25</MarginkW>
+      <MarginkWh>110.1</MarginkWh>
+      <MarginTherms>85.51</MarginTherms>
+      <PctSavingskW>13.4</PctSavingskW>
+      <PctSavingskWh>1.7</PctSavingskWh>
+      <PctSavingsTherms>69.4</PctSavingsTherms>
+      <PctSavingsTDV>12.1</PctSavingsTDV>
+      <PctSavingsCmpTDV>19.2</PctSavingsCmpTDV>
+      <PctSavkWLbl>13.4</PctSavkWLbl>
+      <PctSavkWhLbl>1.7</PctSavkWhLbl>
+      <PctSavThermsLbl>69.4</PctSavThermsLbl>
+      <PctSavTDVLbl>12.1</PctSavTDVLbl>
+      <PctSavCmpTDVLbl>19.2</PctSavCmpTDVLbl>
+      <PropElecDemand index="0">1.59848</PropElecDemand>
+      <StdElecDemand>1.84499</StdElecDemand>
+      <PropDesignPVTot>0</PropDesignPVTot>
+      <MeetsTier1>1</MeetsTier1>
+      <MeetsTier2>0</MeetsTier2>
+    </EUseSummary>
+    <EUseSummary>
+      <Name>North Facing</Name>
+      <Title1 index="1">Proposed</Title1>
+      <Title1 index="2">Proposed</Title1>
+      <Title1 index="3">Proposed</Title1>
+      <Title1 index="4">Standard</Title1>
+      <Title1 index="5">Standard</Title1>
+      <Title1 index="6">Standard</Title1>
+      <Title1 index="7">Compliance</Title1>
+      <Title1 index="9">Proposed</Title1>
+      <Title1 index="10">Standard</Title1>
+      <Title2 index="1">Design</Title2>
+      <Title2 index="2">Design</Title2>
+      <Title2 index="3">Design</Title2>
+      <Title2 index="4">Design</Title2>
+      <Title2 index="5">Design</Title2>
+      <Title2 index="6">Design</Title2>
+      <Title2 index="7">Margin</Title2>
+      <Title2 index="9">Design</Title2>
+      <Title2 index="10">Design</Title2>
+      <Title3 index="0">End Use</Title3>
+      <Title3 index="1">Site (kWh)</Title3>
+      <Title3 index="2">Site (therms)</Title3>
+      <Title3 index="3">(kTDV/ft²-yr)</Title3>
+      <Title3 index="4">Site (kWh)</Title3>
+      <Title3 index="5">Site (therms)</Title3>
+      <Title3 index="6">(kTDV/ft²-yr)</Title3>
+      <Title3 index="7">(kTDV/ft²-yr)</Title3>
+      <Title3 index="9">(kW)</Title3>
+      <Title3 index="10">(kW)</Title3>
+      <Enduse1 index="0">Space Heating</Enduse1>
+      <Enduse1 index="1">1,256</Enduse1>
+      <Enduse1 index="3">19.14</Enduse1>
+      <Enduse1 index="4">1,830</Enduse1>
+      <Enduse1 index="6">27.88</Enduse1>
+      <Enduse1 index="7">8.74</Enduse1>
+      <Enduse1 index="9">0.00</Enduse1>
+      <Enduse1 index="10">0.00</Enduse1>
+      <Enduse2 index="0">Space Cooling</Enduse2>
+      <Enduse2 index="1">1,010</Enduse2>
+      <Enduse2 index="3">41.62</Enduse2>
+      <Enduse2 index="4">1,249</Enduse2>
+      <Enduse2 index="6">53.87</Enduse2>
+      <Enduse2 index="7">12.25</Enduse2>
+      <Enduse2 index="9">1.07</Enduse2>
+      <Enduse2 index="10">1.42</Enduse2>
+      <Enduse3 index="0">IAQ Ventilation</Enduse3>
+      <Enduse3 index="1">357</Enduse3>
+      <Enduse3 index="3">6.38</Enduse3>
+      <Enduse3 index="4">357</Enduse3>
+      <Enduse3 index="6">6.38</Enduse3>
+      <Enduse3 index="7">0.00</Enduse3>
+      <Enduse3 index="9">0.04</Enduse3>
+      <Enduse3 index="10">0.04</Enduse3>
+      <Enduse4 index="0">Other HVAC</Enduse4>
+      <Enduse4 index="3">0.00</Enduse4>
+      <Enduse4 index="6">0.00</Enduse4>
+      <Enduse4 index="7">0.00</Enduse4>
+      <Enduse4 index="9">0.00</Enduse4>
+      <Enduse4 index="10">0.00</Enduse4>
+      <Enduse5 index="0">Water Heating</Enduse5>
+      <Enduse5 index="1">718</Enduse5>
+      <Enduse5 index="3">11.51</Enduse5>
+      <Enduse5 index="5">85.5</Enduse5>
+      <Enduse5 index="6">11.76</Enduse5>
+      <Enduse5 index="7">0.25</Enduse5>
+      <Enduse5 index="9">0.01</Enduse5>
+      <Enduse5 index="10">0.00</Enduse5>
+      <Enduse6 index="0">Inside Lighting</Enduse6>
+      <Enduse6 index="1">345</Enduse6>
+      <Enduse6 index="3">6.45</Enduse6>
+      <Enduse6 index="4">345</Enduse6>
+      <Enduse6 index="6">6.45</Enduse6>
+      <Enduse6 index="7">0.00</Enduse6>
+      <Enduse6 index="9">0.05</Enduse6>
+      <Enduse6 index="10">0.05</Enduse6>
+      <Enduse7 index="0">Appl. &amp; Cooking</Enduse7>
+      <Enduse7 index="1">841</Enduse7>
+      <Enduse7 index="2">37.7</Enduse7>
+      <Enduse7 index="3">20.55</Enduse7>
+      <Enduse7 index="4">841</Enduse7>
+      <Enduse7 index="5">37.7</Enduse7>
+      <Enduse7 index="6">20.54</Enduse7>
+      <Enduse7 index="7">-0.01</Enduse7>
+      <Enduse7 index="9">0.12</Enduse7>
+      <Enduse7 index="10">0.12</Enduse7>
+      <Enduse8 index="0">Plug Loads</Enduse8>
+      <Enduse8 index="1">1,680</Enduse8>
+      <Enduse8 index="3">30.58</Enduse8>
+      <Enduse8 index="4">1,680</Enduse8>
+      <Enduse8 index="6">30.58</Enduse8>
+      <Enduse8 index="7">0.00</Enduse8>
+      <Enduse8 index="9">0.21</Enduse8>
+      <Enduse8 index="10">0.21</Enduse8>
+      <Enduse9 index="0">Exterior</Enduse9>
+      <Enduse9 index="1">73</Enduse9>
+      <Enduse9 index="3">1.27</Enduse9>
+      <Enduse9 index="4">73</Enduse9>
+      <Enduse9 index="6">1.27</Enduse9>
+      <Enduse9 index="7">0.00</Enduse9>
+      <Enduse9 index="9">0.01</Enduse9>
+      <Enduse9 index="10">0.01</Enduse9>
+      <Enduse10 index="0">TOTAL</Enduse10>
+      <Enduse10 index="1">6,280</Enduse10>
+      <Enduse10 index="2">37.7</Enduse10>
+      <Enduse10 index="3">137.50</Enduse10>
+      <Enduse10 index="4">6,377</Enduse10>
+      <Enduse10 index="5">123.2</Enduse10>
+      <Enduse10 index="6">158.73</Enduse10>
+      <Enduse10 index="7">21.23</Enduse10>
+      <Enduse10 index="9">1.52</Enduse10>
+      <Enduse10 index="10">1.84</Enduse10>
+      <Enduse11 index="0">Compliance Total</Enduse11>
+      <Enduse11 index="1">3,341</Enduse11>
+      <Enduse11 index="3">78.65</Enduse11>
+      <Enduse11 index="4">3,437</Enduse11>
+      <Enduse11 index="5">85.5</Enduse11>
+      <Enduse11 index="6">99.89</Enduse11>
+      <Enduse11 index="7">21.24</Enduse11>
+      <Enduse11 index="9">1.13</Enduse11>
+      <Enduse11 index="10">1.46</Enduse11>
+      <Enduse13 index="0">Photovoltaics</Enduse13>
+      <Enduse13 index="3">0.00</Enduse13>
+      <Enduse13 index="6"> </Enduse13>
+      <Enduse13 index="7">0.00</Enduse13>
+      <Enduse14 index="0">Battery</Enduse14>
+      <Enduse14 index="3">0.00</Enduse14>
+      <Enduse14 index="6"> </Enduse14>
+      <Enduse14 index="7">0.00</Enduse14>
+      <Enduse14 index="9">0.00</Enduse14>
+      <Enduse14 index="10">0.00</Enduse14>
+      <Enduse99 index="0">Self Utilization Credit</Enduse99>
+      <PassFail>PASS</PassFail>
+      <ComplyMessage>COMPLIES</ComplyMessage>
+      <SummaryCol1 index="3">Standard Design</SummaryCol1>
+      <SummaryCol1 index="4">Proposed Designs:</SummaryCol1>
+      <SummaryCol1 index="5">North Facing</SummaryCol1>
+      <SummaryCol1 index="6">East Facing</SummaryCol1>
+      <SummaryCol1 index="7">South Facing</SummaryCol1>
+      <SummaryCol1 index="8">West Facing</SummaryCol1>
+      <SummaryCol2 index="0">Compliance</SummaryCol2>
+      <SummaryCol2 index="1">Total</SummaryCol2>
+      <SummaryCol2 index="2">(kTDV/ft²-yr)</SummaryCol2>
+      <SummaryCol2 index="3">99.89</SummaryCol2>
+      <SummaryCol2 index="5">78.65</SummaryCol2>
+      <SummaryCol2 index="6">73.57</SummaryCol2>
+      <SummaryCol2 index="7">80.74</SummaryCol2>
+      <SummaryCol2 index="8">76.80</SummaryCol2>
+      <SummaryCol3 index="0">Compliance</SummaryCol3>
+      <SummaryCol3 index="1">Margin</SummaryCol3>
+      <SummaryCol3 index="2">(kTDV/ft²-yr)</SummaryCol3>
+      <SummaryCol3 index="5">21.24</SummaryCol3>
+      <SummaryCol3 index="6">26.32</SummaryCol3>
+      <SummaryCol3 index="7">19.15</SummaryCol3>
+      <SummaryCol3 index="8">23.09</SummaryCol3>
+      <MarginkW index="0">0.33</MarginkW>
+      <MarginkWh>96.5</MarginkWh>
+      <MarginTherms>85.51</MarginTherms>
+      <PctSavingskW>17.9</PctSavingskW>
+      <PctSavingskWh>1.5</PctSavingskWh>
+      <PctSavingsTherms>69.4</PctSavingsTherms>
+      <PctSavingsTDV>13.4</PctSavingsTDV>
+      <PctSavingsCmpTDV>21.3</PctSavingsCmpTDV>
+      <PctSavkWLbl>17.9</PctSavkWLbl>
+      <PctSavkWhLbl>1.5</PctSavkWhLbl>
+      <PctSavThermsLbl>69.4</PctSavThermsLbl>
+      <PctSavTDVLbl>13.4</PctSavTDVLbl>
+      <PctSavCmpTDVLbl>21.3</PctSavCmpTDVLbl>
+      <PropElecDemand index="0">1.51551</PropElecDemand>
+      <StdElecDemand>1.84499</StdElecDemand>
+      <MeetsTier1>1</MeetsTier1>
+      <MeetsTier2>0</MeetsTier2>
+    </EUseSummary>
+    <EUseSummary>
+      <Name>East Facing</Name>
+      <Title1 index="1">Proposed</Title1>
+      <Title1 index="2">Proposed</Title1>
+      <Title1 index="3">Proposed</Title1>
+      <Title1 index="4">Standard</Title1>
+      <Title1 index="5">Standard</Title1>
+      <Title1 index="6">Standard</Title1>
+      <Title1 index="7">Compliance</Title1>
+      <Title1 index="9">Proposed</Title1>
+      <Title1 index="10">Standard</Title1>
+      <Title2 index="1">Design</Title2>
+      <Title2 index="2">Design</Title2>
+      <Title2 index="3">Design</Title2>
+      <Title2 index="4">Design</Title2>
+      <Title2 index="5">Design</Title2>
+      <Title2 index="6">Design</Title2>
+      <Title2 index="7">Margin</Title2>
+      <Title2 index="9">Design</Title2>
+      <Title2 index="10">Design</Title2>
+      <Title3 index="0">End Use</Title3>
+      <Title3 index="1">Site (kWh)</Title3>
+      <Title3 index="2">Site (therms)</Title3>
+      <Title3 index="3">(kTDV/ft²-yr)</Title3>
+      <Title3 index="4">Site (kWh)</Title3>
+      <Title3 index="5">Site (therms)</Title3>
+      <Title3 index="6">(kTDV/ft²-yr)</Title3>
+      <Title3 index="7">(kTDV/ft²-yr)</Title3>
+      <Title3 index="9">(kW)</Title3>
+      <Title3 index="10">(kW)</Title3>
+      <Enduse1 index="0">Space Heating</Enduse1>
+      <Enduse1 index="1">1,125</Enduse1>
+      <Enduse1 index="3">17.12</Enduse1>
+      <Enduse1 index="4">1,830</Enduse1>
+      <Enduse1 index="6">27.88</Enduse1>
+      <Enduse1 index="7">10.76</Enduse1>
+      <Enduse1 index="9">0.00</Enduse1>
+      <Enduse1 index="10">0.00</Enduse1>
+      <Enduse2 index="0">Space Cooling</Enduse2>
+      <Enduse2 index="1">933</Enduse2>
+      <Enduse2 index="3">38.24</Enduse2>
+      <Enduse2 index="4">1,249</Enduse2>
+      <Enduse2 index="6">53.87</Enduse2>
+      <Enduse2 index="7">15.63</Enduse2>
+      <Enduse2 index="9">1.02</Enduse2>
+      <Enduse2 index="10">1.42</Enduse2>
+      <Enduse3 index="0">IAQ Ventilation</Enduse3>
+      <Enduse3 index="1">357</Enduse3>
+      <Enduse3 index="3">6.38</Enduse3>
+      <Enduse3 index="4">357</Enduse3>
+      <Enduse3 index="6">6.38</Enduse3>
+      <Enduse3 index="7">0.00</Enduse3>
+      <Enduse3 index="9">0.04</Enduse3>
+      <Enduse3 index="10">0.04</Enduse3>
+      <Enduse4 index="0">Other HVAC</Enduse4>
+      <Enduse4 index="3">0.00</Enduse4>
+      <Enduse4 index="6">0.00</Enduse4>
+      <Enduse4 index="7">0.00</Enduse4>
+      <Enduse4 index="9">0.00</Enduse4>
+      <Enduse4 index="10">0.00</Enduse4>
+      <Enduse5 index="0">Water Heating</Enduse5>
+      <Enduse5 index="1">739</Enduse5>
+      <Enduse5 index="3">11.83</Enduse5>
+      <Enduse5 index="5">85.5</Enduse5>
+      <Enduse5 index="6">11.76</Enduse5>
+      <Enduse5 index="7">-0.07</Enduse5>
+      <Enduse5 index="9">0.01</Enduse5>
+      <Enduse5 index="10">0.00</Enduse5>
+      <Enduse6 index="0">Inside Lighting</Enduse6>
+      <Enduse6 index="1">345</Enduse6>
+      <Enduse6 index="3">6.45</Enduse6>
+      <Enduse6 index="4">345</Enduse6>
+      <Enduse6 index="6">6.45</Enduse6>
+      <Enduse6 index="7">0.00</Enduse6>
+      <Enduse6 index="9">0.05</Enduse6>
+      <Enduse6 index="10">0.05</Enduse6>
+      <Enduse7 index="0">Appl. &amp; Cooking</Enduse7>
+      <Enduse7 index="1">839</Enduse7>
+      <Enduse7 index="2">37.7</Enduse7>
+      <Enduse7 index="3">20.52</Enduse7>
+      <Enduse7 index="4">841</Enduse7>
+      <Enduse7 index="5">37.7</Enduse7>
+      <Enduse7 index="6">20.54</Enduse7>
+      <Enduse7 index="7">0.02</Enduse7>
+      <Enduse7 index="9">0.12</Enduse7>
+      <Enduse7 index="10">0.12</Enduse7>
+      <Enduse8 index="0">Plug Loads</Enduse8>
+      <Enduse8 index="1">1,680</Enduse8>
+      <Enduse8 index="3">30.58</Enduse8>
+      <Enduse8 index="4">1,680</Enduse8>
+      <Enduse8 index="6">30.58</Enduse8>
+      <Enduse8 index="7">0.00</Enduse8>
+      <Enduse8 index="9">0.21</Enduse8>
+      <Enduse8 index="10">0.21</Enduse8>
+      <Enduse9 index="0">Exterior</Enduse9>
+      <Enduse9 index="1">73</Enduse9>
+      <Enduse9 index="3">1.27</Enduse9>
+      <Enduse9 index="4">73</Enduse9>
+      <Enduse9 index="6">1.27</Enduse9>
+      <Enduse9 index="7">0.00</Enduse9>
+      <Enduse9 index="9">0.01</Enduse9>
+      <Enduse9 index="10">0.01</Enduse9>
+      <Enduse10 index="0">TOTAL</Enduse10>
+      <Enduse10 index="1">6,092</Enduse10>
+      <Enduse10 index="2">37.7</Enduse10>
+      <Enduse10 index="3">132.39</Enduse10>
+      <Enduse10 index="4">6,377</Enduse10>
+      <Enduse10 index="5">123.2</Enduse10>
+      <Enduse10 index="6">158.73</Enduse10>
+      <Enduse10 index="7">26.34</Enduse10>
+      <Enduse10 index="9">1.46</Enduse10>
+      <Enduse10 index="10">1.84</Enduse10>
+      <Enduse11 index="0">Compliance Total</Enduse11>
+      <Enduse11 index="1">3,155</Enduse11>
+      <Enduse11 index="3">73.57</Enduse11>
+      <Enduse11 index="4">3,437</Enduse11>
+      <Enduse11 index="5">85.5</Enduse11>
+      <Enduse11 index="6">99.89</Enduse11>
+      <Enduse11 index="7">26.32</Enduse11>
+      <Enduse11 index="9">1.08</Enduse11>
+      <Enduse11 index="10">1.46</Enduse11>
+      <Enduse13 index="0">Photovoltaics</Enduse13>
+      <Enduse13 index="3">0.00</Enduse13>
+      <Enduse13 index="6"> </Enduse13>
+      <Enduse13 index="7">0.00</Enduse13>
+      <Enduse14 index="0">Battery</Enduse14>
+      <Enduse14 index="3">0.00</Enduse14>
+      <Enduse14 index="6"> </Enduse14>
+      <Enduse14 index="7">0.00</Enduse14>
+      <Enduse14 index="9">0.00</Enduse14>
+      <Enduse14 index="10">0.00</Enduse14>
+      <Enduse99 index="0">Self Utilization Credit</Enduse99>
+      <PassFail>PASS</PassFail>
+      <ComplyMessage>COMPLIES</ComplyMessage>
+      <SummaryCol1 index="3">Standard Design</SummaryCol1>
+      <SummaryCol1 index="4">Proposed Designs:</SummaryCol1>
+      <SummaryCol1 index="5">North Facing</SummaryCol1>
+      <SummaryCol1 index="6">East Facing</SummaryCol1>
+      <SummaryCol1 index="7">South Facing</SummaryCol1>
+      <SummaryCol1 index="8">West Facing</SummaryCol1>
+      <SummaryCol2 index="0">Compliance</SummaryCol2>
+      <SummaryCol2 index="1">Total</SummaryCol2>
+      <SummaryCol2 index="2">(kTDV/ft²-yr)</SummaryCol2>
+      <SummaryCol2 index="3">99.89</SummaryCol2>
+      <SummaryCol2 index="5">78.65</SummaryCol2>
+      <SummaryCol2 index="6">73.57</SummaryCol2>
+      <SummaryCol2 index="7">80.74</SummaryCol2>
+      <SummaryCol2 index="8">76.80</SummaryCol2>
+      <SummaryCol3 index="0">Compliance</SummaryCol3>
+      <SummaryCol3 index="1">Margin</SummaryCol3>
+      <SummaryCol3 index="2">(kTDV/ft²-yr)</SummaryCol3>
+      <SummaryCol3 index="5">21.24</SummaryCol3>
+      <SummaryCol3 index="6">26.32</SummaryCol3>
+      <SummaryCol3 index="7">19.15</SummaryCol3>
+      <SummaryCol3 index="8">23.09</SummaryCol3>
+      <MarginkW index="0">0.38</MarginkW>
+      <MarginkWh>284.2</MarginkWh>
+      <MarginTherms>85.51</MarginTherms>
+      <PctSavingskW>20.7</PctSavingskW>
+      <PctSavingskWh>4.5</PctSavingskWh>
+      <PctSavingsTherms>69.4</PctSavingsTherms>
+      <PctSavingsTDV>16.6</PctSavingsTDV>
+      <PctSavingsCmpTDV>26.3</PctSavingsCmpTDV>
+      <PctSavkWLbl>20.7</PctSavkWLbl>
+      <PctSavkWhLbl>4.5</PctSavkWhLbl>
+      <PctSavThermsLbl>69.4</PctSavThermsLbl>
+      <PctSavTDVLbl>16.6</PctSavTDVLbl>
+      <PctSavCmpTDVLbl>26.3</PctSavCmpTDVLbl>
+      <PropElecDemand index="0">1.46375</PropElecDemand>
+      <StdElecDemand>1.84499</StdElecDemand>
+      <MeetsTier1>1</MeetsTier1>
+      <MeetsTier2>0</MeetsTier2>
+    </EUseSummary>
+    <EUseSummary>
+      <Name>South Facing</Name>
+      <Title1 index="1">Proposed</Title1>
+      <Title1 index="2">Proposed</Title1>
+      <Title1 index="3">Proposed</Title1>
+      <Title1 index="4">Standard</Title1>
+      <Title1 index="5">Standard</Title1>
+      <Title1 index="6">Standard</Title1>
+      <Title1 index="7">Compliance</Title1>
+      <Title1 index="9">Proposed</Title1>
+      <Title1 index="10">Standard</Title1>
+      <Title2 index="1">Design</Title2>
+      <Title2 index="2">Design</Title2>
+      <Title2 index="3">Design</Title2>
+      <Title2 index="4">Design</Title2>
+      <Title2 index="5">Design</Title2>
+      <Title2 index="6">Design</Title2>
+      <Title2 index="7">Margin</Title2>
+      <Title2 index="9">Design</Title2>
+      <Title2 index="10">Design</Title2>
+      <Title3 index="0">End Use</Title3>
+      <Title3 index="1">Site (kWh)</Title3>
+      <Title3 index="2">Site (therms)</Title3>
+      <Title3 index="3">(kTDV/ft²-yr)</Title3>
+      <Title3 index="4">Site (kWh)</Title3>
+      <Title3 index="5">Site (therms)</Title3>
+      <Title3 index="6">(kTDV/ft²-yr)</Title3>
+      <Title3 index="7">(kTDV/ft²-yr)</Title3>
+      <Title3 index="9">(kW)</Title3>
+      <Title3 index="10">(kW)</Title3>
+      <Enduse1 index="0">Space Heating</Enduse1>
+      <Enduse1 index="1">1,187</Enduse1>
+      <Enduse1 index="3">18.08</Enduse1>
+      <Enduse1 index="4">1,830</Enduse1>
+      <Enduse1 index="6">27.88</Enduse1>
+      <Enduse1 index="7">9.80</Enduse1>
+      <Enduse1 index="9">0.00</Enduse1>
+      <Enduse1 index="10">0.00</Enduse1>
+      <Enduse2 index="0">Space Cooling</Enduse2>
+      <Enduse2 index="1">1,030</Enduse2>
+      <Enduse2 index="3">44.13</Enduse2>
+      <Enduse2 index="4">1,249</Enduse2>
+      <Enduse2 index="6">53.87</Enduse2>
+      <Enduse2 index="7">9.74</Enduse2>
+      <Enduse2 index="9">1.16</Enduse2>
+      <Enduse2 index="10">1.42</Enduse2>
+      <Enduse3 index="0">IAQ Ventilation</Enduse3>
+      <Enduse3 index="1">357</Enduse3>
+      <Enduse3 index="3">6.38</Enduse3>
+      <Enduse3 index="4">357</Enduse3>
+      <Enduse3 index="6">6.38</Enduse3>
+      <Enduse3 index="7">0.00</Enduse3>
+      <Enduse3 index="9">0.04</Enduse3>
+      <Enduse3 index="10">0.04</Enduse3>
+      <Enduse4 index="0">Other HVAC</Enduse4>
+      <Enduse4 index="3">0.00</Enduse4>
+      <Enduse4 index="6">0.00</Enduse4>
+      <Enduse4 index="7">0.00</Enduse4>
+      <Enduse4 index="9">0.00</Enduse4>
+      <Enduse4 index="10">0.00</Enduse4>
+      <Enduse5 index="0">Water Heating</Enduse5>
+      <Enduse5 index="1">758</Enduse5>
+      <Enduse5 index="3">12.15</Enduse5>
+      <Enduse5 index="5">85.5</Enduse5>
+      <Enduse5 index="6">11.76</Enduse5>
+      <Enduse5 index="7">-0.39</Enduse5>
+      <Enduse5 index="9">0.01</Enduse5>
+      <Enduse5 index="10">0.00</Enduse5>
+      <Enduse6 index="0">Inside Lighting</Enduse6>
+      <Enduse6 index="1">345</Enduse6>
+      <Enduse6 index="3">6.45</Enduse6>
+      <Enduse6 index="4">345</Enduse6>
+      <Enduse6 index="6">6.45</Enduse6>
+      <Enduse6 index="7">0.00</Enduse6>
+      <Enduse6 index="9">0.05</Enduse6>
+      <Enduse6 index="10">0.05</Enduse6>
+      <Enduse7 index="0">Appl. &amp; Cooking</Enduse7>
+      <Enduse7 index="1">836</Enduse7>
+      <Enduse7 index="2">37.7</Enduse7>
+      <Enduse7 index="3">20.45</Enduse7>
+      <Enduse7 index="4">841</Enduse7>
+      <Enduse7 index="5">37.7</Enduse7>
+      <Enduse7 index="6">20.54</Enduse7>
+      <Enduse7 index="7">0.09</Enduse7>
+      <Enduse7 index="9">0.11</Enduse7>
+      <Enduse7 index="10">0.12</Enduse7>
+      <Enduse8 index="0">Plug Loads</Enduse8>
+      <Enduse8 index="1">1,680</Enduse8>
+      <Enduse8 index="3">30.58</Enduse8>
+      <Enduse8 index="4">1,680</Enduse8>
+      <Enduse8 index="6">30.58</Enduse8>
+      <Enduse8 index="7">0.00</Enduse8>
+      <Enduse8 index="9">0.21</Enduse8>
+      <Enduse8 index="10">0.21</Enduse8>
+      <Enduse9 index="0">Exterior</Enduse9>
+      <Enduse9 index="1">73</Enduse9>
+      <Enduse9 index="3">1.27</Enduse9>
+      <Enduse9 index="4">73</Enduse9>
+      <Enduse9 index="6">1.27</Enduse9>
+      <Enduse9 index="7">0.00</Enduse9>
+      <Enduse9 index="9">0.01</Enduse9>
+      <Enduse9 index="10">0.01</Enduse9>
+      <Enduse10 index="0">TOTAL</Enduse10>
+      <Enduse10 index="1">6,267</Enduse10>
+      <Enduse10 index="2">37.7</Enduse10>
+      <Enduse10 index="3">139.49</Enduse10>
+      <Enduse10 index="4">6,377</Enduse10>
+      <Enduse10 index="5">123.2</Enduse10>
+      <Enduse10 index="6">158.73</Enduse10>
+      <Enduse10 index="7">19.24</Enduse10>
+      <Enduse10 index="9">1.60</Enduse10>
+      <Enduse10 index="10">1.84</Enduse10>
+      <Enduse11 index="0">Compliance Total</Enduse11>
+      <Enduse11 index="1">3,332</Enduse11>
+      <Enduse11 index="3">80.74</Enduse11>
+      <Enduse11 index="4">3,437</Enduse11>
+      <Enduse11 index="5">85.5</Enduse11>
+      <Enduse11 index="6">99.89</Enduse11>
+      <Enduse11 index="7">19.15</Enduse11>
+      <Enduse11 index="9">1.21</Enduse11>
+      <Enduse11 index="10">1.46</Enduse11>
+      <Enduse13 index="0">Photovoltaics</Enduse13>
+      <Enduse13 index="3">0.00</Enduse13>
+      <Enduse13 index="6"> </Enduse13>
+      <Enduse13 index="7">0.00</Enduse13>
+      <Enduse14 index="0">Battery</Enduse14>
+      <Enduse14 index="3">0.00</Enduse14>
+      <Enduse14 index="6"> </Enduse14>
+      <Enduse14 index="7">0.00</Enduse14>
+      <Enduse14 index="9">0.00</Enduse14>
+      <Enduse14 index="10">0.00</Enduse14>
+      <Enduse99 index="0">Self Utilization Credit</Enduse99>
+      <PassFail>PASS</PassFail>
+      <ComplyMessage>COMPLIES</ComplyMessage>
+      <SummaryCol1 index="3">Standard Design</SummaryCol1>
+      <SummaryCol1 index="4">Proposed Designs:</SummaryCol1>
+      <SummaryCol1 index="5">North Facing</SummaryCol1>
+      <SummaryCol1 index="6">East Facing</SummaryCol1>
+      <SummaryCol1 index="7">South Facing</SummaryCol1>
+      <SummaryCol1 index="8">West Facing</SummaryCol1>
+      <SummaryCol2 index="0">Compliance</SummaryCol2>
+      <SummaryCol2 index="1">Total</SummaryCol2>
+      <SummaryCol2 index="2">(kTDV/ft²-yr)</SummaryCol2>
+      <SummaryCol2 index="3">99.89</SummaryCol2>
+      <SummaryCol2 index="5">78.65</SummaryCol2>
+      <SummaryCol2 index="6">73.57</SummaryCol2>
+      <SummaryCol2 index="7">80.74</SummaryCol2>
+      <SummaryCol2 index="8">76.80</SummaryCol2>
+      <SummaryCol3 index="0">Compliance</SummaryCol3>
+      <SummaryCol3 index="1">Margin</SummaryCol3>
+      <SummaryCol3 index="2">(kTDV/ft²-yr)</SummaryCol3>
+      <SummaryCol3 index="5">21.24</SummaryCol3>
+      <SummaryCol3 index="6">26.32</SummaryCol3>
+      <SummaryCol3 index="7">19.15</SummaryCol3>
+      <SummaryCol3 index="8">23.09</SummaryCol3>
+      <MarginkW index="0">0.25</MarginkW>
+      <MarginkWh>110.1</MarginkWh>
+      <MarginTherms>85.51</MarginTherms>
+      <PctSavingskW>13.4</PctSavingskW>
+      <PctSavingskWh>1.7</PctSavingskWh>
+      <PctSavingsTherms>69.4</PctSavingsTherms>
+      <PctSavingsTDV>12.1</PctSavingsTDV>
+      <PctSavingsCmpTDV>19.2</PctSavingsCmpTDV>
+      <PctSavkWLbl>13.4</PctSavkWLbl>
+      <PctSavkWhLbl>1.7</PctSavkWhLbl>
+      <PctSavThermsLbl>69.4</PctSavThermsLbl>
+      <PctSavTDVLbl>12.1</PctSavTDVLbl>
+      <PctSavCmpTDVLbl>19.2</PctSavCmpTDVLbl>
+      <PropElecDemand index="0">1.59848</PropElecDemand>
+      <StdElecDemand>1.84499</StdElecDemand>
+      <MeetsTier1>1</MeetsTier1>
+      <MeetsTier2>0</MeetsTier2>
+    </EUseSummary>
+    <EUseSummary>
+      <Name>West Facing</Name>
+      <Title1 index="1">Proposed</Title1>
+      <Title1 index="2">Proposed</Title1>
+      <Title1 index="3">Proposed</Title1>
+      <Title1 index="4">Standard</Title1>
+      <Title1 index="5">Standard</Title1>
+      <Title1 index="6">Standard</Title1>
+      <Title1 index="7">Compliance</Title1>
+      <Title1 index="9">Proposed</Title1>
+      <Title1 index="10">Standard</Title1>
+      <Title2 index="1">Design</Title2>
+      <Title2 index="2">Design</Title2>
+      <Title2 index="3">Design</Title2>
+      <Title2 index="4">Design</Title2>
+      <Title2 index="5">Design</Title2>
+      <Title2 index="6">Design</Title2>
+      <Title2 index="7">Margin</Title2>
+      <Title2 index="9">Design</Title2>
+      <Title2 index="10">Design</Title2>
+      <Title3 index="0">End Use</Title3>
+      <Title3 index="1">Site (kWh)</Title3>
+      <Title3 index="2">Site (therms)</Title3>
+      <Title3 index="3">(kTDV/ft²-yr)</Title3>
+      <Title3 index="4">Site (kWh)</Title3>
+      <Title3 index="5">Site (therms)</Title3>
+      <Title3 index="6">(kTDV/ft²-yr)</Title3>
+      <Title3 index="7">(kTDV/ft²-yr)</Title3>
+      <Title3 index="9">(kW)</Title3>
+      <Title3 index="10">(kW)</Title3>
+      <Enduse1 index="0">Space Heating</Enduse1>
+      <Enduse1 index="1">1,275</Enduse1>
+      <Enduse1 index="3">19.42</Enduse1>
+      <Enduse1 index="4">1,830</Enduse1>
+      <Enduse1 index="6">27.88</Enduse1>
+      <Enduse1 index="7">8.46</Enduse1>
+      <Enduse1 index="9">0.00</Enduse1>
+      <Enduse1 index="10">0.00</Enduse1>
+      <Enduse2 index="0">Space Cooling</Enduse2>
+      <Enduse2 index="1">910</Enduse2>
+      <Enduse2 index="3">39.26</Enduse2>
+      <Enduse2 index="4">1,249</Enduse2>
+      <Enduse2 index="6">53.87</Enduse2>
+      <Enduse2 index="7">14.61</Enduse2>
+      <Enduse2 index="9">1.02</Enduse2>
+      <Enduse2 index="10">1.42</Enduse2>
+      <Enduse3 index="0">IAQ Ventilation</Enduse3>
+      <Enduse3 index="1">357</Enduse3>
+      <Enduse3 index="3">6.38</Enduse3>
+      <Enduse3 index="4">357</Enduse3>
+      <Enduse3 index="6">6.38</Enduse3>
+      <Enduse3 index="7">0.00</Enduse3>
+      <Enduse3 index="9">0.04</Enduse3>
+      <Enduse3 index="10">0.04</Enduse3>
+      <Enduse4 index="0">Other HVAC</Enduse4>
+      <Enduse4 index="3">0.00</Enduse4>
+      <Enduse4 index="6">0.00</Enduse4>
+      <Enduse4 index="7">0.00</Enduse4>
+      <Enduse4 index="9">0.00</Enduse4>
+      <Enduse4 index="10">0.00</Enduse4>
+      <Enduse5 index="0">Water Heating</Enduse5>
+      <Enduse5 index="1">730</Enduse5>
+      <Enduse5 index="3">11.74</Enduse5>
+      <Enduse5 index="5">85.5</Enduse5>
+      <Enduse5 index="6">11.76</Enduse5>
+      <Enduse5 index="7">0.02</Enduse5>
+      <Enduse5 index="9">0.01</Enduse5>
+      <Enduse5 index="10">0.00</Enduse5>
+      <Enduse6 index="0">Inside Lighting</Enduse6>
+      <Enduse6 index="1">345</Enduse6>
+      <Enduse6 index="3">6.45</Enduse6>
+      <Enduse6 index="4">345</Enduse6>
+      <Enduse6 index="6">6.45</Enduse6>
+      <Enduse6 index="7">0.00</Enduse6>
+      <Enduse6 index="9">0.05</Enduse6>
+      <Enduse6 index="10">0.05</Enduse6>
+      <Enduse7 index="0">Appl. &amp; Cooking</Enduse7>
+      <Enduse7 index="1">837</Enduse7>
+      <Enduse7 index="2">37.7</Enduse7>
+      <Enduse7 index="3">20.46</Enduse7>
+      <Enduse7 index="4">841</Enduse7>
+      <Enduse7 index="5">37.7</Enduse7>
+      <Enduse7 index="6">20.54</Enduse7>
+      <Enduse7 index="7">0.08</Enduse7>
+      <Enduse7 index="9">0.11</Enduse7>
+      <Enduse7 index="10">0.12</Enduse7>
+      <Enduse8 index="0">Plug Loads</Enduse8>
+      <Enduse8 index="1">1,680</Enduse8>
+      <Enduse8 index="3">30.58</Enduse8>
+      <Enduse8 index="4">1,680</Enduse8>
+      <Enduse8 index="6">30.58</Enduse8>
+      <Enduse8 index="7">0.00</Enduse8>
+      <Enduse8 index="9">0.21</Enduse8>
+      <Enduse8 index="10">0.21</Enduse8>
+      <Enduse9 index="0">Exterior</Enduse9>
+      <Enduse9 index="1">73</Enduse9>
+      <Enduse9 index="3">1.27</Enduse9>
+      <Enduse9 index="4">73</Enduse9>
+      <Enduse9 index="6">1.27</Enduse9>
+      <Enduse9 index="7">0.00</Enduse9>
+      <Enduse9 index="9">0.01</Enduse9>
+      <Enduse9 index="10">0.01</Enduse9>
+      <Enduse10 index="0">TOTAL</Enduse10>
+      <Enduse10 index="1">6,208</Enduse10>
+      <Enduse10 index="2">37.7</Enduse10>
+      <Enduse10 index="3">135.56</Enduse10>
+      <Enduse10 index="4">6,377</Enduse10>
+      <Enduse10 index="5">123.2</Enduse10>
+      <Enduse10 index="6">158.73</Enduse10>
+      <Enduse10 index="7">23.17</Enduse10>
+      <Enduse10 index="9">1.46</Enduse10>
+      <Enduse10 index="10">1.84</Enduse10>
+      <Enduse11 index="0">Compliance Total</Enduse11>
+      <Enduse11 index="1">3,273</Enduse11>
+      <Enduse11 index="3">76.80</Enduse11>
+      <Enduse11 index="4">3,437</Enduse11>
+      <Enduse11 index="5">85.5</Enduse11>
+      <Enduse11 index="6">99.89</Enduse11>
+      <Enduse11 index="7">23.09</Enduse11>
+      <Enduse11 index="9">1.07</Enduse11>
+      <Enduse11 index="10">1.46</Enduse11>
+      <Enduse13 index="0">Photovoltaics</Enduse13>
+      <Enduse13 index="3">0.00</Enduse13>
+      <Enduse13 index="6"> </Enduse13>
+      <Enduse13 index="7">0.00</Enduse13>
+      <Enduse14 index="0">Battery</Enduse14>
+      <Enduse14 index="3">0.00</Enduse14>
+      <Enduse14 index="6"> </Enduse14>
+      <Enduse14 index="7">0.00</Enduse14>
+      <Enduse14 index="9">0.00</Enduse14>
+      <Enduse14 index="10">0.00</Enduse14>
+      <Enduse99 index="0">Self Utilization Credit</Enduse99>
+      <PassFail>PASS</PassFail>
+      <ComplyMessage>COMPLIES</ComplyMessage>
+      <SummaryCol1 index="3">Standard Design</SummaryCol1>
+      <SummaryCol1 index="4">Proposed Designs:</SummaryCol1>
+      <SummaryCol1 index="5">North Facing</SummaryCol1>
+      <SummaryCol1 index="6">East Facing</SummaryCol1>
+      <SummaryCol1 index="7">South Facing</SummaryCol1>
+      <SummaryCol1 index="8">West Facing</SummaryCol1>
+      <SummaryCol2 index="0">Compliance</SummaryCol2>
+      <SummaryCol2 index="1">Total</SummaryCol2>
+      <SummaryCol2 index="2">(kTDV/ft²-yr)</SummaryCol2>
+      <SummaryCol2 index="3">99.89</SummaryCol2>
+      <SummaryCol2 index="5">78.65</SummaryCol2>
+      <SummaryCol2 index="6">73.57</SummaryCol2>
+      <SummaryCol2 index="7">80.74</SummaryCol2>
+      <SummaryCol2 index="8">76.80</SummaryCol2>
+      <SummaryCol3 index="0">Compliance</SummaryCol3>
+      <SummaryCol3 index="1">Margin</SummaryCol3>
+      <SummaryCol3 index="2">(kTDV/ft²-yr)</SummaryCol3>
+      <SummaryCol3 index="5">21.24</SummaryCol3>
+      <SummaryCol3 index="6">26.32</SummaryCol3>
+      <SummaryCol3 index="7">19.15</SummaryCol3>
+      <SummaryCol3 index="8">23.09</SummaryCol3>
+      <MarginkW index="0">0.39</MarginkW>
+      <MarginkWh>168.4</MarginkWh>
+      <MarginTherms>85.51</MarginTherms>
+      <PctSavingskW>21</PctSavingskW>
+      <PctSavingskWh>2.6</PctSavingskWh>
+      <PctSavingsTherms>69.4</PctSavingsTherms>
+      <PctSavingsTDV>14.6</PctSavingsTDV>
+      <PctSavingsCmpTDV>23.1</PctSavingsCmpTDV>
+      <PctSavkWLbl>21.0</PctSavkWLbl>
+      <PctSavkWhLbl>2.6</PctSavkWhLbl>
+      <PctSavThermsLbl>69.4</PctSavThermsLbl>
+      <PctSavTDVLbl>14.6</PctSavTDVLbl>
+      <PctSavCmpTDVLbl>23.1</PctSavCmpTDVLbl>
+      <PropElecDemand index="0">1.45807</PropElecDemand>
+      <StdElecDemand>1.84499</StdElecDemand>
+      <MeetsTier1>1</MeetsTier1>
+      <MeetsTier2>0</MeetsTier2>
+    </EUseSummary>
+  </Proj>
+  <SchDay>
+    <Name>CARes2013 InsLighting Hrly</Name>
+    <Type>Fraction</Type>
+    <Hr index="0">0.023</Hr>
+    <Hr index="1">0.019</Hr>
+    <Hr index="2">0.015</Hr>
+    <Hr index="3">0.017</Hr>
+    <Hr index="4">0.021</Hr>
+    <Hr index="5">0.031</Hr>
+    <Hr index="6">0.042</Hr>
+    <Hr index="7">0.041</Hr>
+    <Hr index="8">0.034</Hr>
+    <Hr index="9">0.029</Hr>
+    <Hr index="10">0.027</Hr>
+    <Hr index="11">0.025</Hr>
+    <Hr index="12">0.021</Hr>
+    <Hr index="13">0.021</Hr>
+    <Hr index="14">0.021</Hr>
+    <Hr index="15">0.026</Hr>
+    <Hr index="16">0.031</Hr>
+    <Hr index="17">0.044</Hr>
+    <Hr index="18">0.084</Hr>
+    <Hr index="19">0.118</Hr>
+    <Hr index="20">0.113</Hr>
+    <Hr index="21">0.096</Hr>
+    <Hr index="22">0.063</Hr>
+    <Hr index="23">0.038</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Occupancy Hrly</Name>
+    <Type>Fraction</Type>
+    <Hr index="0">0.035</Hr>
+    <Hr index="1">0.035</Hr>
+    <Hr index="2">0.035</Hr>
+    <Hr index="3">0.035</Hr>
+    <Hr index="4">0.035</Hr>
+    <Hr index="5">0.059</Hr>
+    <Hr index="6">0.082</Hr>
+    <Hr index="7">0.055</Hr>
+    <Hr index="8">0.027</Hr>
+    <Hr index="9">0.014</Hr>
+    <Hr index="10">0.014</Hr>
+    <Hr index="11">0.014</Hr>
+    <Hr index="12">0.014</Hr>
+    <Hr index="13">0.014</Hr>
+    <Hr index="14">0.019</Hr>
+    <Hr index="15">0.027</Hr>
+    <Hr index="16">0.041</Hr>
+    <Hr index="17">0.055</Hr>
+    <Hr index="18">0.068</Hr>
+    <Hr index="19">0.082</Hr>
+    <Hr index="20">0.082</Hr>
+    <Hr index="21">0.07</Hr>
+    <Hr index="22">0.053</Hr>
+    <Hr index="23">0.035</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Equipment Hrly</Name>
+    <Type>Fraction</Type>
+    <Hr index="0">0.037</Hr>
+    <Hr index="1">0.035</Hr>
+    <Hr index="2">0.034</Hr>
+    <Hr index="3">0.034</Hr>
+    <Hr index="4">0.032</Hr>
+    <Hr index="5">0.036</Hr>
+    <Hr index="6">0.042</Hr>
+    <Hr index="7">0.044</Hr>
+    <Hr index="8">0.037</Hr>
+    <Hr index="9">0.032</Hr>
+    <Hr index="10">0.033</Hr>
+    <Hr index="11">0.033</Hr>
+    <Hr index="12">0.032</Hr>
+    <Hr index="13">0.033</Hr>
+    <Hr index="14">0.035</Hr>
+    <Hr index="15">0.037</Hr>
+    <Hr index="16">0.044</Hr>
+    <Hr index="17">0.053</Hr>
+    <Hr index="18">0.058</Hr>
+    <Hr index="19">0.06</Hr>
+    <Hr index="20">0.062</Hr>
+    <Hr index="21">0.06</Hr>
+    <Hr index="22">0.052</Hr>
+    <Hr index="23">0.045</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 ExtLighting Hrly</Name>
+    <Type>Fraction</Type>
+    <Hr index="0">0</Hr>
+    <Hr index="1">0</Hr>
+    <Hr index="2">0</Hr>
+    <Hr index="3">0</Hr>
+    <Hr index="4">0</Hr>
+    <Hr index="5">0</Hr>
+    <Hr index="6">0</Hr>
+    <Hr index="7">0</Hr>
+    <Hr index="8">0</Hr>
+    <Hr index="9">0</Hr>
+    <Hr index="10">0</Hr>
+    <Hr index="11">0</Hr>
+    <Hr index="12">0</Hr>
+    <Hr index="13">0</Hr>
+    <Hr index="14">0</Hr>
+    <Hr index="15">0</Hr>
+    <Hr index="16">0</Hr>
+    <Hr index="17">0</Hr>
+    <Hr index="18">0</Hr>
+    <Hr index="19">0</Hr>
+    <Hr index="20">0.25</Hr>
+    <Hr index="21">0.25</Hr>
+    <Hr index="22">0.25</Hr>
+    <Hr index="23">0.25</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 SZ Heat Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">65</Hr>
+    <Hr index="1">65</Hr>
+    <Hr index="2">65</Hr>
+    <Hr index="3">65</Hr>
+    <Hr index="4">65</Hr>
+    <Hr index="5">65</Hr>
+    <Hr index="6">66.5</Hr>
+    <Hr index="7">68</Hr>
+    <Hr index="8">68</Hr>
+    <Hr index="9">68</Hr>
+    <Hr index="10">68</Hr>
+    <Hr index="11">68</Hr>
+    <Hr index="12">68</Hr>
+    <Hr index="13">68</Hr>
+    <Hr index="14">68</Hr>
+    <Hr index="15">68</Hr>
+    <Hr index="16">68</Hr>
+    <Hr index="17">68</Hr>
+    <Hr index="18">68</Hr>
+    <Hr index="19">68</Hr>
+    <Hr index="20">68</Hr>
+    <Hr index="21">68</Hr>
+    <Hr index="22">68</Hr>
+    <Hr index="23">65</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Liv Heat Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">65</Hr>
+    <Hr index="1">65</Hr>
+    <Hr index="2">65</Hr>
+    <Hr index="3">65</Hr>
+    <Hr index="4">65</Hr>
+    <Hr index="5">65</Hr>
+    <Hr index="6">66.5</Hr>
+    <Hr index="7">68</Hr>
+    <Hr index="8">68</Hr>
+    <Hr index="9">68</Hr>
+    <Hr index="10">68</Hr>
+    <Hr index="11">68</Hr>
+    <Hr index="12">68</Hr>
+    <Hr index="13">68</Hr>
+    <Hr index="14">68</Hr>
+    <Hr index="15">68</Hr>
+    <Hr index="16">68</Hr>
+    <Hr index="17">68</Hr>
+    <Hr index="18">68</Hr>
+    <Hr index="19">68</Hr>
+    <Hr index="20">68</Hr>
+    <Hr index="21">68</Hr>
+    <Hr index="22">68</Hr>
+    <Hr index="23">65</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Slp Heat Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">65</Hr>
+    <Hr index="1">65</Hr>
+    <Hr index="2">65</Hr>
+    <Hr index="3">65</Hr>
+    <Hr index="4">65</Hr>
+    <Hr index="5">65</Hr>
+    <Hr index="6">66.5</Hr>
+    <Hr index="7">68</Hr>
+    <Hr index="8">68</Hr>
+    <Hr index="9">65</Hr>
+    <Hr index="10">65</Hr>
+    <Hr index="11">65</Hr>
+    <Hr index="12">65</Hr>
+    <Hr index="13">65</Hr>
+    <Hr index="14">65</Hr>
+    <Hr index="15">65</Hr>
+    <Hr index="16">68</Hr>
+    <Hr index="17">68</Hr>
+    <Hr index="18">68</Hr>
+    <Hr index="19">68</Hr>
+    <Hr index="20">68</Hr>
+    <Hr index="21">68</Hr>
+    <Hr index="22">68</Hr>
+    <Hr index="23">65</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 SZ Cool Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">78</Hr>
+    <Hr index="1">78</Hr>
+    <Hr index="2">78</Hr>
+    <Hr index="3">78</Hr>
+    <Hr index="4">78</Hr>
+    <Hr index="5">78</Hr>
+    <Hr index="6">78</Hr>
+    <Hr index="7">83</Hr>
+    <Hr index="8">83</Hr>
+    <Hr index="9">83</Hr>
+    <Hr index="10">83</Hr>
+    <Hr index="11">83</Hr>
+    <Hr index="12">83</Hr>
+    <Hr index="13">82</Hr>
+    <Hr index="14">81</Hr>
+    <Hr index="15">80</Hr>
+    <Hr index="16">79</Hr>
+    <Hr index="17">78</Hr>
+    <Hr index="18">78</Hr>
+    <Hr index="19">78</Hr>
+    <Hr index="20">78</Hr>
+    <Hr index="21">78</Hr>
+    <Hr index="22">78</Hr>
+    <Hr index="23">78</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Liv Cool Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">78</Hr>
+    <Hr index="1">78</Hr>
+    <Hr index="2">78</Hr>
+    <Hr index="3">78</Hr>
+    <Hr index="4">78</Hr>
+    <Hr index="5">78</Hr>
+    <Hr index="6">78</Hr>
+    <Hr index="7">83</Hr>
+    <Hr index="8">83</Hr>
+    <Hr index="9">83</Hr>
+    <Hr index="10">83</Hr>
+    <Hr index="11">83</Hr>
+    <Hr index="12">83</Hr>
+    <Hr index="13">82</Hr>
+    <Hr index="14">81</Hr>
+    <Hr index="15">80</Hr>
+    <Hr index="16">79</Hr>
+    <Hr index="17">78</Hr>
+    <Hr index="18">78</Hr>
+    <Hr index="19">78</Hr>
+    <Hr index="20">78</Hr>
+    <Hr index="21">78</Hr>
+    <Hr index="22">78</Hr>
+    <Hr index="23">78</Hr>
+  </SchDay>
+  <SchDay>
+    <Name>CARes2013 Slp Cool Hrly</Name>
+    <Type>Temperature</Type>
+    <Hr index="0">78</Hr>
+    <Hr index="1">78</Hr>
+    <Hr index="2">78</Hr>
+    <Hr index="3">78</Hr>
+    <Hr index="4">78</Hr>
+    <Hr index="5">78</Hr>
+    <Hr index="6">78</Hr>
+    <Hr index="7">83</Hr>
+    <Hr index="8">83</Hr>
+    <Hr index="9">83</Hr>
+    <Hr index="10">83</Hr>
+    <Hr index="11">83</Hr>
+    <Hr index="12">83</Hr>
+    <Hr index="13">82</Hr>
+    <Hr index="14">81</Hr>
+    <Hr index="15">80</Hr>
+    <Hr index="16">79</Hr>
+    <Hr index="17">78</Hr>
+    <Hr index="18">78</Hr>
+    <Hr index="19">78</Hr>
+    <Hr index="20">78</Hr>
+    <Hr index="21">78</Hr>
+    <Hr index="22">78</Hr>
+    <Hr index="23">78</Hr>
+  </SchDay>
+  <Cons>
+    <Name>R-19 + R-4 Ext. Wall</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>R4 Sheathing</SheathInsulLayer>
+    <WallExtFinishLayer>Synthetic Stucco</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R-19 Int. Gar Wall</Name>
+    <CanAssignTo>Interior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R-0 Gar. Ext. Wall</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>- no insulation (vertical) -</CavityLayer>
+    <FrameLayer>2x4 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>Synthetic Stucco</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>Asphalt Shingle Roof-user</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>- select inside finish -</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 Top Chord of Roof Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+    <CavInsulOverFrame>0</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>R-30 Balcony</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>R 30</CavityLayer>
+    <FrameLayer>2x4 Bottom Chord of Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R-19 Shingle Roof</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>- select inside finish -</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x4 Top Chord of Roof Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+    <CavInsulOverFrame>0</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>R-38 Ceiling Below Attic</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>R 38</CavityLayer>
+    <FrameLayer>2x4 Bottom Chord of Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>1</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>12</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R-0 Gar. Ceiling Below Attic</Name>
+    <CanAssignTo>Ceilings (below attic)</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 Bottom Chord of Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>Asphalt Shingle Roof</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>- select inside finish -</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 Top Chord of Roof Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+    <CavInsulOverFrame>0</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>R-0 Gar. Tile Roof</Name>
+    <CanAssignTo>Attic Roofs</CanAssignTo>
+    <Type>Wood Framed Ceiling</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>- select inside finish -</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>- no insulation -</CavityLayer>
+    <FrameLayer>2x4 Top Chord of Roof Truss @ 24 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>Steep Slope Roof tile, metal tile, or wood shakes</RoofingType>
+    <CavInsulOverFrame>0</CavInsulOverFrame>
+  </Cons>
+  <Cons>
+    <Name>R-19 Siding Wall</Name>
+    <CanAssignTo>Exterior Walls</CanAssignTo>
+    <Type>Wood Framed Wall</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>R 19</CavityLayer>
+    <FrameLayer>2x6 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>Wood Siding/sheathing/decking</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Cons>
+    <Name>R-30 Floor Over Gar.</Name>
+    <CanAssignTo>Interior Floors</CanAssignTo>
+    <Type>Wood Framed Floor</Type>
+    <RoofingLayer>10 PSF (RoofTile)</RoofingLayer>
+    <AbvDeckInsulLayer>- no insulation -</AbvDeckInsulLayer>
+    <RoofDeckLayer>Wood Siding/sheathing/decking</RoofDeckLayer>
+    <InsideFinishLayer>Gypsum Board</InsideFinishLayer>
+    <AtticFloorLayer>- no attic floor -</AtticFloorLayer>
+    <FloorSurfaceLayer>Carpeted</FloorSurfaceLayer>
+    <FlrConcreteFillLayer>- no concrete fill -</FlrConcreteFillLayer>
+    <FloorDeckLayer>Wood Siding/sheathing/decking</FloorDeckLayer>
+    <SheathInsul2Layer>- no sheathing/insul. -</SheathInsul2Layer>
+    <MassLayer>- none -</MassLayer>
+    <MassThickness>- none -</MassThickness>
+    <FurringInsul2Layer>- no insulation -</FurringInsul2Layer>
+    <FurringInsulLayer>- no insulation -</FurringInsulLayer>
+    <Furring2Layer>- none -</Furring2Layer>
+    <FurringLayer>- none -</FurringLayer>
+    <CavityLayer>R 30</CavityLayer>
+    <FrameLayer>2x12 @ 16 in. O.C.</FrameLayer>
+    <SheathInsulLayer>- no sheathing/insul. -</SheathInsulLayer>
+    <WallExtFinishLayer>- select finish -</WallExtFinishLayer>
+    <OtherSideFinishLayer>Gypsum Board</OtherSideFinishLayer>
+    <FlrExtFinishLayer>- select finish -</FlrExtFinishLayer>
+    <RadiantBarrier>0</RadiantBarrier>
+    <RaisedHeelTruss>0</RaisedHeelTruss>
+    <RaisedHeelTrussHeight>3.5</RaisedHeelTrussHeight>
+    <RoofingType>all others</RoofingType>
+  </Cons>
+  <Mat>
+    <Name>SoftWood</Name>
+    <Density>35</Density>
+    <SpecHeat>0.39</SpecHeat>
+    <Conductivity>0.08167</Conductivity>
+    <ConductivityCT>0.0012</ConductivityCT>
+    <RValPerInch>1.0204</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Steel</Name>
+    <Density>489</Density>
+    <SpecHeat>0.12</SpecHeat>
+    <Conductivity>26.2</Conductivity>
+    <RValPerInch>0.00318</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>SIPSskin</Name>
+    <Thickness>0.4375</Thickness>
+    <Density>41</Density>
+    <SpecHeat>0.45</SpecHeat>
+    <Conductivity>0.06127</Conductivity>
+    <ConductivityCT>0.0012</ConductivityCT>
+    <RValPerInch>1.36</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Ceiling Insul</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Other Insul</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Gypsum Board</Name>
+    <Thickness>0.5</Thickness>
+    <Density>40</Density>
+    <SpecHeat>0.27</SpecHeat>
+    <Conductivity>0.09167</Conductivity>
+    <ConductivityCT>0.0001217</ConductivityCT>
+    <RValPerInch>0.9091</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>VertWallCavity</Name>
+    <Thickness>3.5</Thickness>
+    <Density>0.075</Density>
+    <SpecHeat>0.24</SpecHeat>
+    <Conductivity>0.314</Conductivity>
+    <ConductivityCT>0.00397</ConductivityCT>
+    <RValPerInch>1.1333</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Ins-R15-D1.5-SH0.2-C0.01944</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0194444</Conductivity>
+    <ConductivityQII>0.0194444</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Insul-R4-D1.5-SH0.35-C0.02083</Name>
+    <Thickness>1</Thickness>
+    <Density>1.5</Density>
+    <SpecHeat>0.35</SpecHeat>
+    <Conductivity>0.0208325</Conductivity>
+    <ConductivityQII>0.0208325</ConductivityQII>
+    <ConductivityCT>0.00175</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Synthetic Stucco</Name>
+    <Thickness>0.375</Thickness>
+    <Density>58</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.2</Conductivity>
+    <RValPerInch>0.5333</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Wood layer</Name>
+    <Thickness>0.5</Thickness>
+    <Density>41</Density>
+    <SpecHeat>0.45</SpecHeat>
+    <Conductivity>0.06127</Conductivity>
+    <ConductivityCT>0.0012</ConductivityCT>
+    <RValPerInch>1.36</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Light Roof</Name>
+    <Thickness>0.2</Thickness>
+    <Density>120</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>1</Conductivity>
+    <RValPerInch>0.0833</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Ins-R9.1-D1.5-SH0.2-C0.03205</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0320513</Conductivity>
+    <ConductivityQII>0.0320513</ConductivityQII>
+    <ConductivityCT>0.00418</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>TileGap</Name>
+    <Thickness>0.75</Thickness>
+    <Density>0.075</Density>
+    <SpecHeat>0.24</SpecHeat>
+    <Conductivity>0.07353</Conductivity>
+    <RValPerInch>1.1333</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>10 PSF Roof</Name>
+    <Thickness>1</Thickness>
+    <Density>120</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>1</Conductivity>
+    <RValPerInch>0.0833</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Ins-R13-D1.5-SH0.2-C0.02244</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0224376</Conductivity>
+    <ConductivityQII>0.0224376</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>FrameGap</Name>
+    <Density>0</Density>
+    <SpecHeat>0</SpecHeat>
+    <Conductivity>200</Conductivity>
+    <RValPerInch>0.000417</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Ins-R18-D1.5-SH0.2-C0.0162</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0162037</Conductivity>
+    <ConductivityQII>0.0162037</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R18-D1.5-SH0.2-C0.02546</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.025463</Conductivity>
+    <ConductivityQII>0.025463</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R20-D1.5-SH0.2-C0.01458</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0145833</Conductivity>
+    <ConductivityQII>0.0145833</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Carpet</Name>
+    <Thickness>0.5</Thickness>
+    <Density>12.3</Density>
+    <SpecHeat>0.34</SpecHeat>
+    <Conductivity>0.02</Conductivity>
+    <RValPerInch>4.1667</RValPerInch>
+  </Mat>
+  <Mat>
+    <Name>Ins-R30-D1.5-SH0.2-C0.03125</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.03125</Conductivity>
+    <ConductivityQII>0.03125</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <Mat>
+    <Name>Ins-R19-D1.5-SH0.2-C0.02412</Name>
+    <Density>1.5</Density>
+    <SpecHeat>0.2</SpecHeat>
+    <Conductivity>0.0241228</Conductivity>
+    <ConductivityQII>0.0241228</ConductivityQII>
+    <ConductivityCT>0.0032537</ConductivityCT>
+  </Mat>
+  <WindowType>
+    <Name>Oper.</Name>
+    <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+    <NFRCUfactor>0.3</NFRCUfactor>
+    <NFRCSHGC>0.22</NFRCSHGC>
+    <ExteriorShade>Insect Screen (default)</ExteriorShade>
+    <ModelFinsOverhang>1</ModelFinsOverhang>
+    <OverhangDepth>0</OverhangDepth>
+    <OverhangDistUp>0</OverhangDistUp>
+    <OverhangExL>0</OverhangExL>
+    <OverhangExR>0</OverhangExR>
+    <OverhangFlap>0</OverhangFlap>
+    <LeftFinDepth>0</LeftFinDepth>
+    <LeftFinTopUp>0</LeftFinTopUp>
+    <LeftFinDistL>0</LeftFinDistL>
+    <LeftFinBotUp>0</LeftFinBotUp>
+    <RightFinDepth>0</RightFinDepth>
+    <RightFinTopUp>0</RightFinTopUp>
+    <RightFinDistR>0</RightFinDistR>
+    <RightFinBotUp>0</RightFinBotUp>
+  </WindowType>
+  <WindowType>
+    <Name>FX</Name>
+    <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+    <NFRCUfactor>0.3</NFRCUfactor>
+    <NFRCSHGC>0.22</NFRCSHGC>
+    <ExteriorShade>Insect Screen (default)</ExteriorShade>
+    <ModelFinsOverhang>1</ModelFinsOverhang>
+    <OverhangDepth>0</OverhangDepth>
+    <OverhangDistUp>0</OverhangDistUp>
+    <OverhangExL>0</OverhangExL>
+    <OverhangExR>0</OverhangExR>
+    <OverhangFlap>0</OverhangFlap>
+    <LeftFinDepth>0</LeftFinDepth>
+    <LeftFinTopUp>0</LeftFinTopUp>
+    <LeftFinDistL>0</LeftFinDistL>
+    <LeftFinBotUp>0</LeftFinBotUp>
+    <RightFinDepth>0</RightFinDepth>
+    <RightFinTopUp>0</RightFinTopUp>
+    <RightFinDistR>0</RightFinDistR>
+    <RightFinBotUp>0</RightFinBotUp>
+  </WindowType>
+  <WindowType>
+    <Name>SGD</Name>
+    <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+    <NFRCUfactor>0.3</NFRCUfactor>
+    <NFRCSHGC>0.22</NFRCSHGC>
+    <ExteriorShade>Insect Screen (default)</ExteriorShade>
+    <ModelFinsOverhang>1</ModelFinsOverhang>
+    <OverhangDepth>0</OverhangDepth>
+    <OverhangDistUp>0</OverhangDistUp>
+    <OverhangExL>0</OverhangExL>
+    <OverhangExR>0</OverhangExR>
+    <OverhangFlap>0</OverhangFlap>
+    <LeftFinDepth>0</LeftFinDepth>
+    <LeftFinTopUp>0</LeftFinTopUp>
+    <LeftFinDistL>0</LeftFinDistL>
+    <LeftFinBotUp>0</LeftFinBotUp>
+    <RightFinDepth>0</RightFinDepth>
+    <RightFinTopUp>0</RightFinTopUp>
+    <RightFinDistR>0</RightFinDistR>
+    <RightFinBotUp>0</RightFinBotUp>
+  </WindowType>
+  <WindowType>
+    <Name>French Dr</Name>
+    <SpecMethod>Window Dimensions (required for fins/overhangs)</SpecMethod>
+    <NFRCUfactor>0.34</NFRCUfactor>
+    <NFRCSHGC>0.24</NFRCSHGC>
+    <ExteriorShade>Insect Screen (default)</ExteriorShade>
+    <ModelFinsOverhang>1</ModelFinsOverhang>
+    <OverhangDepth>0</OverhangDepth>
+    <OverhangDistUp>0</OverhangDistUp>
+    <OverhangExL>0</OverhangExL>
+    <OverhangExR>0</OverhangExR>
+    <OverhangFlap>0</OverhangFlap>
+    <LeftFinDepth>0</LeftFinDepth>
+    <LeftFinTopUp>0</LeftFinTopUp>
+    <LeftFinDistL>0</LeftFinDistL>
+    <LeftFinBotUp>0</LeftFinBotUp>
+    <RightFinDepth>0</RightFinDepth>
+    <RightFinTopUp>0</RightFinTopUp>
+    <RightFinDistR>0</RightFinDistR>
+    <RightFinBotUp>0</RightFinBotUp>
+  </WindowType>
+  <HVACSys>
+    <Name>HVAC System 1</Name>
+    <Type>Heat Pump Heating and Cooling System</Type>
+    <Status>New</Status>
+    <CFIClVentOption>- none -</CFIClVentOption>
+    <CFIClVentFlow>0</CFIClVentFlow>
+    <CFIClVentPwr>0</CFIClVentPwr>
+    <CFIClVentAttic>Attic Living Area</CFIClVentAttic>
+    <NumHeatSystemTypes>0</NumHeatSystemTypes>
+    <HeatSystemCount index="0">1</HeatSystemCount>
+    <HeatSystemCount index="1">0</HeatSystemCount>
+    <HeatSystemCount index="2">0</HeatSystemCount>
+    <HeatSystemCount index="3">0</HeatSystemCount>
+    <HeatSystemCount index="4">0</HeatSystemCount>
+    <HeatSystemCount index="5">0</HeatSystemCount>
+    <HeatSystemCount index="6">0</HeatSystemCount>
+    <HeatSystemCount index="7">0</HeatSystemCount>
+    <HeatSystemCount index="8">0</HeatSystemCount>
+    <HeatSystemCount index="9">0</HeatSystemCount>
+    <AutoSizeHeatInp>0</AutoSizeHeatInp>
+    <HeatDucted>1</HeatDucted>
+    <NumCoolSystemTypes>0</NumCoolSystemTypes>
+    <CoolSystemCount index="0">1</CoolSystemCount>
+    <CoolSystemCount index="1">0</CoolSystemCount>
+    <CoolSystemCount index="2">0</CoolSystemCount>
+    <CoolSystemCount index="3">0</CoolSystemCount>
+    <CoolSystemCount index="4">0</CoolSystemCount>
+    <CoolSystemCount index="5">0</CoolSystemCount>
+    <CoolSystemCount index="6">0</CoolSystemCount>
+    <CoolSystemCount index="7">0</CoolSystemCount>
+    <CoolSystemCount index="8">0</CoolSystemCount>
+    <CoolSystemCount index="9">0</CoolSystemCount>
+    <AutoSizeCoolInp>1</AutoSizeCoolInp>
+    <CoolDucted>1</CoolDucted>
+    <NumHtPumpSystemTypes>1</NumHtPumpSystemTypes>
+    <HtPumpSystemCount index="0">1</HtPumpSystemCount>
+    <HtPumpSystem index="0">Heat Pump System 1</HtPumpSystem>
+    <HtPumpDucted>1</HtPumpDucted>
+    <ServesAsDHWHtr>0</ServesAsDHWHtr>
+    <DHWTankVolume>50</DHWTankVolume>
+    <DHWIntInsulRVal>0</DHWIntInsulRVal>
+    <DHWExtInsulRVal>0</DHWExtInsulRVal>
+    <DHWAmbientCond>Unconditioned</DHWAmbientCond>
+    <DistribSystem>Distribution System 1</DistribSystem>
+    <Fan>HVAC Fan System 1</Fan>
+  </HVACSys>
+  <HVACHtPump>
+    <Name>Heat Pump System 1</Name>
+    <Type>SplitHeatPump - Central split heat pump</Type>
+    <HSPF>9</HSPF>
+    <Cap47>21600</Cap47>
+    <Cap17>13700</Cap17>
+    <SEER>16</SEER>
+    <EER>13</EER>
+    <CFMperTon>275</CFMperTon>
+    <ACCharge>Verified</ACCharge>
+    <RefrigerantType>R410A</RefrigerantType>
+    <ClSizingFactor>1.1</ClSizingFactor>
+    <IsMultiSpeed>0</IsMultiSpeed>
+    <IsZonal>1</IsZonal>
+    <UseEERinAnalysis>1</UseEERinAnalysis>
+  </HVACHtPump>
+  <HVACDist>
+    <Name>Distribution System 1</Name>
+    <Type>Ducts located in attic (Ventilated and Unventilated)</Type>
+    <Status>New</Status>
+    <DefaultSystem>0</DefaultSystem>
+    <DuctLeakage>Specified Lower Leakage Target</DuctLeakage>
+    <DuctLeakageVal>5</DuctLeakageVal>
+    <HasBypassDuct>0</HasBypassDuct>
+    <DuctInsRvalOpt>6.0</DuctInsRvalOpt>
+    <SupplyDuctLoc>Living Area</SupplyDuctLoc>
+    <ReturnDuctLoc>Living Area</ReturnDuctLoc>
+    <SupplyDuctAttic>Attic Living Area</SupplyDuctAttic>
+    <ReturnDuctAttic>Attic Living Area</ReturnDuctAttic>
+    <DuctDesign>0</DuctDesign>
+    <LowLkgAH>1</LowLkgAH>
+    <IsLessThanFortyFt>0</IsLessThanFortyFt>
+  </HVACDist>
+  <HVACFan>
+    <Name>HVAC Fan System 1</Name>
+    <Type>Single Speed PSC Furnace Fan</Type>
+    <DefaultSystem>0</DefaultSystem>
+    <WperCFMCool>0.57</WperCFMCool>
+  </HVACFan>
+  <IAQFan>
+    <Name>HRV</Name>
+    <IAQCFM>51</IAQCFM>
+    <WperCFMIAQ>0.8</WperCFMIAQ>
+    <IAQFanType>Balanced</IAQFanType>
+    <IAQRecovEffect>65</IAQRecovEffect>
+  </IAQFan>
+  <DHWSys>
+    <Name>DHW System 1</Name>
+    <SystemType>Standard</SystemType>
+    <MFamDistType>Multi-family: No loops or recirc pump</MFamDistType>
+    <CentralDHW>0</CentralDHW>
+    <DHWHeater index="0">Water Heater 1</DHWHeater>
+    <HeaterMult index="0">1</HeaterMult>
+    <LoopPipeInsulThk index="0">1.5</LoopPipeInsulThk>
+    <RecircPipeLoc index="0">Conditioned</RecircPipeLoc>
+    <SolFracType>- none -</SolFracType>
+  </DHWSys>
+  <DHWHeater>
+    <Name>Water Heater 1</Name>
+    <HeaterElementType>Heat Pump</HeaterElementType>
+    <TankType>Small Storage</TankType>
+    <HPWH_NEEARated>1</HPWH_NEEARated>
+    <HPWHBrand>Rheem</HPWHBrand>
+    <HPWHModel>PROPH50 T2 RH350 D15  (50 gal)</HPWHModel>
+    <TankOutside>0</TankOutside>
+    <TankZone>Garage</TankZone>
+    <ASHPTSrcOutside>1</ASHPTSrcOutside>
+    <EnergyFactor>0.59</EnergyFactor>
+    <IsUEFHtPump>0</IsUEFHtPump>
+    <TankVolume>50</TankVolume>
+    <IntInsulRVal>0</IntInsulRVal>
+    <ExtInsulRVal>0</ExtInsulRVal>
+    <AmbientCond>Unconditioned</AmbientCond>
+    <FirstHourRating>66</FirstHourRating>
+    <HasElecMiniTank>0</HasElecMiniTank>
+    <ElecMiniTankPower>0</ElecMiniTankPower>
+  </DHWHeater>
+</SDDXML>

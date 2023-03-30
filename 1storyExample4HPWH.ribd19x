@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SDDXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <RulesetFilename file="CA Res 2016.bin"/>
+  <RulesetFilename file="CA Res 2019.bin"/>
   <Proj>
     <Name>1 Story Example all Elec, PV+Battery</Name>
     <BEMVersion>11</BEMVersion>
