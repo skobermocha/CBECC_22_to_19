@@ -1,0 +1,86 @@
+2023-03-17 12:37:10 - -----------------------------------------------------------------------------
+2023-03-17 12:37:10 - Opening Project 'SampleModels\1storyExample.ribd22'...
+2023-03-17 12:37:10 -    Model load successful into CBECC-Res 2022.2.1 (1288)
+2023-03-17 12:37:10 - Performing Building Database check...
+2023-03-17 12:37:10 - Building Database check completed, no problems found.
+2023-03-17 12:37:18 - -----------------------------------------------------------------------------
+2023-03-17 12:37:18 - Project Saved as '1storyExample.ribd22x'
+2023-03-30 15:21:50 - -----------------------------------------------------------------------------
+2023-03-30 15:21:50 - Opening Project 'SampleModels\1storyExample.ribd22x'...
+2023-03-30 15:21:50 -    Model load successful into CBECC-Res 2022.2.1 (1288)
+2023-03-30 15:21:50 - Performing Building Database check...
+2023-03-30 15:21:50 - Building Database check completed, no problems found.
+2023-03-30 15:22:02 - -----------------------------------------------------------------------------
+2023-03-30 15:22:02 - Project Saved as '1storyExample.ribd22x'
+2023-04-12 16:32:17 - -----------------------------------------------------------------------------
+2023-04-12 16:32:17 - Opening Project 'CBECC_22_to_19\1storyExample.ribd19x'...
+2023-04-12 16:32:17 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'ResultsAnalysisVer' on line # 1003
+2023-04-12 16:32:17 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'AllOrientations' on line # 1004
+2023-04-12 16:32:17 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PctSavingsSrc' on line # 1465
+2023-04-12 16:32:17 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PctSavSrcLbl' on line # 1471
+2023-04-12 16:32:17 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PropDesignBattCap' on line # 1482
+2023-04-12 16:32:17 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PropDesignBattPwr' on line # 1483
+2023-04-12 16:32:17 -    ERROR - reading file: HVACHeat 'Furn 80' property ElecSpcHtgExcpt  =  '- select applicable exception -' on line # 2955
+2023-04-12 16:32:17 -    Model load successful into CBECC-Res 2019.2.1 (1279)
+2023-04-12 16:32:17 - 7 error(s) encountered reading project file:  C:\Users\jellis\source\repos\CBECC_22_to_19\1storyExample.ribd19x
+2023-04-12 16:32:27 - Performing Building Database check...
+2023-04-12 16:32:27 - Building Database check completed, no problems found.
+2023-04-12 16:33:31 - -----------------------------------------------------------------------------
+2023-04-12 16:33:31 - Opening Project 'CBECC_22_to_19\1storyExample.ribd22x'...
+2023-04-12 16:33:31 -    Model load successful into CBECC-Res 2022.2.1 (1288)
+2023-04-12 16:33:31 - Performing Building Database check...
+2023-04-12 16:33:31 - Building Database check completed, no problems found.
+2023-04-12 16:34:29 - -----------------------------------------------------------------------------
+2023-04-12 16:34:29 - Opening Project 'CBECC_22_to_19\1storyExample.ribd19x'...
+2023-04-12 16:34:29 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'ResultsAnalysisVer' on line # 1003
+2023-04-12 16:34:29 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'AllOrientations' on line # 1004
+2023-04-12 16:34:29 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PctSavingsSrc' on line # 1465
+2023-04-12 16:34:29 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PctSavSrcLbl' on line # 1471
+2023-04-12 16:34:29 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PropDesignBattCap' on line # 1482
+2023-04-12 16:34:29 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PropDesignBattPwr' on line # 1483
+2023-04-12 16:34:29 -    ERROR - reading file: HVACHeat 'Furn 80' property ElecSpcHtgExcpt  =  '- select applicable exception -' on line # 2955
+2023-04-12 16:34:29 -    Model load successful into CBECC-Res 2019.2.1 (1279)
+2023-04-12 16:34:29 - 7 error(s) encountered reading project file:  C:\Users\jellis\source\repos\CBECC_22_to_19\1storyExample.ribd19x
+2023-04-12 16:35:53 - Performing Building Database check...
+2023-04-12 16:35:53 - Building Database check completed, no problems found.
+2023-04-12 16:36:27 - -----------------------------------------------------------------------------
+2023-04-12 16:36:27 - Opening Project 'CBECC_22_to_19\1storyExample.ribd19x'...
+2023-04-12 16:36:27 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'ResultsAnalysisVer' on line # 1003
+2023-04-12 16:36:27 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'AllOrientations' on line # 1004
+2023-04-12 16:36:27 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PctSavingsSrc' on line # 1465
+2023-04-12 16:36:27 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PctSavSrcLbl' on line # 1471
+2023-04-12 16:36:27 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PropDesignBattCap' on line # 1482
+2023-04-12 16:36:27 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PropDesignBattPwr' on line # 1483
+2023-04-12 16:36:27 -    ERROR - reading file: HVACHeat 'Furn 80' property ElecSpcHtgExcpt  =  '- select applicable exception -' on line # 2955
+2023-04-12 16:36:27 -    Model load successful into CBECC-Res 2019.2.1 (1279)
+2023-04-12 16:36:27 - 7 error(s) encountered reading project file:  C:\Users\jellis\source\repos\CBECC_22_to_19\1storyExample.ribd19x
+2023-04-12 16:39:11 - Performing Building Database check...
+2023-04-12 16:39:11 - Building Database check completed, no problems found.
+2023-04-12 16:39:33 - -----------------------------------------------------------------------------
+2023-04-12 16:39:33 - Opening Project 'CBECC_22_to_19\1storyExample.ribd19x'...
+2023-04-12 16:39:33 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PctSavingsSrc' on line # 1462
+2023-04-12 16:39:33 -    ERROR - reading file: component EUseSummary 'EUSummary' includes unrecognized property 'PctSavSrcLbl' on line # 1468
+2023-04-12 16:39:33 -    ERROR - reading file: HVACHeat 'Furn 80' property ElecSpcHtgExcpt  =  '- select applicable exception -' on line # 2950
+2023-04-12 16:39:33 -    Model load successful into CBECC-Res 2019.2.1 (1279)
+2023-04-12 16:39:33 - 3 error(s) encountered reading project file:  C:\Users\jellis\source\repos\CBECC_22_to_19\1storyExample.ribd19x
+2023-04-12 16:40:36 - Performing Building Database check...
+2023-04-12 16:40:36 - Building Database check completed, no problems found.
+2023-04-12 16:40:52 - -----------------------------------------------------------------------------
+2023-04-12 16:40:52 - Opening Project 'CBECC_22_to_19\1storyExample.ribd19x'...
+2023-04-12 16:40:52 -    ERROR - reading file: HVACHeat 'Furn 80' property ElecSpcHtgExcpt  =  '- select applicable exception -' on line # 2948
+2023-04-12 16:40:52 -    Model load successful into CBECC-Res 2019.2.1 (1279)
+2023-04-12 16:40:52 - 1 error(s) encountered reading project file:  C:\Users\jellis\source\repos\CBECC_22_to_19\1storyExample.ribd19x
+2023-04-12 16:41:07 - Performing Building Database check...
+2023-04-12 16:41:07 - Building Database check completed, no problems found.
+2023-04-12 16:41:31 - -----------------------------------------------------------------------------
+2023-04-12 16:41:31 - Opening Project 'CBECC_22_to_19\1storyExample.ribd19x'...
+2023-04-12 16:41:31 -    ERROR - reading file: HVACHeat 'Furn 80' property ElecSpcHtgExcpt  =  '- select applicable exception -' on line # 2948
+2023-04-12 16:41:31 -    Model load successful into CBECC-Res 2019.2.1 (1279)
+2023-04-12 16:41:31 - 1 error(s) encountered reading project file:  C:\Users\jellis\source\repos\CBECC_22_to_19\1storyExample.ribd19x
+2023-04-12 16:42:01 - Performing Building Database check...
+2023-04-12 16:42:01 - Building Database check completed, no problems found.
+2023-04-12 16:42:14 - -----------------------------------------------------------------------------
+2023-04-12 16:42:14 - Opening Project 'CBECC_22_to_19\1storyExample.ribd19x'...
+2023-04-12 16:42:14 -    Model load successful into CBECC-Res 2019.2.1 (1279)
+2023-04-12 16:42:14 - Performing Building Database check...
+2023-04-12 16:42:14 - Building Database check completed, no problems found.

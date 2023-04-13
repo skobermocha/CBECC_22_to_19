@@ -15,7 +15,10 @@ function Select-File {
   }
 }
 
-$path = Select-File
+$FileToBeParsed = $args[0]
+
+# $path = Select-File
+$path = $FileToBeParsed
 $FolderPath = Split-Path -Path $path
 $extensionType = (Get-ChildItem $path).Extension
 Write-Output $FolderPath
@@ -115,7 +118,8 @@ Switch ($extensionType){
     
     ".ribd22x" {
         $nodestoremove = @(
-            "//StandardsVersion", "//IsDualFuel", "//HasHPLockout"
+            "//StandardsVersion", "//IsDualFuel", "//HasHPLockout", "//EUSummary", "//ResultsAnalysisVer", "//AllOrientations", "//PctSavingsSrc",
+            "//PctSavSrcLbl", "//PropDesignBattCap", "//PropDesignBattPwr", "//ElecSpcHtgExcpt"
         )
         
         if(Test-Path $path){
